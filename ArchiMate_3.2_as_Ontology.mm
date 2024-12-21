@@ -81,5 +81,19 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
+<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_1275382455" CREATED="1734748775242" MODIFIED="1734748844987"/>
+<node TEXT="02. Definitions" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707"/>
+<node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952"/>
+<node TEXT="04. Generic Metamodel" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854"/>
+<node TEXT="05. Relationships and Relationship Connectors" POSITION="bottom_or_right" ID="ID_333370775" CREATED="1734748800971" MODIFIED="1734748858333"/>
+<node TEXT="06. Motivation Elements" POSITION="bottom_or_right" ID="ID_880458687" CREATED="1734748814281" MODIFIED="1734748861059"/>
+<node TEXT="07. Strategy Layer" POSITION="bottom_or_right" ID="ID_1790879437" CREATED="1734748821914" MODIFIED="1734748864172"/>
+<node TEXT="08. Business Layer" POSITION="bottom_or_right" ID="ID_170178869" CREATED="1734748826555" MODIFIED="1734748950913"/>
+<node TEXT="09. Application Layer" POSITION="bottom_or_right" ID="ID_1459340680" CREATED="1734748832609" MODIFIED="1734748953129"/>
+<node TEXT="10. Technology Layer" POSITION="bottom_or_right" ID="ID_1915317792" CREATED="1734748953648" MODIFIED="1734748961376"/>
+<node TEXT="11. Relationships Between Core Layers" POSITION="bottom_or_right" ID="ID_1962058781" CREATED="1734748965312" MODIFIED="1734748972043"/>
+<node TEXT="12. Implementation and Migration Layer" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866"/>
+<node TEXT="13. Stakeholders, Architecture Views, and Viewpoints" POSITION="bottom_or_right" ID="ID_1097093754" CREATED="1734748979059" MODIFIED="1734748990690"/>
+<node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341"/>
 </node>
 </map>
