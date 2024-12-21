@@ -81,9 +81,38 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_1275382455" CREATED="1734748775242" MODIFIED="1734748844987"/>
-<node TEXT="02. Definitions" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707"/>
-<node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952"/>
+<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1275382455" CREATED="1734748775242" MODIFIED="1734748844987">
+<node TEXT="My Post in LinkedIn - Basic Ontology" ID="ID_308029136" CREATED="1734751522048" MODIFIED="1734751541670" LINK="https://www.linkedin.com/pulse/ontology-view-archimate-32-specification-basic-xiaoqi-zhao-evuqe/"/>
+<node TEXT="ArchiMate Objective" FOLDED="true" ID="ID_1329572122" CREATED="1734760348208" MODIFIED="1734760355416">
+<node TEXT="This standard is the specification of the ArchiMate Enterprise Architecture modeling language, a visual language with a set of default iconography for describing, analyzing, and communicating many concerns of Enterprise Architectures as they change over time" ID="ID_1176570587" CREATED="1734760355419" MODIFIED="1734760376921"/>
+<node TEXT="The standard provides a set of entities and relationships with their corresponding iconography for the representation of Architecture Descriptions." ID="ID_963571229" CREATED="1734760384083" MODIFIED="1734760386830"/>
+<node TEXT="The ArchiMate ecosystem also supports an exchange format in XML which allows model and diagram exchange between tools" ID="ID_131882652" CREATED="1734760386984" MODIFIED="1734760395978"/>
+</node>
+<node TEXT="ArchiMate Overview" FOLDED="true" ID="ID_612462936" CREATED="1734760399343" MODIFIED="1734760404697">
+<node TEXT="An Enterprise Architecture is typically developed because key people have concerns that need to be addressed by the business and IT systems within an organization" ID="ID_808836119" CREATED="1734760404698" MODIFIED="1734760413513">
+<node TEXT="Such people are commonly referred to as the “stakeholders” of the Enterprise Architecture." ID="ID_113006431" CREATED="1734760434423" MODIFIED="1734760444921"/>
+<node TEXT="The role of the architect is to address these concerns by identifying and refining the motivation and strategy expressed by stakeholders, developing an architecture, and creating views of the architecture that show how it addresses and balances stakeholder concerns" ID="ID_1074160554" CREATED="1734760445114" MODIFIED="1734760455585"/>
+<node TEXT="Without an Enterprise Architecture, it is unlikely that all concerns and requirements are considered and addressed" ID="ID_1393595176" CREATED="1734760470919" MODIFIED="1734760473617"/>
+</node>
+<node TEXT="The ArchiMate Enterprise Architecture modeling language provides a uniform representation for diagrams that describe Enterprise Architectures" ID="ID_594577866" CREATED="1734760483663" MODIFIED="1734760487045">
+<node TEXT="It includes concepts for specifying inter-related architectures, specific viewpoints for selected stakeholders, and language customization mechanisms." ID="ID_1770528702" CREATED="1734760501645" MODIFIED="1734760504917"/>
+<node TEXT="It offers an integrated architectural approach that describes and visualizes different architecture domains and their underlying relations and dependencies." ID="ID_1038038366" CREATED="1734760506665" MODIFIED="1734760519354"/>
+<node TEXT="Its language framework provides a structuring mechanism for architecture domains, layers, and aspects." ID="ID_860437201" CREATED="1734760526671" MODIFIED="1734760552006"/>
+<node TEXT="It distinguishes between the model elements and their notation, to allow for varied, stakeholder-oriented depictions of architecture information" ID="ID_1565411640" CREATED="1734760552359" MODIFIED="1734760556929"/>
+</node>
+<node TEXT="The language uses service-orientation to distinguish and relate the Business, Application, and Technology Layers of Enterprise Architectures, and uses realization relationships to relate concrete elements to more abstract elements across these layers." ID="ID_1925603444" CREATED="1734760575137" MODIFIED="1734760578102"/>
+</node>
+</node>
+<node TEXT="02. Definitions" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
+<node TEXT="ArchiMate Community - Discussion Board" ID="ID_1538996210" CREATED="1734760604215" MODIFIED="1734761251917" LINK="https://community.opengroup.org/archimate-community/home/-/issues/"/>
+</node>
+<node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952">
+<node TEXT="Design Consideration" FOLDED="true" ID="ID_1201451300" CREATED="1734761008291" MODIFIED="1734761013734">
+<node TEXT="A key challenge in the development of a general metamodel for Enterprise Architecture is to strike a balance between the specificity of languages for individual architecture domains and a very general set of architecture concepts, which reflects a view of systems as a mere set of inter-related entities." ID="ID_1222532684" CREATED="1734761013738" MODIFIED="1734761028278"/>
+<node TEXT="The design of the ArchiMate language started from a set of relatively generic concepts" ID="ID_682499091" CREATED="1734761037585" MODIFIED="1734761040743"/>
+<node TEXT="The most important design restriction on the language is that it has been explicitly designed to be as small as possible, but still usable for most Enterprise Architecture modeling tasks." ID="ID_175482230" CREATED="1734761063701" MODIFIED="1734761066943"/>
+</node>
+</node>
 <node TEXT="04. Generic Metamodel" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854"/>
 <node TEXT="05. Relationships and Relationship Connectors" POSITION="bottom_or_right" ID="ID_333370775" CREATED="1734748800971" MODIFIED="1734748858333"/>
 <node TEXT="06. Motivation Elements" POSITION="bottom_or_right" ID="ID_880458687" CREATED="1734748814281" MODIFIED="1734748861059"/>
@@ -95,5 +124,16 @@
 <node TEXT="12. Implementation and Migration Layer" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866"/>
 <node TEXT="13. Stakeholders, Architecture Views, and Viewpoints" POSITION="bottom_or_right" ID="ID_1097093754" CREATED="1734748979059" MODIFIED="1734748990690"/>
 <node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341"/>
+<node TEXT="Some Reference Resources" FOLDED="true" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
+<node TEXT="OpenGroup Online ArchiMate 3.2 Spec" ID="ID_1307974921" CREATED="1734751096515" MODIFIED="1734751111914" LINK="https://pubs.opengroup.org/architecture/archimate3-doc/"/>
+<node TEXT="OpenGroup ArchiMate 3.2 Online SinglePage" ID="ID_142465940" CREATED="1734751129973" MODIFIED="1734751147677" LINK="https://pubs.opengroup.org/architecture/archimate32-doc.singlepage/"/>
+<node TEXT="ArchiMate 3.2 Starter Pack (Orbus)" ID="ID_1985044959" CREATED="1734751019265" MODIFIED="1734751033470" LINK="https://www.orbussoftware.com/resources/research-library/detail/archimate-starter-pack"/>
+<node TEXT="ArchiMate 3.2 Overviews PDFs (R&amp;A)" ID="ID_731337852" CREATED="1734751232594" MODIFIED="1734751254576" LINK="https://ea.rna.nl/archimate/free-archimate-overview-pdf/"/>
+<node TEXT="Changes Analysis on ArchiMate 3.2 (GEL)" ID="ID_576320349" CREATED="1734751181067" MODIFIED="1734751304679" LINK="https://goodelearning.com/articles/whats-changed-in-archimate-3-2/"/>
+<node TEXT="ArchiMate 3.2 Reference (goodea.eu)" ID="ID_1224619164" CREATED="1734751368184" MODIFIED="1734751381940" LINK="https://www.goodea.eu/archimate/reference/"/>
+<node TEXT="ArchiMate 3.2 Introduction Poster (BOC)" ID="ID_1378238891" CREATED="1734751450117" MODIFIED="1734751487457" LINK="https://www.boc-group.com/en/resources/ea/introduction-to-archimate-free-poster"/>
+<node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
+<node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
+</node>
 </node>
 </map>
