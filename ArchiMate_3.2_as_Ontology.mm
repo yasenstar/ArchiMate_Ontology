@@ -103,7 +103,7 @@
 <node TEXT="The language uses service-orientation to distinguish and relate the Business, Application, and Technology Layers of Enterprise Architectures, and uses realization relationships to relate concrete elements to more abstract elements across these layers." ID="ID_1925603444" CREATED="1734760575137" MODIFIED="1734760578102"/>
 </node>
 </node>
-<node TEXT="02. Definitions" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
+<node TEXT="02. Definitions" FOLDED="true" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
 <node TEXT="ArchiMate Community - Discussion Board" ID="ID_1538996210" CREATED="1734760604215" MODIFIED="1734761251917" LINK="https://community.opengroup.org/archimate-community/home/-/issues/"/>
 </node>
 <node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952">
@@ -111,6 +111,27 @@
 <node TEXT="A key challenge in the development of a general metamodel for Enterprise Architecture is to strike a balance between the specificity of languages for individual architecture domains and a very general set of architecture concepts, which reflects a view of systems as a mere set of inter-related entities." ID="ID_1222532684" CREATED="1734761013738" MODIFIED="1734761028278"/>
 <node TEXT="The design of the ArchiMate language started from a set of relatively generic concepts" ID="ID_682499091" CREATED="1734761037585" MODIFIED="1734761040743"/>
 <node TEXT="The most important design restriction on the language is that it has been explicitly designed to be as small as possible, but still usable for most Enterprise Architecture modeling tasks." ID="ID_175482230" CREATED="1734761063701" MODIFIED="1734761066943"/>
+</node>
+<node TEXT="Sample discussion: Information/Data Modeling Extensions" ID="ID_615718169" CREATED="1734761325309" MODIFIED="1734761344024" LINK="https://community.opengroup.org/archimate-community/home/-/issues/24"/>
+<node TEXT="Top-Level Language Structure" FOLDED="true" ID="ID_1435870195" CREATED="1734761350820" MODIFIED="1734761358781">
+<node TEXT="Building Class Structure in Protege" ID="ID_323694860" CREATED="1734761368629" MODIFIED="1734761378000"/>
+</node>
+<node TEXT="Layering of the ArchiMate" FOLDED="true" ID="ID_901716122" CREATED="1734761508540" MODIFIED="1734761520794">
+<node TEXT="Core Layer: Business, Application, Technology" ID="ID_458611880" CREATED="1734761613355" MODIFIED="1734761623389"/>
+<node TEXT="Main Relations: Serving, Realizing" ID="ID_1803132768" CREATED="1734761623683" MODIFIED="1734761640578"/>
+</node>
+<node TEXT="ArchiMate Core vs. Full Framework" FOLDED="true" ID="ID_1139260815" CREATED="1734761650859" MODIFIED="1734761678366">
+<node TEXT="Link with TOGAF" ID="ID_328750979" CREATED="1734761821762" MODIFIED="1734761878049" LINK="https://www.opengroup.org/togaf"/>
+</node>
+<node TEXT="ArchiMate Abstraction" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734762076221">
+<node TEXT="The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design." ID="ID_392429462" CREATED="1734762086234" MODIFIED="1734762133443">
+<node TEXT="The external view depicts what the system has to do for its environment" ID="ID_1103466255" CREATED="1734762144778" MODIFIED="1734762161656"/>
+<node TEXT="The internal view depicts how it does this." ID="ID_686027969" CREATED="1734762161816" MODIFIED="1734762176114"/>
+</node>
+<node TEXT="The distinction between behavior and active structure is commonly used to separate what the system must do and how the system does it from the system constituents (people, applications, and infrastructure) that do it." ID="ID_934894769" CREATED="1734762180000" MODIFIED="1734762251522">
+<node TEXT="In modeling new systems, it is often useful to start with the behaviors that the system must perform" ID="ID_1266415853" CREATED="1734762270798" MODIFIED="1734762294243"/>
+<node TEXT="In modeling existing systems, it is often useful to start with the people, applications, and infrastructure that comprise the system, and then analyze in detail the behaviors performed by these active structures" ID="ID_1290963655" CREATED="1734762294428" MODIFIED="1734762335369"/>
+</node>
 </node>
 </node>
 <node TEXT="04. Generic Metamodel" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854"/>
