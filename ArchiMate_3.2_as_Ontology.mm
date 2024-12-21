@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff">
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -88,8 +88,8 @@
 <node TEXT="The standard provides a set of entities and relationships with their corresponding iconography for the representation of Architecture Descriptions." ID="ID_963571229" CREATED="1734760384083" MODIFIED="1734760386830"/>
 <node TEXT="The ArchiMate ecosystem also supports an exchange format in XML which allows model and diagram exchange between tools" ID="ID_131882652" CREATED="1734760386984" MODIFIED="1734760395978"/>
 </node>
-<node TEXT="ArchiMate Overview" FOLDED="true" ID="ID_612462936" CREATED="1734760399343" MODIFIED="1734760404697">
-<node TEXT="An Enterprise Architecture is typically developed because key people have concerns that need to be addressed by the business and IT systems within an organization" ID="ID_808836119" CREATED="1734760404698" MODIFIED="1734760413513">
+<node TEXT="ArchiMate Overview" ID="ID_612462936" CREATED="1734760399343" MODIFIED="1734760404697">
+<node TEXT="An Enterprise Architecture is typically developed because key people have concerns that need to be addressed by the business and IT systems within an organization" FOLDED="true" ID="ID_808836119" CREATED="1734760404698" MODIFIED="1734760413513">
 <node TEXT="Such people are commonly referred to as the “stakeholders” of the Enterprise Architecture." ID="ID_113006431" CREATED="1734760434423" MODIFIED="1734760444921"/>
 <node TEXT="The role of the architect is to address these concerns by identifying and refining the motivation and strategy expressed by stakeholders, developing an architecture, and creating views of the architecture that show how it addresses and balances stakeholder concerns" ID="ID_1074160554" CREATED="1734760445114" MODIFIED="1734760455585"/>
 <node TEXT="Without an Enterprise Architecture, it is unlikely that all concerns and requirements are considered and addressed" ID="ID_1393595176" CREATED="1734760470919" MODIFIED="1734760473617"/>
@@ -103,27 +103,27 @@
 <node TEXT="The language uses service-orientation to distinguish and relate the Business, Application, and Technology Layers of Enterprise Architectures, and uses realization relationships to relate concrete elements to more abstract elements across these layers." ID="ID_1925603444" CREATED="1734760575137" MODIFIED="1734760578102"/>
 </node>
 </node>
-<node TEXT="02. Definitions" FOLDED="true" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
+<node TEXT="02. Definitions" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
 <node TEXT="ArchiMate Community - Discussion Board" ID="ID_1538996210" CREATED="1734760604215" MODIFIED="1734761251917" LINK="https://community.opengroup.org/archimate-community/home/-/issues/"/>
 </node>
 <node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952">
-<node TEXT="Design Consideration" FOLDED="true" ID="ID_1201451300" CREATED="1734761008291" MODIFIED="1734761013734">
+<node TEXT="3.1 Design Consideration" ID="ID_1201451300" CREATED="1734761008291" MODIFIED="1734786489080">
 <node TEXT="A key challenge in the development of a general metamodel for Enterprise Architecture is to strike a balance between the specificity of languages for individual architecture domains and a very general set of architecture concepts, which reflects a view of systems as a mere set of inter-related entities." ID="ID_1222532684" CREATED="1734761013738" MODIFIED="1734761028278"/>
 <node TEXT="The design of the ArchiMate language started from a set of relatively generic concepts" ID="ID_682499091" CREATED="1734761037585" MODIFIED="1734761040743"/>
 <node TEXT="The most important design restriction on the language is that it has been explicitly designed to be as small as possible, but still usable for most Enterprise Architecture modeling tasks." ID="ID_175482230" CREATED="1734761063701" MODIFIED="1734761066943"/>
+<node TEXT="Sample discussion: Information/Data Modeling Extensions" POSITION="bottom_or_right" ID="ID_615718169" CREATED="1734761325309" MODIFIED="1734761344024" LINK="https://community.opengroup.org/archimate-community/home/-/issues/24"/>
 </node>
-<node TEXT="Sample discussion: Information/Data Modeling Extensions" ID="ID_615718169" CREATED="1734761325309" MODIFIED="1734761344024" LINK="https://community.opengroup.org/archimate-community/home/-/issues/24"/>
-<node TEXT="Top-Level Language Structure" FOLDED="true" ID="ID_1435870195" CREATED="1734761350820" MODIFIED="1734761358781">
+<node TEXT="3.2 Top-Level Language Structure" FOLDED="true" ID="ID_1435870195" CREATED="1734761350820" MODIFIED="1734787326473">
 <node TEXT="Building Class Structure in Protege" ID="ID_323694860" CREATED="1734761368629" MODIFIED="1734761378000"/>
 </node>
-<node TEXT="Layering of the ArchiMate" FOLDED="true" ID="ID_901716122" CREATED="1734761508540" MODIFIED="1734761520794">
+<node TEXT="3.3 Layering of the ArchiMate" FOLDED="true" ID="ID_901716122" CREATED="1734761508540" MODIFIED="1734787331385">
 <node TEXT="Core Layer: Business, Application, Technology" ID="ID_458611880" CREATED="1734761613355" MODIFIED="1734761623389"/>
 <node TEXT="Main Relations: Serving, Realizing" ID="ID_1803132768" CREATED="1734761623683" MODIFIED="1734761640578"/>
 </node>
 <node TEXT="ArchiMate Core vs. Full Framework" FOLDED="true" ID="ID_1139260815" CREATED="1734761650859" MODIFIED="1734761678366">
 <node TEXT="Link with TOGAF" ID="ID_328750979" CREATED="1734761821762" MODIFIED="1734761878049" LINK="https://www.opengroup.org/togaf"/>
 </node>
-<node TEXT="ArchiMate Abstraction" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734762076221">
+<node TEXT="ArchiMate Abstraction" FOLDED="true" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734762076221">
 <node TEXT="The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design." ID="ID_392429462" CREATED="1734762086234" MODIFIED="1734762133443">
 <node TEXT="The external view depicts what the system has to do for its environment" ID="ID_1103466255" CREATED="1734762144778" MODIFIED="1734762161656"/>
 <node TEXT="The internal view depicts how it does this." ID="ID_686027969" CREATED="1734762161816" MODIFIED="1734762176114"/>
@@ -132,6 +132,26 @@
 <node TEXT="In modeling new systems, it is often useful to start with the behaviors that the system must perform" ID="ID_1266415853" CREATED="1734762270798" MODIFIED="1734762294243"/>
 <node TEXT="In modeling existing systems, it is often useful to start with the people, applications, and infrastructure that comprise the system, and then analyze in detail the behaviors performed by these active structures" ID="ID_1290963655" CREATED="1734762294428" MODIFIED="1734762335369"/>
 </node>
+<node TEXT="The distinction between conceptual, logical, and physical abstraction levels" ID="ID_1620650095" CREATED="1734762412855" MODIFIED="1734764011637">
+<node TEXT="Conceptual elements represent the information the business finds relevant" ID="ID_85537367" CREATED="1734764151946" MODIFIED="1734764181859"/>
+<node TEXT="Logical elements provide logical structure to this information for manipulation by information systems" ID="ID_915335586" CREATED="1734764182026" MODIFIED="1734764199155"/>
+<node TEXT="Physical elements describe the storage of this information" ID="ID_1471668875" CREATED="1734764199361" MODIFIED="1734764210122"/>
+<node TEXT="Reference: TOGAF Enterprise Metamodel" ID="ID_1694061453" CREATED="1734764288009" MODIFIED="1734764300588" LINK="https://pubs.opengroup.org/togaf-standard/architecture-content/chap02.html">
+<node TEXT="c220: The TOGAF Standard - 10th Edition" ID="ID_158629539" CREATED="1734764389929" MODIFIED="1734764403248" LINK="https://publications.opengroup.org/c220"/>
+</node>
+<node TEXT="Reference: Essential EAS Meta Model" ID="ID_1063739057" CREATED="1734764016202" MODIFIED="1734764033182" LINK="https://enterprise-architecture.org/university/essential-meta-model-overview/"/>
+</node>
+</node>
+<node TEXT="ArchiMate Abstraction Modeling" FOLDED="true" ID="ID_1757526229" CREATED="1734764427728" MODIFIED="1734764448274">
+<node TEXT="g21e: How to Use the ArchiMate® Modeling Language to Support the TOGAF® Standard" ID="ID_1565294205" CREATED="1734764450442" MODIFIED="1734764462216" LINK="https://publications.opengroup.org/g21e"/>
+<node TEXT="Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements" ID="ID_548497420" CREATED="1734764448278" MODIFIED="1734764603803"/>
+<node TEXT="Supports the concept of realization" ID="ID_826632563" CREATED="1734764544104" MODIFIED="1734764627634"/>
+<node TEXT="Logical and physical application components can be defined as metamodel-level specializations of the application component element" ID="ID_178259458" CREATED="1734764674552" MODIFIED="1734764712915"/>
+</node>
+<node TEXT="More on ArchiMate Language" FOLDED="true" ID="ID_953677211" CREATED="1734765089286" MODIFIED="1734765099265">
+<node TEXT="ArchiMate Language intentionally does not support a difference between types and instances." POSITION="bottom_or_right" ID="ID_1086372641" CREATED="1734764807936" MODIFIED="1734764830372"/>
+<node TEXT="ArchiMate Concepts and Notation" POSITION="bottom_or_right" ID="ID_1408928686" CREATED="1734764921015" MODIFIED="1734764929369"/>
+<node TEXT="Use of Nesting, Colors, and Notations Cues" POSITION="bottom_or_right" ID="ID_477978663" CREATED="1734764930101" MODIFIED="1734764948249"/>
 </node>
 </node>
 <node TEXT="04. Generic Metamodel" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854"/>
