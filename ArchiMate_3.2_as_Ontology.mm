@@ -116,7 +116,7 @@
 <node TEXT="3.2 Top-Level Language Structure" FOLDED="true" ID="ID_1435870195" CREATED="1734761350820" MODIFIED="1734787326473">
 <node TEXT="Building Class Structure in Protege" ID="ID_323694860" CREATED="1734761368629" MODIFIED="1734761378000"/>
 </node>
-<node TEXT="3.3 Layering of the ArchiMate" ID="ID_901716122" CREATED="1734761508540" MODIFIED="1734787331385">
+<node TEXT="3.3 Layering of the ArchiMate" FOLDED="true" ID="ID_901716122" CREATED="1734761508540" MODIFIED="1734787331385">
 <node TEXT="Core Layer: Business, Application, Technology" ID="ID_458611880" CREATED="1734761613355" MODIFIED="1734761623389"/>
 <node TEXT="Main Relations: Serving, Realizing" ID="ID_1803132768" CREATED="1734761623683" MODIFIED="1734761640578"/>
 </node>
@@ -124,15 +124,15 @@
 <node TEXT="Link with TOGAF" ID="ID_328750979" CREATED="1734761821762" MODIFIED="1734761878049" LINK="https://www.opengroup.org/togaf"/>
 </node>
 <node TEXT="3.6 (1) ArchiMate Abstraction" FOLDED="true" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734833394136">
-<node TEXT="The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design." ID="ID_392429462" CREATED="1734762086234" MODIFIED="1734762133443">
+<node TEXT="The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design." FOLDED="true" ID="ID_392429462" CREATED="1734762086234" MODIFIED="1734762133443">
 <node TEXT="The external view depicts what the system has to do for its environment" ID="ID_1103466255" CREATED="1734762144778" MODIFIED="1734762161656"/>
 <node TEXT="The internal view depicts how it does this." ID="ID_686027969" CREATED="1734762161816" MODIFIED="1734762176114"/>
 </node>
-<node TEXT="The distinction between behavior and active structure is commonly used to separate what the system must do and how the system does it from the system constituents (people, applications, and infrastructure) that do it." ID="ID_934894769" CREATED="1734762180000" MODIFIED="1734762251522">
+<node TEXT="The distinction between behavior and active structure is commonly used to separate what the system must do and how the system does it from the system constituents (people, applications, and infrastructure) that do it." FOLDED="true" ID="ID_934894769" CREATED="1734762180000" MODIFIED="1734762251522">
 <node TEXT="In modeling new systems, it is often useful to start with the behaviors that the system must perform" ID="ID_1266415853" CREATED="1734762270798" MODIFIED="1734762294243"/>
 <node TEXT="In modeling existing systems, it is often useful to start with the people, applications, and infrastructure that comprise the system, and then analyze in detail the behaviors performed by these active structures" ID="ID_1290963655" CREATED="1734762294428" MODIFIED="1734762335369"/>
 </node>
-<node TEXT="The distinction between conceptual, logical, and physical abstraction levels" ID="ID_1620650095" CREATED="1734762412855" MODIFIED="1734764011637">
+<node TEXT="The distinction between conceptual, logical, and physical abstraction levels" FOLDED="true" ID="ID_1620650095" CREATED="1734762412855" MODIFIED="1734764011637">
 <node TEXT="Conceptual elements represent the information the business finds relevant" ID="ID_85537367" CREATED="1734764151946" MODIFIED="1734764181859"/>
 <node TEXT="Logical elements provide logical structure to this information for manipulation by information systems" ID="ID_915335586" CREATED="1734764182026" MODIFIED="1734764199155"/>
 <node TEXT="Physical elements describe the storage of this information" ID="ID_1471668875" CREATED="1734764199361" MODIFIED="1734764210122"/>
@@ -148,7 +148,7 @@
 <node TEXT="Supports the concept of realization" ID="ID_826632563" CREATED="1734764544104" MODIFIED="1734764627634"/>
 <node TEXT="Logical and physical application components can be defined as metamodel-level specializations of the application component element" ID="ID_178259458" CREATED="1734764674552" MODIFIED="1734764712915"/>
 </node>
-<node TEXT="3.7/3.8/3.9 More on ArchiMate Language" FOLDED="true" ID="ID_953677211" CREATED="1734765089286" MODIFIED="1734833415855">
+<node TEXT="3.7/3.8/3.9 More on ArchiMate Language" ID="ID_953677211" CREATED="1734765089286" MODIFIED="1734833415855">
 <node TEXT="ArchiMate Language intentionally does not support a difference between types and instances." POSITION="bottom_or_right" ID="ID_1086372641" CREATED="1734764807936" MODIFIED="1734764830372"/>
 <node TEXT="ArchiMate Concepts and Notation" POSITION="bottom_or_right" ID="ID_1408928686" CREATED="1734764921015" MODIFIED="1734764929369"/>
 <node TEXT="Use of Nesting, Colors, and Notations Cues" POSITION="bottom_or_right" ID="ID_477978663" CREATED="1734764930101" MODIFIED="1734764948249"/>
