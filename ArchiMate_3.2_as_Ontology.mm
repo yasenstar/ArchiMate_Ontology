@@ -123,7 +123,7 @@
 <node TEXT="3.4/3.5 ArchiMate Core vs. Full Framework" FOLDED="true" ID="ID_1139260815" CREATED="1734761650859" MODIFIED="1734833337303">
 <node TEXT="Link with TOGAF" ID="ID_328750979" CREATED="1734761821762" MODIFIED="1734761878049" LINK="https://www.opengroup.org/togaf"/>
 </node>
-<node TEXT="3.6 (1) ArchiMate Abstraction" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734833394136">
+<node TEXT="3.6 (1) ArchiMate Abstraction" FOLDED="true" ID="ID_913254472" CREATED="1734762063561" MODIFIED="1734833394136">
 <node TEXT="The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design." FOLDED="true" ID="ID_392429462" CREATED="1734762086234" MODIFIED="1734762133443">
 <node TEXT="The external view depicts what the system has to do for its environment" ID="ID_1103466255" CREATED="1734762144778" MODIFIED="1734762161656"/>
 <node TEXT="The internal view depicts how it does this." ID="ID_686027969" CREATED="1734762161816" MODIFIED="1734762176114"/>
@@ -142,14 +142,14 @@
 <node TEXT="Reference: Essential EAS Meta Model" ID="ID_1063739057" CREATED="1734764016202" MODIFIED="1734764033182" LINK="https://enterprise-architecture.org/university/essential-meta-model-overview/"/>
 </node>
 </node>
-<node TEXT="3.6 (2) ArchiMate Abstraction Modeling" FOLDED="true" ID="ID_1757526229" CREATED="1734764427728" MODIFIED="1734833399626">
+<node TEXT="3.6 (2) ArchiMate Abstraction Modeling" ID="ID_1757526229" CREATED="1734764427728" MODIFIED="1734833399626">
 <node TEXT="g21e: How to Use the ArchiMate® Modeling Language to Support the TOGAF® Standard" ID="ID_1565294205" CREATED="1734764450442" MODIFIED="1734764462216" LINK="https://publications.opengroup.org/g21e"/>
 <node TEXT="Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements" ID="ID_548497420" CREATED="1734764448278" MODIFIED="1734764603803"/>
 <node TEXT="Supports the concept of realization" ID="ID_826632563" CREATED="1734764544104" MODIFIED="1734764627634"/>
 <node TEXT="Logical and physical application components can be defined as metamodel-level specializations of the application component element" ID="ID_178259458" CREATED="1734764674552" MODIFIED="1734764712915"/>
+<node TEXT="ArchiMate Language intentionally does not support a difference between types and instances." POSITION="bottom_or_right" ID="ID_1086372641" CREATED="1734764807936" MODIFIED="1734764830372"/>
 </node>
 <node TEXT="3.7/3.8/3.9 More on ArchiMate Language" FOLDED="true" ID="ID_953677211" CREATED="1734765089286" MODIFIED="1734833415855">
-<node TEXT="ArchiMate Language intentionally does not support a difference between types and instances." POSITION="bottom_or_right" ID="ID_1086372641" CREATED="1734764807936" MODIFIED="1734764830372"/>
 <node TEXT="ArchiMate Concepts and Notation" POSITION="bottom_or_right" ID="ID_1408928686" CREATED="1734764921015" MODIFIED="1734764929369"/>
 <node TEXT="Use of Nesting, Colors, and Notations Cues" POSITION="bottom_or_right" ID="ID_477978663" CREATED="1734764930101" MODIFIED="1734764948249"/>
 </node>
