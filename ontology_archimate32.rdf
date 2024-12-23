@@ -5,8 +5,82 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:archimate32="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#accesses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#accesses">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#aggregates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#aggregates">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#assigned_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#assigned_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#composed_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#composed_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#flows_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#flows_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#realizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#realizes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#servers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#servers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#triggers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#triggers"/>
     
 
 
@@ -25,6 +99,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#ActiveStructure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_aspect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
 
@@ -67,6 +149,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation">
@@ -87,6 +209,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#PassiveStructure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_aspect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
 
@@ -146,6 +276,92 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Implementation&amp;Migration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_layer"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:servers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:servers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <archimate32:servers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:composed_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:composed_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
