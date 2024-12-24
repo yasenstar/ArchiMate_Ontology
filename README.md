@@ -5,7 +5,12 @@ Build ontology view step-by-step on ArchiMate 3.2 Specification
 
 ---
 
-The course published in Udemy first, which can be accessed [here](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B)
+The course is published in Udemy first, which can be accessed here:
+
+https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B
+
+ nd later also shared in YouTube channel.
 
 ---
+
 Tools used: Protege, FreePlane, Archi, VS Code, MS PointPoint
