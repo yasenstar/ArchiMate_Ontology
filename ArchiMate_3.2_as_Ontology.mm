@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="1.1">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.82644624">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-10.5 pt;" ENDINCLINATION="81.75 pt;19.875 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-10.2 pt;" ENDINCLINATION="81.6 pt;19.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -106,7 +106,7 @@
 <node TEXT="02. Definitions" FOLDED="true" POSITION="bottom_or_right" ID="ID_475083140" CREATED="1734748785985" MODIFIED="1734748848707">
 <node TEXT="ArchiMate Community - Discussion Board" ID="ID_1538996210" CREATED="1734760604215" MODIFIED="1734761251917" LINK="https://community.opengroup.org/archimate-community/home/-/issues/"/>
 </node>
-<node TEXT="03. Language Structure" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952">
+<node TEXT="03. Language Structure" FOLDED="true" POSITION="bottom_or_right" ID="ID_1378604406" CREATED="1734748789455" MODIFIED="1734748851952">
 <node TEXT="3.1 Design Consideration" FOLDED="true" ID="ID_1201451300" CREATED="1734761008291" MODIFIED="1734786489080">
 <node TEXT="A key challenge in the development of a general metamodel for Enterprise Architecture is to strike a balance between the specificity of languages for individual architecture domains and a very general set of architecture concepts, which reflects a view of systems as a mere set of inter-related entities." ID="ID_1222532684" CREATED="1734761013738" MODIFIED="1734761028278"/>
 <node TEXT="The design of the ArchiMate language started from a set of relatively generic concepts" ID="ID_682499091" CREATED="1734761037585" MODIFIED="1734761040743"/>
@@ -142,11 +142,13 @@
 <node TEXT="Reference: Essential EAS Meta Model" ID="ID_1063739057" CREATED="1734764016202" MODIFIED="1734764033182" LINK="https://enterprise-architecture.org/university/essential-meta-model-overview/"/>
 </node>
 </node>
-<node TEXT="3.6 (2) ArchiMate Abstraction Modeling" ID="ID_1757526229" CREATED="1734764427728" MODIFIED="1734833399626">
+<node TEXT="3.6 (2) ArchiMate Abstraction Modeling" FOLDED="true" ID="ID_1757526229" CREATED="1734764427728" MODIFIED="1734833399626">
 <node TEXT="g21e: How to Use the ArchiMate® Modeling Language to Support the TOGAF® Standard" ID="ID_1565294205" CREATED="1734764450442" MODIFIED="1734764462216" LINK="https://publications.opengroup.org/g21e"/>
-<node TEXT="Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements" ID="ID_548497420" CREATED="1734764448278" MODIFIED="1734764603803"/>
-<node TEXT="Supports the concept of realization" ID="ID_826632563" CREATED="1734764544104" MODIFIED="1734764627634"/>
-<node TEXT="Logical and physical application components can be defined as metamodel-level specializations of the application component element" ID="ID_178259458" CREATED="1734764674552" MODIFIED="1734764712915"/>
+<node TEXT="Three ways of modeling in ArchiMate" ID="ID_941928428" CREATED="1734849963184" MODIFIED="1734849987397">
+<node TEXT="Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements" POSITION="bottom_or_right" ID="ID_548497420" CREATED="1734764448278" MODIFIED="1734764603803"/>
+<node TEXT="Supports the concept of realization" POSITION="bottom_or_right" ID="ID_826632563" CREATED="1734764544104" MODIFIED="1734764627634"/>
+<node TEXT="Logical and physical application components can be defined as metamodel-level specializations of the application component element" POSITION="bottom_or_right" ID="ID_178259458" CREATED="1734764674552" MODIFIED="1734764712915"/>
+</node>
 <node TEXT="ArchiMate Language intentionally does not support a difference between types and instances." POSITION="bottom_or_right" ID="ID_1086372641" CREATED="1734764807936" MODIFIED="1734764830372"/>
 </node>
 <node TEXT="3.7/3.8/3.9 More on ArchiMate Language" FOLDED="true" ID="ID_953677211" CREATED="1734765089286" MODIFIED="1734833415855">
@@ -154,20 +156,24 @@
 <node TEXT="Use of Nesting, Colors, and Notations Cues" POSITION="bottom_or_right" ID="ID_477978663" CREATED="1734764930101" MODIFIED="1734764948249"/>
 </node>
 </node>
-<node TEXT="04. Generic Metamodel" FOLDED="true" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854">
-<node TEXT="4.1 Behavior and Structure Elements" ID="ID_511650534" CREATED="1734845498704" MODIFIED="1734845508045">
+<node TEXT="04. Generic Metamodel" POSITION="bottom_or_right" ID="ID_1113946233" CREATED="1734748796040" MODIFIED="1734748854854">
+<node TEXT="4.1 Behavior and Structure Elements" FOLDED="true" ID="ID_511650534" CREATED="1734845498704" MODIFIED="1734845508045">
 <node TEXT="Figure 4: Hierarchy of Behavior and Structure Elements" ID="ID_1534564738" CREATED="1734845567326" MODIFIED="1734845578097"/>
 <node TEXT="Figure 5: Behavior and Structure Elements Metamodel" ID="ID_343459086" CREATED="1734845578262" MODIFIED="1734845598081"/>
 <node TEXT="4.1.1 Active Structure Elements" ID="ID_1110609075" CREATED="1734845607107" MODIFIED="1734845615217"/>
 <node TEXT="4.1.2 Behavior Elements" ID="ID_168947158" CREATED="1734845634830" MODIFIED="1734845639420"/>
 <node TEXT="4.1.3 Passive Structure Elements" ID="ID_653276079" CREATED="1734845665332" MODIFIED="1734845673150"/>
 </node>
-<node TEXT="4.2 Specializations of Structure and Behavior Elements" ID="ID_511404260" CREATED="1734845676015" MODIFIED="1734845685746">
+<node TEXT="4.2 Specializations of Structure and Behavior Elements" FOLDED="true" ID="ID_511404260" CREATED="1734845676015" MODIFIED="1734845685746">
 <node TEXT="Figure 12: Specialization of Core Elements" ID="ID_607061486" CREATED="1734845713668" MODIFIED="1734845728079"/>
 </node>
 <node TEXT="4.3 Summary of Structure and Behavior Elements" ID="ID_79083726" CREATED="1734845936676" MODIFIED="1734845944959"/>
-<node TEXT="4.4 Motivation Elements" ID="ID_974167687" CREATED="1734845953873" MODIFIED="1734845958496"/>
-<node TEXT="4.5 Composite Elements" ID="ID_225526679" CREATED="1734845962475" MODIFIED="1734845966736">
+<node TEXT="4.4 Motivation Elements" ID="ID_974167687" CREATED="1734845953873" MODIFIED="1734845958496">
+<node TEXT="About Zachman Framework" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
+<node TEXT="? why not cover &quot;Constraint&quot; which in Archi tool" ID="ID_320913242" CREATED="1735095452366" MODIFIED="1735095464785"/>
+</node>
+<node TEXT="4.5 Composite Elements" FOLDED="true" ID="ID_225526679" CREATED="1734845962475" MODIFIED="1735094077260">
+<arrowlink DESTINATION="ID_1435870195"/>
 <node TEXT="4.5.1 Grouping" ID="ID_1222540474" CREATED="1734845974931" MODIFIED="1734845978332"/>
 <node TEXT="4.5.2 Location" ID="ID_663114834" CREATED="1734845983496" MODIFIED="1734845988024"/>
 </node>
