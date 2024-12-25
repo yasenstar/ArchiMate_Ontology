@@ -168,14 +168,16 @@
 <node TEXT="Figure 12: Specialization of Core Elements" ID="ID_607061486" CREATED="1734845713668" MODIFIED="1734845728079"/>
 </node>
 <node TEXT="4.3 Summary of Structure and Behavior Elements" ID="ID_79083726" CREATED="1734845936676" MODIFIED="1734845944959"/>
-<node TEXT="4.4 Motivation Elements" ID="ID_974167687" CREATED="1734845953873" MODIFIED="1734845958496">
-<node TEXT="About Zachman Framework" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
+<node TEXT="4.4 Motivation Elements" ID="ID_974167687" CREATED="1734845953873" MODIFIED="1735109493194">
+<arrowlink DESTINATION="ID_1630873651" MIDDLE_LABEL="&quot;WHY&quot;"/>
 <node TEXT="? why not cover &quot;Constraint&quot; which in Archi tool" ID="ID_320913242" CREATED="1735095452366" MODIFIED="1735095464785"/>
 </node>
-<node TEXT="4.5 Composite Elements" FOLDED="true" ID="ID_225526679" CREATED="1734845962475" MODIFIED="1735094077260">
+<node TEXT="4.5 Composite Elements" ID="ID_225526679" CREATED="1734845962475" MODIFIED="1735094077260">
 <arrowlink DESTINATION="ID_1435870195"/>
 <node TEXT="4.5.1 Grouping" ID="ID_1222540474" CREATED="1734845974931" MODIFIED="1734845978332"/>
-<node TEXT="4.5.2 Location" ID="ID_663114834" CREATED="1734845983496" MODIFIED="1734845988024"/>
+<node TEXT="4.5.2 Location" ID="ID_663114834" CREATED="1734845983496" MODIFIED="1735109485308">
+<arrowlink DESTINATION="ID_1630873651" MIDDLE_LABEL="&quot;WHERE&quot;"/>
+</node>
 </node>
 </node>
 <node TEXT="05. Relationships and Relationship Connectors" FOLDED="true" POSITION="bottom_or_right" ID="ID_333370775" CREATED="1734748800971" MODIFIED="1734748858333">
@@ -256,7 +258,7 @@
 <node TEXT="12. Implementation and Migration Layer" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866"/>
 <node TEXT="13. Stakeholders, Architecture Views, and Viewpoints" POSITION="bottom_or_right" ID="ID_1097093754" CREATED="1734748979059" MODIFIED="1734748990690"/>
 <node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341"/>
-<node TEXT="Some Reference Resources" FOLDED="true" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
+<node TEXT="Some Reference Resources" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
 <node TEXT="OpenGroup Online ArchiMate 3.2 Spec" ID="ID_1307974921" CREATED="1734751096515" MODIFIED="1734751111914" LINK="https://pubs.opengroup.org/architecture/archimate3-doc/"/>
 <node TEXT="OpenGroup ArchiMate 3.2 Online SinglePage" ID="ID_142465940" CREATED="1734751129973" MODIFIED="1734751147677" LINK="https://pubs.opengroup.org/architecture/archimate32-doc.singlepage/"/>
 <node TEXT="ArchiMate 3.2 Starter Pack (Orbus)" ID="ID_1985044959" CREATED="1734751019265" MODIFIED="1734751033470" LINK="https://www.orbussoftware.com/resources/research-library/detail/archimate-starter-pack"/>
@@ -266,6 +268,7 @@
 <node TEXT="ArchiMate 3.2 Introduction Poster (BOC)" ID="ID_1378238891" CREATED="1734751450117" MODIFIED="1734751487457" LINK="https://www.boc-group.com/en/resources/ea/introduction-to-archimate-free-poster"/>
 <node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
 <node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
+<node TEXT="About Zachman Framework" POSITION="bottom_or_right" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
 </node>
 </node>
 </map>
