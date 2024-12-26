@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.75131476">
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.6830134">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -182,7 +182,7 @@
 </node>
 <node TEXT="05. Relationships and Relationship Connectors" POSITION="bottom_or_right" ID="ID_333370775" CREATED="1734748800971" MODIFIED="1734748858333">
 <node TEXT="Figure 21: Overview of Relationships" ID="ID_987560614" CREATED="1734845999907" MODIFIED="1734846007810"/>
-<node TEXT="5.1 Structural Relationships" ID="ID_1603146974" CREATED="1734846033433" MODIFIED="1734846041647">
+<node TEXT="5.1 Structural Relationships" FOLDED="true" ID="ID_1603146974" CREATED="1734846033433" MODIFIED="1734846041647">
 <node TEXT="5.1.1 Composition Relationship" FOLDED="true" ID="ID_1610135255" CREATED="1734846042794" MODIFIED="1734846049204">
 <node TEXT="UML2 Specification" ID="ID_895043412" CREATED="1735131705843" MODIFIED="1735135221920" LINK="https://www.omg.org/spec/UML/2.4.1">
 <arrowlink DESTINATION="ID_275911214"/>
@@ -202,7 +202,7 @@
 <node TEXT="5.2.4 Association Relationship" ID="ID_824372876" CREATED="1734846174810" MODIFIED="1734846181117"/>
 <node TEXT="5.2.5 Semantics of Dependency Relationships" ID="ID_365236833" CREATED="1734846214418" MODIFIED="1734846223682"/>
 </node>
-<node TEXT="5.3 Dynamic Relationships" ID="ID_155076627" CREATED="1734846251330" MODIFIED="1734846257314">
+<node TEXT="5.3 Dynamic Relationships" FOLDED="true" ID="ID_155076627" CREATED="1734846251330" MODIFIED="1734846257314">
 <node TEXT="5.3.1 Triggering Relationship" ID="ID_1797158892" CREATED="1734846257317" MODIFIED="1734846262578"/>
 <node TEXT="5.3.2 Flow Relationship" ID="ID_1240455811" CREATED="1734846266777" MODIFIED="1734846271410"/>
 <node TEXT="5.3.3 Semantics of Dynamic Relationships" ID="ID_230678223" CREATED="1734846274278" MODIFIED="1734846288713"/>
