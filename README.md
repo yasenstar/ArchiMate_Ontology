@@ -5,12 +5,32 @@ Build ontology view step-by-step on ArchiMate 3.2 Specification
 
 ---
 
-The course is published in Udemy first, which can be accessed here:
-
-https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B
-
- nd later also shared in YouTube channel.
+The course is published in Udemy first, which can be accessed [here](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B), and later also shared in YouTube channel.
 
 ---
 
-Tools used: Protege, FreePlane, Archi, VS Code, MS PointPoint
+## Tools used during the demo
+
+Protege, FreePlane, Archi, VS Code, MS PointPoint
+
+## Visualize your RDF Ontology
+
+### Tool 1: [RDF-Grapher](https://www.ldf.fi/service/rdf-grapher)
+
+- From formate: RDF/XML
+- To format: PNG
+- Send from as HTTP POST (needed for large RDF data): checked
+
+Paste the RDF content into the field and click `Visualize` button, you may get below visual (using 026 as example):
+
+<image src="img/rdf-grapher/ontology-026.png" alt="Sample Export from Ontology 026" width=800>
+
+### Tool 2: WebVOWL
+
+You can deploy that in your local web server.
+
+<image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800>
+
+---
+
+Any questions, welcome to raise in Discussion Board.
