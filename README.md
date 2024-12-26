@@ -26,7 +26,9 @@ Paste the RDF content into the field and click `Visualize` button, you may get b
 
 You can deploy that in your local web server.
 
-<image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800>
+<!-- <image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800> -->
+
+![Sample Export from Ontology 026](img/webvowl/webvowl-026.png)
 
 
 ## Archi Model's HTML Report
