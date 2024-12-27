@@ -136,10 +136,12 @@
       <element xsi:type="archimate:RealizationRelationship" id="id-7a761731d9c04e61a6fe96fd08ad0124" source="id-6c9b6e7bf8d54f5bafe1aed56e7435f1" target="id-7a233614625a4ecebd7e7be2f741ffd6"/>
       <element xsi:type="archimate:RealizationRelationship" id="id-b743fec16ac1498ca61c395764f56bed" source="id-6c9b6e7bf8d54f5bafe1aed56e7435f1" target="id-599ea17d69814edfbd2bec8397668df3"/>
     </folder>
-    <element xsi:type="archimate:FlowRelationship" id="id-a965299e0eb941b69ce05fa202da01f5" source="id-204b39012ac945778c70dde5ae082811" target="id-6d497446074e49db9d0a28c3c48fe5b9"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-ab50ffa26f07448e9567019726377818" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-a965299e0eb941b69ce05fa202da01f5"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-043c857f89a6436b86eba21e2a6b7dad" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-6029bb6ee8054dca966c48eb235d7179" directed="true"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-0f07c8c6322c4bbc9c797cba7a6dd044" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-9f989b25a5064198a07c40695c1180c7" directed="true"/>
+    <folder name="Example10" id="id-aaf50c7f884a4bb184b1a7e7df339d7c">
+      <element xsi:type="archimate:AssociationRelationship" id="id-ab50ffa26f07448e9567019726377818" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-a965299e0eb941b69ce05fa202da01f5"/>
+      <element xsi:type="archimate:AssociationRelationship" id="id-043c857f89a6436b86eba21e2a6b7dad" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-6029bb6ee8054dca966c48eb235d7179" directed="true"/>
+      <element xsi:type="archimate:AssociationRelationship" id="id-0f07c8c6322c4bbc9c797cba7a6dd044" source="id-a7d63fc8141f4c54aff1814cc127968e" target="id-9f989b25a5064198a07c40695c1180c7" directed="true"/>
+      <element xsi:type="archimate:FlowRelationship" id="id-a965299e0eb941b69ce05fa202da01f5" source="id-204b39012ac945778c70dde5ae082811" target="id-6d497446074e49db9d0a28c3c48fe5b9"/>
+    </folder>
   </folder>
   <folder name="Views" id="id-865e24d07d654695b6f699d62971db44" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Example01 - Grouping" id="id-0f6951dcd0c6410897d667bd905d655a">
