@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Invoice</title>
+	<title></title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
@@ -21,11 +21,10 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Invoice</b>
-
+               <b class="i18n-elementtype-DiagramModelNote"></b>
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-BusinessObject"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
+			   (<span class="i18n-elementtype-DiagramModelNote"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelNote" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -35,13 +34,12 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
                     <!-- Purpose / Documentation / Content -->
-					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+                       <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-content"></a></li>
 
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
                     <!-- Analysis -->
-                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
 
 				</ul>
 
@@ -59,6 +57,7 @@
 								</tr>
 							</thead>
 							<tbody>
+								<tr><td>Last Updated</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Updated at 2021/5/13</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -72,10 +71,6 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-325facbda08343109a4104e7bf1beea7">
-																	<td><a href="../views/id-325facbda08343109a4104e7bf1beea7.html" target="view" title="Example08 - Access"> Example08 - Access </a></td>
-																	<td><span class="i18n-viewpoint-" /></td>
-																</tr>
 							</tbody>
 						</table>
 						<table class="table table-striped table-hover table-condensed" id="model-relations">
@@ -89,17 +84,6 @@
 								</tr>
 							</thead>
 							<tbody>
-									<tr>
-											<td><a href="../elements/id-4134902010c147e9bc8f8539e13737bf.html" target="element" title="Read">Read</a></td>
-											<td><span class="i18n-elementtype-AccessRelationship" /></td>
-											<td><a href="../elements/id-65abd17b0a9348269d590d5af1878788.html" target="element"> Send Invoice</a></td>
-											<td><a href="../elements/id-8b92855f081245d9abe1af01fa404b58.html" target="element"> Invoice</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-61cb23f1906642c1a68b0be8ed3afa16.html" target="element" title="Write">Write</a></td>
-											<td><span class="i18n-elementtype-AccessRelationship" /></td>
-											<td><a href="../elements/id-c6465fb1e119472182c392e6d600b53b.html" target="element"> Create Invoice</a></td>
-											<td><a href="../elements/id-8b92855f081245d9abe1af01fa404b58.html" target="element"> Invoice</a></td>
-										</tr>
 							</tbody>
 						</table>
 					</div>
