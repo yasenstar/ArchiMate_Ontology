@@ -224,7 +224,8 @@
 <node TEXT="5.5.1 Junction" ID="ID_392723255" CREATED="1734846325230" MODIFIED="1734846329481"/>
 </node>
 <node TEXT="5.6 Summary of Relationships" ID="ID_1154941073" CREATED="1734846342741" MODIFIED="1734846350671"/>
-<node TEXT="5.7 Derivation of Relationships" FOLDED="true" ID="ID_1640701459" CREATED="1734846355256" MODIFIED="1734846361476">
+<node TEXT="5.7 Derivation (推导) of Relationships" ID="ID_1640701459" CREATED="1734846355256" MODIFIED="1735441939705">
+<arrowlink DESTINATION="ID_763878936"/>
 <node TEXT="Example 17: Deviation from a Chain of Relationships" ID="ID_338180397" CREATED="1734846372136" MODIFIED="1734846384048"/>
 </node>
 </node>
@@ -273,7 +274,28 @@
 <node TEXT="12. Implementation and Migration Layer" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866"/>
 <node TEXT="13. Stakeholders, Architecture Views, and Viewpoints" POSITION="bottom_or_right" ID="ID_1097093754" CREATED="1734748979059" MODIFIED="1734748990690"/>
 <node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341"/>
-<node TEXT="Some Reference Resources" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
+<node TEXT="Appendix A" POSITION="bottom_or_right" ID="ID_594263513" CREATED="1735440415353" MODIFIED="1735440420280"/>
+<node TEXT="Appendix B: Relationships (Normative)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1962051841" CREATED="1735440420444" MODIFIED="1735440429575">
+<node TEXT="B.1 Specialization of Derivation Rules" ID="ID_378330114" CREATED="1735440429582" MODIFIED="1735440438352"/>
+<node TEXT="B.2 Derivation Rules for Valid Relationships" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
+<node TEXT="B.2.1 Valid Derivation for Specialization Relationships" ID="ID_1202104533" CREATED="1735440453077" MODIFIED="1735440467216"/>
+<node TEXT="B.2.2 Valid Derivations for Structural Relationships" ID="ID_790169761" CREATED="1735440469732" MODIFIED="1735440480286"/>
+<node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_1965428015" CREATED="1735440480655" MODIFIED="1735440574129"/>
+<node TEXT="B.2.4 Valid Derivations for Dynamic Relationships" ID="ID_1000140227" CREATED="1735441554318" MODIFIED="1735441564367"/>
+</node>
+<node TEXT="B.3 Derivation Rules for Potential Relationships" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
+<node TEXT="B.3.1 Potential Derivation for Specialization Relationships" ID="ID_576894338" CREATED="1735441581091" MODIFIED="1735441596279"/>
+<node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" ID="ID_587336832" CREATED="1735441604099" MODIFIED="1735441624528"/>
+<node TEXT="B.3.3 Potential Derivation for Dependency Relationships" ID="ID_1231077981" CREATED="1735441627445" MODIFIED="1735441638094"/>
+<node TEXT="B.3.4 Potential Derivation for Dynamic Relationships" ID="ID_167412314" CREATED="1735441640429" MODIFIED="1735441651015"/>
+<node TEXT="B.3.5 Potential Derivation Rule for Grouping" ID="ID_1981104670" CREATED="1735441653252" MODIFIED="1735441663311"/>
+</node>
+<node TEXT="B.4 Restrictions on Applying Derivation Rules" ID="ID_773330912" CREATED="1735441666973" MODIFIED="1735441677221"/>
+<node TEXT="B.5 Relationship Tables" ID="ID_1710148812" CREATED="1735441775676" MODIFIED="1735441781565"/>
+<node TEXT="B.6 Grouping, Plateau, and Relationships Between Relationships" ID="ID_1070586363" CREATED="1735441793097" MODIFIED="1735441810367"/>
+</node>
+<node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482"/>
+<node TEXT="Some Reference Resources" FOLDED="true" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
 <node TEXT="OpenGroup Online ArchiMate 3.2 Spec" ID="ID_1307974921" CREATED="1734751096515" MODIFIED="1734751111914" LINK="https://pubs.opengroup.org/architecture/archimate3-doc/"/>
 <node TEXT="OpenGroup ArchiMate 3.2 Online SinglePage" ID="ID_142465940" CREATED="1734751129973" MODIFIED="1734751147677" LINK="https://pubs.opengroup.org/architecture/archimate32-doc.singlepage/"/>
 <node TEXT="ArchiMate 3.2 Starter Pack (Orbus)" ID="ID_1985044959" CREATED="1734751019265" MODIFIED="1734751033470" LINK="https://www.orbussoftware.com/resources/research-library/detail/archimate-starter-pack"/>
@@ -284,6 +306,9 @@
 <node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
 <node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
 <node TEXT="About Zachman Framework" POSITION="bottom_or_right" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
+<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1735441486778" LINK="https://www.w3.org/submissions/SWRL/">
+<node TEXT="Referen: SWRL in Protege" ID="ID_905252988" CREATED="1735441470796" MODIFIED="1735441481578" LINK="https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf"/>
+</node>
 </node>
 </node>
 </map>
