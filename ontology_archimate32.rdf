@@ -817,6 +817,7 @@ The interpretation of a triggering relationship is that some part of the source 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver"/>
+        <archimate32:influences rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment"/>
     </owl:NamedIndividual>
     
 

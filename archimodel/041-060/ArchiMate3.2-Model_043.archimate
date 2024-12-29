@@ -228,25 +228,23 @@
       <element xsi:type="archimate:ServingRelationship" id="id-15cdbc6319dd45caab1cd1fc096959ab" source="id-612a7cfe8ce74ea2a646c0222cdff124" target="id-2af98332c20349daa3041c8f9812aeca"/>
       <element xsi:type="archimate:ServingRelationship" id="id-e45454176c77445bb6fec0312fca7a13" source="id-6184b99873064ab1815aa2df919ea6af" target="id-2af98332c20349daa3041c8f9812aeca"/>
     </folder>
-    <folder name="Example18" id="id-974af182bd9148f0a70e502cee09de9d">
-      <element xsi:type="archimate:AssociationRelationship" id="id-44769086434f407fbc0a490175302975" source="id-fabce26552114f73950adba4b4d146fa" target="id-c56cc55f30f2440cbcbdaac4611ba825"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-c0bcaafd569c487a9a0d75328fb04909" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-9fbf2328fc2e46ff9ec5bcfa47be63f4"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-30eb0ea64aa04897aecca544b83ca3ac" source="id-fabce26552114f73950adba4b4d146fa" target="id-7ebb7b588bf941b5976fd6190a3f9251"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-6f951fa61bad40c4a767841bfbb9862f" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-7ebb7b588bf941b5976fd6190a3f9251"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-0f48e70ba6d54466a7693fc7ca40e29c" source="id-6f7804b97279473dab4567bddbdb19db" target="id-fabce26552114f73950adba4b4d146fa"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-492f92924a7d40c28ce1a7ce9d6f6971" source="id-123779723cb34f6fb26c2c9b77d77823" target="id-13f464120bef4b8fa87c091d5692d891"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-e1e7e0539d5c493cb28f3a4c09c4aaec" source="id-1fa872d7c22b45f695d6dff431f65e92" target="id-0ab48c4a9fb74c7d8753a9f2f10e2ec4"/>
-      <element xsi:type="archimate:AssociationRelationship" id="id-e67f573967e14d569cccb0cab5323213" source="id-e0382f5c418646e9af65a76f295bcd92" target="id-6e0fdf4e2623443babcd004d6de3b5bd"/>
-      <element xsi:type="archimate:CompositionRelationship" id="id-c7b009f9cd404fe3b534567da51a0b35" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-13f464120bef4b8fa87c091d5692d891"/>
-      <element xsi:type="archimate:CompositionRelationship" id="id-8ee7a8843ce54e1fbeb02bef7f7f4579" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-0ab48c4a9fb74c7d8753a9f2f10e2ec4"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-49221923d7c34db1b8f772d494130b9d" source="id-5c701dbe739b434299e9e3a24f567dd1" target="id-6f7804b97279473dab4567bddbdb19db" strength="+"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-c12340623ba84207aad43add60372d11" source="id-6f7804b97279473dab4567bddbdb19db" target="id-123779723cb34f6fb26c2c9b77d77823" strength="+"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-52bc4fbda11c4594bc72f25509225969" source="id-123779723cb34f6fb26c2c9b77d77823" target="id-e0382f5c418646e9af65a76f295bcd92" strength="+"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-92da59946fa540a19ad4f8044153063e" source="id-1fa872d7c22b45f695d6dff431f65e92" target="id-e0382f5c418646e9af65a76f295bcd92" strength="+"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-a97f37d925504747b817dc5908120a5b" source="id-e64d3f34aa4942f79f8e0875d9405516" target="id-6f7804b97279473dab4567bddbdb19db" strength="-"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-1d4fbbc617c3472e9513df8e62963afa" source="id-e64d3f34aa4942f79f8e0875d9405516" target="id-123779723cb34f6fb26c2c9b77d77823" strength="+"/>
-      <element xsi:type="archimate:InfluenceRelationship" id="id-e759b4b865cc46899e63352d0785d9b5" source="id-5c701dbe739b434299e9e3a24f567dd1" target="id-e64d3f34aa4942f79f8e0875d9405516" strength="+"/>
-    </folder>
+    <element xsi:type="archimate:AssociationRelationship" id="id-44769086434f407fbc0a490175302975" source="id-fabce26552114f73950adba4b4d146fa" target="id-c56cc55f30f2440cbcbdaac4611ba825"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-c0bcaafd569c487a9a0d75328fb04909" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-9fbf2328fc2e46ff9ec5bcfa47be63f4"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-30eb0ea64aa04897aecca544b83ca3ac" source="id-fabce26552114f73950adba4b4d146fa" target="id-7ebb7b588bf941b5976fd6190a3f9251"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-6f951fa61bad40c4a767841bfbb9862f" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-7ebb7b588bf941b5976fd6190a3f9251"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-c7b009f9cd404fe3b534567da51a0b35" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-13f464120bef4b8fa87c091d5692d891"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-8ee7a8843ce54e1fbeb02bef7f7f4579" source="id-6e0fdf4e2623443babcd004d6de3b5bd" target="id-0ab48c4a9fb74c7d8753a9f2f10e2ec4"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0f48e70ba6d54466a7693fc7ca40e29c" source="id-6f7804b97279473dab4567bddbdb19db" target="id-fabce26552114f73950adba4b4d146fa"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-49221923d7c34db1b8f772d494130b9d" source="id-5c701dbe739b434299e9e3a24f567dd1" target="id-6f7804b97279473dab4567bddbdb19db" strength="+"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-c12340623ba84207aad43add60372d11" source="id-6f7804b97279473dab4567bddbdb19db" target="id-123779723cb34f6fb26c2c9b77d77823" strength="+"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-492f92924a7d40c28ce1a7ce9d6f6971" source="id-123779723cb34f6fb26c2c9b77d77823" target="id-13f464120bef4b8fa87c091d5692d891"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-52bc4fbda11c4594bc72f25509225969" source="id-123779723cb34f6fb26c2c9b77d77823" target="id-e0382f5c418646e9af65a76f295bcd92" strength="+"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-92da59946fa540a19ad4f8044153063e" source="id-1fa872d7c22b45f695d6dff431f65e92" target="id-e0382f5c418646e9af65a76f295bcd92" strength="+"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e1e7e0539d5c493cb28f3a4c09c4aaec" source="id-1fa872d7c22b45f695d6dff431f65e92" target="id-0ab48c4a9fb74c7d8753a9f2f10e2ec4"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e67f573967e14d569cccb0cab5323213" source="id-e0382f5c418646e9af65a76f295bcd92" target="id-6e0fdf4e2623443babcd004d6de3b5bd"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-a97f37d925504747b817dc5908120a5b" source="id-e64d3f34aa4942f79f8e0875d9405516" target="id-6f7804b97279473dab4567bddbdb19db" strength="-"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-1d4fbbc617c3472e9513df8e62963afa" source="id-e64d3f34aa4942f79f8e0875d9405516" target="id-123779723cb34f6fb26c2c9b77d77823" strength="+"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-e759b4b865cc46899e63352d0785d9b5" source="id-5c701dbe739b434299e9e3a24f567dd1" target="id-e64d3f34aa4942f79f8e0875d9405516" strength="+"/>
   </folder>
   <folder name="Views" id="id-865e24d07d654695b6f699d62971db44" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Example01 - Grouping" id="id-0f6951dcd0c6410897d667bd905d655a">
@@ -805,7 +803,7 @@
       <property key="Last Updated" value="2024/12/29"/>
       <property key="Last Updated by" value="Xiaoqi Zhao"/>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Example18 - Stakeholder, Driver, and Assessment" id="id-77a3142ef39f4ff1ae67a50675f810b7">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Example19 - Stakeholder, Driver, and Assessment" id="id-77a3142ef39f4ff1ae67a50675f810b7">
       <child xsi:type="archimate:Note" id="id-aaf8d589caca42a88e0aeeeb6a62c813" font="1|Segoe UI|13.875|1|WINDOWS|1|-37|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
         <bounds x="48" y="24" width="593" height="38"/>
         <feature name="labelExpression" value="$view{name}"/>
