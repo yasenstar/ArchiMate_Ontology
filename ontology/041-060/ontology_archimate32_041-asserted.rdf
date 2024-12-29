@@ -239,7 +239,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Access -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The access relationship represents a data dpendency, denoted by a dotted line.
 The access relationship represents the ability of behavior and active structure elements to observe or act upon passsive structure elements</rdfs:comment>
     </owl:Class>
@@ -257,6 +259,8 @@ The access relationship represents the ability of behavior and active structure 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
@@ -265,6 +269,8 @@ The access relationship represents the ability of behavior and active structure 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Aggregation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Aggregation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship"/>
         <rdfs:comment>The aggregation relationship represent that an element combines one or more other concepts.
 The interpretation of an aggregation relationship is that the whole or part of the source element aggregates the whole of the target concept.</rdfs:comment>
@@ -283,8 +289,11 @@ The interpretation of an aggregation relationship is that the whole or part of t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_layer"/>
     </owl:Class>
     
 
@@ -292,6 +301,8 @@ The interpretation of an aggregation relationship is that the whole or part of t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assignment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship"/>
         <rdfs:comment>The assignment relationship represents the allocation of responsibility, performance of behavior, storage, or execution.
 The interpretation of an assignment relationship is that the whole or part of the source element is assigned the whole of the target element.</rdfs:comment>
@@ -302,7 +313,9 @@ The interpretation of an assignment relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Association -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Association">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The association relationship represents a depenency not covered by any of the other relationships.
 An association relationship represents an unspecified relationship, or one that is not represented by another ArchiMate relationship.</rdfs:comment>
     </owl:Class>
@@ -320,7 +333,9 @@ An association relationship represents an unspecified relationship, or one that 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
     </owl:Class>
     
 
@@ -336,7 +351,9 @@ An association relationship represents an unspecified relationship, or one that 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Collaboration -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <rdfs:comment>A collaboration represents an aggregate of two or more internal active structure elements, working together to perform some collective behavior.</rdfs:comment>
     </owl:Class>
     
@@ -345,6 +362,8 @@ An association relationship represents an unspecified relationship, or one that 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Composite elements consist of other concepts, possibly from multiple aspects or layers of the language.</rdfs:comment>
     </owl:Class>
@@ -354,6 +373,8 @@ An association relationship represents an unspecified relationship, or one that 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composition -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship"/>
         <rdfs:comment>The composition relationship represents that an elment consists of one or more other concepts.
 The interpretation of a composition relationship is that the whole or part of the source element is composed of the whole of the target element.</rdfs:comment>
@@ -370,6 +391,8 @@ The interpretation of a composition relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Constraint -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Constraint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
     </owl:Class>
     
@@ -378,6 +401,7 @@ The interpretation of a composition relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:seeAlso>The core elements of the ArchiMate language focus on describing the architecture of systems that support the enterprise.</rdfs:seeAlso>
     </owl:Class>
@@ -387,6 +411,7 @@ The interpretation of a composition relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>Dependency relationships, which model how elements are used to support other elements.</rdfs:comment>
     </owl:Class>
@@ -396,6 +421,8 @@ The interpretation of a composition relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -404,6 +431,7 @@ The interpretation of a composition relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Dynamic_Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Dynamic_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>Dynamic relationships, which are used to model behavioral depdendencies between elements.
 The dynamic relationships describe temporal dependencies between elements within the architecture.</rdfs:comment>
@@ -423,6 +451,8 @@ The dynamic relationships describe temporal dependencies between elements within
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
     </owl:Class>
     
 
@@ -430,6 +460,7 @@ The dynamic relationships describe temporal dependencies between elements within
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zachman-feac.com/zachman/about-the-zachman-framework</rdfs:comment>
         <rdfs:seeAlso>The extended elements focus on describing the dirve the design and operation of the enterprise. (These motivation aspects correspond to the &quot;Why&quot; column of the Zachman framework.)</rdfs:seeAlso>
@@ -441,6 +472,8 @@ The dynamic relationships describe temporal dependencies between elements within
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
 
@@ -449,6 +482,8 @@ The dynamic relationships describe temporal dependencies between elements within
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
     </owl:Class>
     
 
@@ -456,7 +491,9 @@ The dynamic relationships describe temporal dependencies between elements within
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Flow -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Dynamic_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The flow relationship represents transfer from one element to another.</rdfs:comment>
     </owl:Class>
     
@@ -465,6 +502,8 @@ The dynamic relationships describe temporal dependencies between elements within
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Function -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <rdfs:comment>A function represents a collection of behaviors based on specific criteria, such as required resources, competencies, or locations, and is managed, performed, or implemented as a whole.</rdfs:comment>
     </owl:Class>
@@ -474,6 +513,8 @@ The dynamic relationships describe temporal dependencies between elements within
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -483,6 +524,8 @@ The dynamic relationships describe temporal dependencies between elements within
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
     </owl:Class>
     
 
@@ -490,7 +533,9 @@ The dynamic relationships describe temporal dependencies between elements within
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Influence -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Influence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The influence relationship represents an impact dependency, denoted by a dashed line.
 The influence relationship represents that an element affects the implementation or achievement of some motivation element.</rdfs:comment>
     </owl:Class>
@@ -500,6 +545,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Interaction -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <rdfs:comment>An interaction represents a unit of collective behavior that must be performed by two or more intenral active structure elements, either assigned directly or aggregated in a collaboration.</rdfs:comment>
     </owl:Class>
@@ -509,7 +556,9 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Interface -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <rdfs:comment>An interface provides an external view on the service provider and hides its internal structure.</rdfs:comment>
     </owl:Class>
     
@@ -519,6 +568,8 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
 
@@ -527,6 +578,8 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
     </owl:Class>
     
 
@@ -534,6 +587,7 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Junction_And -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Junction_And">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship_Connector"/>
         <rdfs:comment>A junction is used to explicitly express that all elements together must participate in the relationship (and junction).</rdfs:comment>
     </owl:Class>
@@ -543,6 +597,7 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Junction_Or -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Junction_Or">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship_Connector"/>
         <rdfs:comment>A junction is used to explicitly express that at least on of the elements participate in the relationship (or junction).</rdfs:comment>
     </owl:Class>
@@ -553,6 +608,8 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
     </owl:Class>
     
 
@@ -560,6 +617,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -576,6 +635,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
     </owl:Class>
     
@@ -584,6 +645,7 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Other_Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Other_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>Other relationships, which do not fall into one of the above categories</rdfs:comment>
     </owl:Class>
@@ -593,6 +655,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -609,6 +673,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:Class>
     
@@ -618,6 +684,7 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Physical">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_layer"/>
     </owl:Class>
     
 
@@ -625,6 +692,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -633,6 +702,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Process -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <rdfs:comment>A process represents a sequence of behaviors that achieves a specific result.</rdfs:comment>
     </owl:Class>
@@ -642,6 +713,8 @@ The influence relationship represents that an element affects the implementation
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Realization -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Realization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship"/>
         <rdfs:comment>The realization relationship represents that an element plays a critical role in the creation, achievement, sustenance, or operation of a more abstract element.
 The realization relationship indicates that more abstract elements (&quot;what&quot; or &quot;logical&quot;) are realized by means of more tangible elements (&quot;how&quot; or &quot;physical&quot;).
@@ -670,6 +743,8 @@ The interpretation of a realization relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -678,6 +753,8 @@ The interpretation of a realization relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Service -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <rdfs:comment>A service is the externally visible behavior of the providing system, from the perspective of systems that use that services; the envrionment consists of everything outside this providing system.</rdfs:comment>
     </owl:Class>
@@ -687,7 +764,9 @@ The interpretation of a realization relationship is that the whole or part of th
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Serving -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Serving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The serving relationship represents a control dependency, denoted by a solid line.
 The serving relationship represents that an element provides its functionality to another element.</rdfs:comment>
     </owl:Class>
@@ -697,7 +776,9 @@ The serving relationship represents that an element provides its functionality t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Specialization -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Specialization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Other_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The specialization relationship represents that an element is a particular kind of another element.</rdfs:comment>
     </owl:Class>
     
@@ -706,6 +787,8 @@ The serving relationship represents that an element provides its functionality t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -722,6 +805,7 @@ The serving relationship represents that an element provides its functionality t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>Structural relationships, which model the static construction or composition of concepts of the same or different types.</rdfs:comment>
     </owl:Class>
@@ -731,7 +815,9 @@ The serving relationship represents that an element provides its functionality t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdfs:comment>Structural elements are assigned to behaviroal elements, to show who or what displays the behavior.</rdfs:comment>
     </owl:Class>
     
@@ -748,7 +834,9 @@ The serving relationship represents that an element provides its functionality t
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Triggering -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Triggering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Dynamic_Relationship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>The triggering relationship represents a temporal or causal relationship between elements.
 The interpretation of a triggering relationship is that some part of the source element should be completed before the target element can start.</rdfs:comment>
     </owl:Class>
@@ -758,6 +846,8 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:Class>
     
@@ -798,6 +888,10 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
     </owl:NamedIndividual>
@@ -807,7 +901,12 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Application_Component -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Application_Component">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -816,7 +915,14 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#archimate_layer"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
     </owl:NamedIndividual>
     
 
@@ -825,7 +931,11 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -833,7 +943,12 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Business_Actor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Business_Actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -842,6 +957,10 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <archimate32:aggregated_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping"/>
+        <archimate32:aggregated_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location"/>
+        <archimate32:composed_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping"/>
+        <archimate32:composed_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location"/>
     </owl:NamedIndividual>
     
 
@@ -849,7 +968,13 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder"/>
     </owl:NamedIndividual>
     
@@ -858,11 +983,22 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
@@ -873,8 +1009,14 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:composed_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
         <archimate32:serves rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
     </owl:NamedIndividual>
     
@@ -883,12 +1025,23 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:serves rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
         <archimate32:serves rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
     </owl:NamedIndividual>
@@ -898,9 +1051,16 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
     </owl:NamedIndividual>
     
 
@@ -908,6 +1068,10 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Grouping"/>
         <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
@@ -918,10 +1082,18 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:served_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Active_Structure_Element"/>
+        <archimate32:served_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
     </owl:NamedIndividual>
     
 
@@ -929,13 +1101,25 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:accesses rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <archimate32:aggregated_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:composed_in rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:flows_from rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:flows_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:served_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:triggered_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
         <archimate32:triggers rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
     </owl:NamedIndividual>
@@ -945,6 +1129,10 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location"/>
         <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
         <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
@@ -955,7 +1143,11 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder"/>
     </owl:NamedIndividual>
     
@@ -964,7 +1156,11 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
+        <archimate32:influenced_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <archimate32:influences rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
     </owl:NamedIndividual>
     
@@ -973,7 +1169,12 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -981,8 +1182,14 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
     </owl:NamedIndividual>
     
@@ -991,7 +1198,16 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Core_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
+        <archimate32:accessed_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Event"/>
+        <archimate32:accessed_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#External_Behavior_Element"/>
+        <archimate32:accessed_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Behavior_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Active_Structure_Element"/>
+        <archimate32:has_assigned rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
     </owl:NamedIndividual>
     
 
@@ -999,7 +1215,13 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
+        <archimate32:realized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
+        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
     </owl:NamedIndividual>
     
@@ -1008,7 +1230,12 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
+        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
     </owl:NamedIndividual>
@@ -1018,7 +1245,14 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Driver"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value"/>
     </owl:NamedIndividual>
     
 
@@ -1026,7 +1260,12 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concept"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Element"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Extended_Elements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Value"/>
+        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
         <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder"/>
     </owl:NamedIndividual>
     
