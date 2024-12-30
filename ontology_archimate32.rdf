@@ -280,6 +280,19 @@ The interpretation of an aggregation relationship is that the whole or part of t
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
+        <rdfs:comment>Source: https://www.linkedin.com/posts/milanmilanovic_technology-softwareengineering-programming-activity-7275053439267598336-aAqp?utm_source=share&amp;utm_medium=member_desktop
+
+LinkedIn post by Dr Milan Milanovic
+
+Neal Ford &amp; Mark Richards, in their book 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲, came up with four dimensions that make up software architecture (pillars).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment">
@@ -812,6 +825,24 @@ The interpretation of a triggering relationship is that some part of the source 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Characteristics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Characteristics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles"/>
+        <rdfs:comment>Quality attributes, known as “ilities” or non-functional system requirements, such as scalability, flexibility, availability, etc.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Decisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Decisions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles"/>
+        <rdfs:comment>These are the strict guidelines for designing systems. They are limitations that affect how the system develops and are concerned with what is prohibited.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Assessment">
@@ -852,6 +883,15 @@ The interpretation of a triggering relationship is that some part of the source 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Constraint">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Constraint"/>
         <archimate32:influences rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Requirement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Design_Principles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Design_Principles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles"/>
+        <rdfs:comment>The design principles are some guidelines about how software should be developed instead of strict restrictions, in contrast to architectural decisions.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1032,6 +1072,15 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Structure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Structure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles"/>
+        <rdfs:comment>This is the method or approach used to implement the system, such as Microservices, Event-Driven, Layered, etc.</rdfs:comment>
     </owl:NamedIndividual>
     
 
