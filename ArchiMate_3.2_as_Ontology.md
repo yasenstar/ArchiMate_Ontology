@@ -96,15 +96,17 @@
 
 ### g21e: How to Use the ArchiMate® Modeling Language to Support the TOGAF® Standard
 
-### Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements
+### Three ways of modeling in ArchiMate
 
-### Supports the concept of realization
+#### Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements
 
-### Logical and physical application components can be defined as metamodel-level specializations of the application component element
+#### Supports the concept of realization
 
-## 3.7/3.8/3.9 More on ArchiMate Language
+#### Logical and physical application components can be defined as metamodel-level specializations of the application component element
 
 ### ArchiMate Language intentionally does not support a difference between types and instances.
+
+## 3.7/3.8/3.9 More on ArchiMate Language
 
 ### ArchiMate Concepts and Notation
 
@@ -131,13 +133,15 @@
 ## 4.3 Summary of Structure and Behavior Elements
 
 ## 4.4 Motivation Elements
+ (see:About Zachman Framework)
+### ? why not cover "Constraint" which in Archi tool
 
 ## 4.5 Composite Elements
-
+ (see:3.2 Top-Level Language Structure)
 ### 4.5.1 Grouping
 
 ### 4.5.2 Location
-
+ (see:About Zachman Framework)
 # 05. Relationships and Relationship Connectors
 
 ## Figure 21: Overview of Relationships
@@ -146,14 +150,18 @@
 
 ### 5.1.1 Composition Relationship
 
+#### UML2 Specification
+ (see:5.1.2 Aggregation Relationship5.4.1 Specialization Relationship)
 ### 5.1.2 Aggregation Relationship
 
 ### 5.1.3 Assignment Relationship
 
+#### ArchiMate 2.1 Specification
+
 ### 5.1.4 Realization Relationship
 
 ### 5.1.5 Semantics of Structural Relationships
-
+ (see:5.3.1 Triggering Relationship)
 ## 5.2 Dependency Relationships
 
 ### 5.2.1 Serving Relationship
@@ -165,10 +173,12 @@
 ### 5.2.4 Association Relationship
 
 ### 5.2.5 Semantics of Dependency Relationships
-
+ (see:5.3.2 Flow Relationship)
 ## 5.3 Dynamic Relationships
 
 ### 5.3.1 Triggering Relationship
+
+#### Triggers in PMBOK
 
 ### 5.3.2 Flow Relationship
 
@@ -178,6 +188,8 @@
 
 ### 5.4.1 Specialization Relationship
 
+#### Added in Archi 4.9
+
 ### 5.4.2 Semantics of Other Relationships
 
 ## 5.5 Relationship Connectors
@@ -186,8 +198,8 @@
 
 ## 5.6 Summary of Relationships
 
-## 5.7 Derivation of Relationships
-
+## 5.7 Derivation (推导) of Relationships
+ (see:B.2 Derivation Rules for Valid Relationships)
 ### Example 17: Deviation from a Chain of Relationships
 
 # 06. Motivation Elements
@@ -248,13 +260,83 @@
 
 ## 7.4 Example
 
+### Example 21: Capability, Resource, and Course of Action
+
+### Example 22: Value Stream with Capability
+
 ## 7.5 Summary of Strategy Elements
 
 ## 7.6 Relationships with Motivation and Core Elements
 
 # 08. Business Layer
 
+## 8.1 Business Layer Metamodel
+
+## 8.2 Active Structure Elements
+
+### 8.2.1 Business Actor
+
+### 8.2.2 Business Role
+
+### 8.2.3 Business Collaboration
+
+### 8.2.4 Business Interface
+
+### 8.2.5 Example
+
+## 8.3 Behavior Elements
+
+### 8.3.1 Business Process
+
+### 8.3.2 Business Function
+
+### 8.3.3 Business Interaction
+
+### 8.3.4 Business Event
+
+### 8.3.5 Business Service
+
+### 8.3.6 Example
+
+## 8.4 Passive Structure Elements
+
+### 8.4.1 Business Object
+
+### 8.4.2 Contract
+
+### 8.4.3 Representation
+
+### 8.4.4 Example
+
+## 8.5 Composite Elements
+
+### 8.5.1 Product
+
+### 8.5.2 Example
+
+## 8.6 Summary of Business Layer Elements
+
 # 09. Application Layer
+
+## 9.1 Application Layer Metamodel
+
+## 9.2 Active Structure Elements
+
+### 9.2.1 Application Component
+
+### 9.2.2 Application Collaboration
+
+### 9.2.3 Application Interface
+
+### 9.2.4 Example
+
+## 9.3 Behavior Elements
+
+### 9.3.1 Application Functions
+
+### 9.3.2 Application Interaction
+
+### 9.3.3 Application Process
 
 # 10. Technology Layer
 
@@ -265,6 +347,42 @@
 # 13. Stakeholders, Architecture Views, and Viewpoints
 
 # 14. Language Customization Mechanisms
+
+# Appendix A
+
+# Appendix B: Relationships (Normative)
+
+## B.1 Specialization of Derivation Rules
+
+## B.2 Derivation Rules for Valid Relationships
+
+### B.2.1 Valid Derivation for Specialization Relationships
+
+### B.2.2 Valid Derivations for Structural Relationships
+
+### B.2.3 Valid Derivation for Dependency Relationships
+
+### B.2.4 Valid Derivations for Dynamic Relationships
+
+## B.3 Derivation Rules for Potential Relationships
+
+### B.3.1 Potential Derivation for Specialization Relationships
+
+### B.3.2 Potential Derivation for Structural and Dependency Relationships
+
+### B.3.3 Potential Derivation for Dependency Relationships
+
+### B.3.4 Potential Derivation for Dynamic Relationships
+
+### B.3.5 Potential Derivation Rule for Grouping
+
+## B.4 Restrictions on Applying Derivation Rules
+
+## B.5 Relationship Tables
+
+## B.6 Grouping, Plateau, and Relationships Between Relationships
+
+# Appendix C: Example Viewpoints
 
 # Some Reference Resources
 
@@ -285,3 +403,9 @@
 ## What's New in ArchiMate 3.2 (Visual Paradigm)
 
 ## Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)
+
+## About Zachman Framework
+
+## SWRL: A Semantic Web Rule Language
+
+### Referen: SWRL in Protege
