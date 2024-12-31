@@ -332,23 +332,165 @@
 
 ## 9.3 Behavior Elements
 
+### 9.3.3 Application Process
+
 ### 9.3.1 Application Functions
 
 ### 9.3.2 Application Interaction
 
-### 9.3.3 Application Process
+### 9.3.4 Application Event
+
+### 9.3.5 Application Service
+
+### 9.3.6 Example
+
+## 9.4 Passive Structure Elements
+
+### 9.4.1 Data Object
+
+### 9.4.2 Example
+
+## 9.5 Summary of Application Layer Elements
 
 # 10. Technology Layer
 
+## 10.1 Technology Layer Metamodel
+
+## 10.2 Active Structure Elements
+
+### 10.2.1 Node
+
+### 10.2.2 Device
+
+### 10.2.3 System Software
+
+### 10.2.4 Technology Collaboration
+
+### 10.2.5 Technology Interface
+
+### 10.2.6 Path
+
+### 10.2.7 Communication Network
+
+### 10.2.8 Example
+
+## 10.3 Behavior Elements
+
+### 10.3.1 Technology Function
+
+### 10.3.2 Technology Process
+
+### 10.3.3 Technology Interaction
+
+### 10.3.4 Technology Event
+
+### 10.3.5 Technology Service
+
+### 10.3.6 Example
+
+## 10.4 Passive Structure Elements
+
+### 10.4.1 Artifact
+
+### 10.4.2 Example
+
+## 10.5 Physical Elements Metamodel
+
+## 10.6 Physical Active Structure Elements
+
+### 10.6.1 Equipment
+
+### 10.6.2 Facility
+
+### 10.6.3 Distribution Network
+
+## 10.7 Passive Structure Elements
+
+### 10.7.1 Material
+
+## 10.8 Example
+
+## 10.9 Summary of Technology Layer Elements
+
 # 11. Relationships Between Core Layers
+
+## 11.1 Alignment of the Business Layer and Lower Layers
+
+## 11.2 Alignment of the Application and Technology Layers
+
+## 11.3 Example
 
 # 12. Implementation and Migration Layer
 
+## 12.1 Implementation and Migration Elements Metamodel
+
+## 12.2 Implementation and Migration Elements
+
+### 12.2.1 Work Package
+
+### 12.2.2 Deliverable
+
+### 12.2.3 Implementation Event
+
+### 12.2.4 Plateau
+
+### 12.2.5 Gap
+
+### 12.2.6 Example
+
+## 12.3 Summary of Implementation and Migration Elements
+
+## 12.4 Relationships
+
+## 12.5 Relationships with Other Aspects and Layers
+
 # 13. Stakeholders, Architecture Views, and Viewpoints
+
+## 13.1 Introduction
+
+## 13.2 Stakeholders and Concerns
+
+## 13.3 Architecture Views and Viewpoints
+
+## 13.4 Viewpoint Mechanism
+
+### 13.4.1 Defining and Classifying Viewpoints
+
+### 13.4.2 Creating the View
+
+## 13.5 Example Viewpoints
 
 # 14. Language Customization Mechanisms
 
-# Appendix A
+## 14.1 Adding Attributes to ArchiMate Concepts
+
+## 14.2 Specialization of Concepts
+
+### 14.2.1 Examples of Specializations of Business Layer Elements (Informative)
+
+### 14.2.2 Examples of Specializations of Application Layer Elements (Informative)
+
+### 14.2.3 Examples of Specializations of Technology Layer Elements (Informative)
+
+### 14.2.4 Examples of Specializations of Physical Elements (Informative)
+
+### 14.2.5 Examples of Specializations of Motivation Elements (Informative)
+
+### 14.2.6 Examples of Specializations of Strategy Elements (Informative)
+
+### 14.2.7 Examples of Specializations of Implementation and Migration Elements (Informative)
+
+### 14.2.8 Examples of Specializations of Composite Elements (Informative)
+
+### 14.2.9 Examples of Specializations of Relationships and Relationship Connectors (Informative)
+
+# Appendix A: Summary of Language Notation
+
+## A.1 Core Elements
+
+## A.2 Motivation, Strategy, Implementation and Migration Elements
+
+## A.3 Relationships and Relationship Connectors
 
 # Appendix B: Relationships (Normative)
 
@@ -383,6 +525,86 @@
 ## B.6 Grouping, Plateau, and Relationships Between Relationships
 
 # Appendix C: Example Viewpoints
+
+## C.1 Basic Viewpoints in the ArchiMate Language
+
+### C.1.1 Organization Viewpoint
+
+### C.1.2 Application Structure Viewpoint
+
+### C.1.3 Information Structure Viewpoint
+
+### C.1.4 Technology Viewpoint
+
+### C.1.5 Layered Viewpoint
+
+### C.1.6 Physical Viewpoint
+
+### C.1.7 Product Viewpoint
+
+### C.1.8 Application Usage Viewpoint
+
+### C.1.9 Technology Usage Viewpoint
+
+### C.1.10 Business Process Cooperation Viewpoint
+
+### C.1.11 Application Cooperation Viewpoint
+
+### C.1.12 Service Realization Viewpoint
+
+### C.1.13 Implementation and Deployment Viewpoint
+
+## C.2 Motivation Viewpoints
+
+### C.2.1 Stakeholder Viewpoint
+
+### C.2.2 Goal Realization Viewpoint
+
+### C.2.3 Requirements Realization Viewpoint
+
+### C.2.4 Motivation Viewpoint
+
+## C.3 Strategy Viewpoints
+
+### C.3.1 Strategy Viewpoint
+
+### C.3.2 Capability Map Viewpoint
+
+### C.3.3 Value Stream Viewpoint
+
+### C.3.4 Outcome Realization Viewpoint
+
+### C.3.5 Resource Map Viewpoint
+
+## C.4 Implementation and Migration Viewpoints
+
+### C.4.1 Project Viewpoint
+
+### C.4.2 Migration Viewpoint
+
+### C.4.3 Implementation and Migration Viewpoint
+
+# Appendix D: Relationship to Other Standards, Specifications, and Guidance Documents
+
+## D.1 The TOGAF Framework
+
+## D.2 The BIZBOK Guide
+
+## D.3 The ArchiMate Language and Other Modeling Languages
+
+## D.4 BPMN
+
+## D.5 UML
+
+## D.6 BMM
+
+# Appendix E: Changes from Version 2.1 to Version 3.2
+
+## E.1 Changes from Version 2.1 to Version 3.0.1
+
+## E.2 Changes from Version 3.0.1 to Version 3.1
+
+## E.3 Changes from Version 3.1 to Version 3.2
 
 # Some Reference Resources
 
