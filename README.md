@@ -43,7 +43,7 @@ Below is the sample screen base on video 027 snapshot:
 
 ![archi-html-report-027](img/archi/archi-html-report-027.png)
 
-The course is publishing in Udemy first, which can be accessed [here](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B), and later also shared in [YouTube 
+The course is publishing in Udemy first, which can be accessed [here - Build Ontology View with ArchiMate 3.2 Specification](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B), and later also shared in [YouTube 
 channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI), keep updating.
 
 Any questions, welcome to raise in Discussion Board. (Year: 2024)
