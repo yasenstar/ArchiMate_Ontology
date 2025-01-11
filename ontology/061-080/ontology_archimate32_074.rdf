@@ -631,15 +631,6 @@ An association relationship represents an unspecified relationship, or one that 
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Active_Structure_Element"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element">
@@ -712,15 +703,6 @@ The interpretation of a composition relationship is that the whole or part of th
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
         <rdfs:comment>Dependency relationships, which model how elements are used to support other elements.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
     </owl:Class>
     
 
@@ -929,7 +911,6 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
     </owl:Class>
     
 
@@ -964,15 +945,6 @@ The influence relationship represents that an element affects the implementation
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Active_Structure_Element"/>
     </owl:Class>
     
 
@@ -1138,15 +1110,6 @@ The serving relationship represents that an element provides its functionality t
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology">
@@ -1167,15 +1130,6 @@ The serving relationship represents that an element provides its functionality t
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Behavior_Element">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Behavior_Element"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Collaboration -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Collaboration">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
     </owl:Class>
     
 
@@ -1722,17 +1676,6 @@ The interpretation of a triggering relationship is that some part of the source 
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Composite_Element">
@@ -1803,18 +1746,6 @@ The interpretation of a triggering relationship is that some part of the source 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Design_Principles">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architectural_Principles"/>
         <rdfs:comment>The design principles are some guidelines about how software should be developed instead of strict restrictions, in contrast to architectural decisions.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network"/>
-        <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
     </owl:NamedIndividual>
     
 
@@ -1956,12 +1887,6 @@ The interpretation of a triggering relationship is that some part of the source 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Internal_Active_Structure_Element"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Artifact"/>
-        <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Device"/>
-        <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node"/>
-        <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
     </owl:NamedIndividual>
     
 
@@ -1981,16 +1906,6 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Passive_Structure_Element"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Path"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
-        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -2090,16 +2005,6 @@ The interpretation of a triggering relationship is that some part of the source 
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:assigned_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Software"/>
-        <archimate32:associated_with rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Communication_Network"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Structure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System_Structure">
@@ -2121,15 +2026,6 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Behavior_Element">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Behavior_Element"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Collaboration -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Collaboration">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Collaboration"/>
-        <archimate32:aggregates rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Internal_Active_Structure_Element"/>
     </owl:NamedIndividual>
     
 
@@ -2358,10 +2254,6 @@ The motivation elements address the way the Enterprise Architecture is aligned t
 Monivation elements are usually denoted using boxes with diagonal corners.
 Motivation elements are used to model the motivations, or reasons, that guide the design or change of an Enterprise Architecture.
 The purpose of the motivation elements is to model the motivation behind the core elements in an Enterprise Architecture.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Node">
-        <rdfs:comment>A node represents a computational or physical resource that hosts, manipulates, or interacts with other computational or physical resources.
-TOGAF framework: &quot;A node is a collection of technology components of hardware and software that provide the services used to support applications&quot;.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome">
         <rdfs:comment>An outcome represents an end result, effect, or consequence of a certain state of affairs.
