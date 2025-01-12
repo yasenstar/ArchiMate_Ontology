@@ -2053,7 +2053,9 @@ The interpretation of a triggering relationship is that some part of the source 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Material">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Material"/>
+        <archimate32:accessed_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Technology_Behavior_Element"/>
         <archimate32:associated_to rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Distribution_Network"/>
+        <archimate32:composed_of rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Material"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Equipment"/>
     </owl:NamedIndividual>
     
@@ -2564,6 +2566,9 @@ Goas represents that a stakeholder wants to realize a certain outcomes</rdfs:com
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location">
         <rdfs:comment>A location represents a conceptual or phyical place or position where concepts are located (e.g. structure elements) or perfomed (e.g. behavior elements).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Material">
+        <rdfs:comment>Material represent tangile physical matter or energy.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Meaning">
         <rdfs:comment>Meaning represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.
