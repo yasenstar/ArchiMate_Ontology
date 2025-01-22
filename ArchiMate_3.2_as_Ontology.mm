@@ -362,9 +362,9 @@
 <node TEXT="11.2 Alignment of the Application and Technology Layers" ID="ID_244743661" CREATED="1735567921326" MODIFIED="1735567931753"/>
 <node TEXT="11.3 Example" ID="ID_1444752290" CREATED="1735567945391" MODIFIED="1735567948532"/>
 </node>
-<node TEXT="12. Implementation and Migration Layer" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866">
+<node TEXT="12. Implementation and Migration Layer" FOLDED="true" POSITION="bottom_or_right" ID="ID_1159049554" CREATED="1734748972216" MODIFIED="1734748978866">
 <node TEXT="12.1 Implementation and Migration Elements Metamodel" ID="ID_1086187237" CREATED="1735567952950" MODIFIED="1735567966657"/>
-<node TEXT="12.2 Implementation and Migration Elements" FOLDED="true" ID="ID_556527477" CREATED="1735567995463" MODIFIED="1735568005609">
+<node TEXT="12.2 Implementation and Migration Elements" ID="ID_556527477" CREATED="1735567995463" MODIFIED="1735568005609">
 <node TEXT="12.2.1 Work Package" ID="ID_1396566116" CREATED="1735568008731" MODIFIED="1735568013664"/>
 <node TEXT="12.2.2 Deliverable" ID="ID_426438938" CREATED="1735568014312" MODIFIED="1735568054319"/>
 <node TEXT="12.2.3 Implementation Event" ID="ID_922906011" CREATED="1735568035717" MODIFIED="1735568049071"/>
@@ -386,7 +386,7 @@
 </node>
 <node TEXT="13.5 Example Viewpoints" ID="ID_1723016572" CREATED="1735568335554" MODIFIED="1735568341757"/>
 </node>
-<node TEXT="14. Language Customization Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
+<node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
 <node TEXT="14.1 Adding Attributes to ArchiMate Concepts" ID="ID_884625457" CREATED="1735568351331" MODIFIED="1735568363254"/>
 <node TEXT="14.2 Specialization of Concepts" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
 <node TEXT="14.2.1 Examples of Specializations of Business Layer Elements (Informative)" ID="ID_467958330" CREATED="1735568505072" MODIFIED="1735568524060"/>
@@ -413,7 +413,7 @@
 <node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_1965428015" CREATED="1735440480655" MODIFIED="1735440574129"/>
 <node TEXT="B.2.4 Valid Derivations for Dynamic Relationships" ID="ID_1000140227" CREATED="1735441554318" MODIFIED="1735441564367"/>
 </node>
-<node TEXT="B.3 Derivation Rules for Potential Relationships" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
+<node TEXT="B.3 Derivation Rules for Potential Relationships" FOLDED="true" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
 <node TEXT="B.3.1 Potential Derivation for Specialization Relationships" ID="ID_576894338" CREATED="1735441581091" MODIFIED="1735441596279"/>
 <node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" ID="ID_587336832" CREATED="1735441604099" MODIFIED="1735441624528"/>
 <node TEXT="B.3.3 Potential Derivation for Dependency Relationships" ID="ID_1231077981" CREATED="1735441627445" MODIFIED="1735441638094"/>
