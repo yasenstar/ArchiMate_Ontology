@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-8.625 pt;" ENDINCLINATION="81.75 pt;19.875 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-8.25 pt;" ENDINCLINATION="81.75 pt;19.875 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -393,7 +393,9 @@
 <node TEXT="14.2.2 Examples of Specializations of Application Layer Elements (Informative)" ID="ID_1446020400" CREATED="1735568596809" MODIFIED="1735568619493"/>
 <node TEXT="14.2.3 Examples of Specializations of Technology Layer Elements (Informative)" ID="ID_1469714788" CREATED="1735632546609" MODIFIED="1735632597711"/>
 <node TEXT="14.2.4 Examples of Specializations of Physical Elements (Informative)" ID="ID_1039607917" CREATED="1735632641012" MODIFIED="1735632666215"/>
-<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717"/>
+<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
+<node TEXT="«  »&#xa;&#xa;Left pointing double angle quotation mark:&#xa;Unicode: U+000AB&#xa;HTML entity: &amp;laquo; – HTML code: &amp;#171;&#xa;PC keystroke: ALT+0171&#xa;&#xa;Right pointing double angle quotation mark&#xa;Unicode: U+000BB&#xa;HTML entity: &amp;raquo; – HTML code: &amp;#187;&#xa;PC keystroke: ALT+0187" ID="ID_1475027004" CREATED="1737627308256" MODIFIED="1737627311915"/>
+</node>
 <node TEXT="14.2.6 Examples of Specializations of Strategy Elements (Informative)" ID="ID_307101439" CREATED="1735632691021" MODIFIED="1735632711565"/>
 <node TEXT="14.2.7 Examples of Specializations of Implementation and Migration Elements (Informative)" ID="ID_919078414" CREATED="1735632711951" MODIFIED="1735632753470"/>
 <node TEXT="14.2.8 Examples of Specializations of Composite Elements (Informative)" ID="ID_75282338" CREATED="1735632757881" MODIFIED="1735632772508"/>
