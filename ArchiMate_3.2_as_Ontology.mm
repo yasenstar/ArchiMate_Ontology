@@ -386,14 +386,14 @@
 </node>
 <node TEXT="13.5 Example Viewpoints" ID="ID_1723016572" CREATED="1735568335554" MODIFIED="1735568341757"/>
 </node>
-<node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
+<node TEXT="14. Language Customization Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
 <node TEXT="14.1 Adding Attributes to ArchiMate Concepts" ID="ID_884625457" CREATED="1735568351331" MODIFIED="1735568363254"/>
-<node TEXT="14.2 Specialization of Concepts" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
+<node TEXT="14.2 Specialization of Concepts" FOLDED="true" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
 <node TEXT="14.2.1 Examples of Specializations of Business Layer Elements (Informative)" ID="ID_467958330" CREATED="1735568505072" MODIFIED="1735568524060"/>
 <node TEXT="14.2.2 Examples of Specializations of Application Layer Elements (Informative)" ID="ID_1446020400" CREATED="1735568596809" MODIFIED="1735568619493"/>
 <node TEXT="14.2.3 Examples of Specializations of Technology Layer Elements (Informative)" ID="ID_1469714788" CREATED="1735632546609" MODIFIED="1735632597711"/>
 <node TEXT="14.2.4 Examples of Specializations of Physical Elements (Informative)" ID="ID_1039607917" CREATED="1735632641012" MODIFIED="1735632666215"/>
-<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
+<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" FOLDED="true" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
 <node TEXT="«  »&#xa;&#xa;Left pointing double angle quotation mark:&#xa;Unicode: U+000AB&#xa;HTML entity: &amp;laquo; – HTML code: &amp;#171;&#xa;PC keystroke: ALT+0171&#xa;&#xa;Right pointing double angle quotation mark&#xa;Unicode: U+000BB&#xa;HTML entity: &amp;raquo; – HTML code: &amp;#187;&#xa;PC keystroke: ALT+0187" ID="ID_1475027004" CREATED="1737627308256" MODIFIED="1737627311915"/>
 </node>
 <node TEXT="14.2.6 Examples of Specializations of Strategy Elements (Informative)" ID="ID_307101439" CREATED="1735632691021" MODIFIED="1735632711565"/>
@@ -407,9 +407,9 @@
 <node TEXT="A.2 Motivation, Strategy, Implementation and Migration Elements" ID="ID_412331629" CREATED="1735633785448" MODIFIED="1735633797868"/>
 <node TEXT="A.3 Relationships and Relationship Connectors" ID="ID_1095682338" CREATED="1735633801678" MODIFIED="1735633811165"/>
 </node>
-<node TEXT="Appendix B: Relationships (Normative)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1962051841" CREATED="1735440420444" MODIFIED="1735440429575">
+<node TEXT="Appendix B: Relationships (Normative)" POSITION="bottom_or_right" ID="ID_1962051841" CREATED="1735440420444" MODIFIED="1735440429575">
 <node TEXT="B.1 Specialization of Derivation Rules" ID="ID_378330114" CREATED="1735440429582" MODIFIED="1735440438352"/>
-<node TEXT="B.2 Derivation Rules for Valid Relationships" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
+<node TEXT="B.2 Derivation Rules for Valid Relationships" FOLDED="true" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
 <node TEXT="B.2.1 Valid Derivation for Specialization Relationships" ID="ID_1202104533" CREATED="1735440453077" MODIFIED="1735440467216"/>
 <node TEXT="B.2.2 Valid Derivations for Structural Relationships" ID="ID_790169761" CREATED="1735440469732" MODIFIED="1735440480286"/>
 <node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_1965428015" CREATED="1735440480655" MODIFIED="1735440574129"/>
@@ -417,7 +417,27 @@
 </node>
 <node TEXT="B.3 Derivation Rules for Potential Relationships" FOLDED="true" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
 <node TEXT="B.3.1 Potential Derivation for Specialization Relationships" ID="ID_576894338" CREATED="1735441581091" MODIFIED="1735441596279"/>
-<node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" ID="ID_587336832" CREATED="1735441604099" MODIFIED="1735441624528"/>
+<node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" FOLDED="true" ID="ID_587336832" CREATED="1735441604099" MODIFIED="1735441624528">
+<node TEXT="Appendix B: Relationships (Normative)" POSITION="bottom_or_right" ID="ID_759176494" CREATED="1735440420444" MODIFIED="1735440429575">
+<node TEXT="B.1 Specialization of Derivation Rules" ID="ID_627649334" CREATED="1735440429582" MODIFIED="1735440438352"/>
+<node TEXT="B.2 Derivation Rules for Valid Relationships" FOLDED="true" ID="ID_870990951" CREATED="1735440443871" MODIFIED="1735440453072">
+<node TEXT="B.2.1 Valid Derivation for Specialization Relationships" ID="ID_886828820" CREATED="1735440453077" MODIFIED="1735440467216"/>
+<node TEXT="B.2.2 Valid Derivations for Structural Relationships" ID="ID_1816161323" CREATED="1735440469732" MODIFIED="1735440480286"/>
+<node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_530463179" CREATED="1735440480655" MODIFIED="1735440574129"/>
+<node TEXT="B.2.4 Valid Derivations for Dynamic Relationships" ID="ID_360967895" CREATED="1735441554318" MODIFIED="1735441564367"/>
+</node>
+<node TEXT="B.3 Derivation Rules for Potential Relationships" ID="ID_1737285122" CREATED="1735441569117" MODIFIED="1735441578799">
+<node TEXT="B.3.1 Potential Derivation for Specialization Relationships" ID="ID_480184661" CREATED="1735441581091" MODIFIED="1735441596279"/>
+<node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" ID="ID_1039321627" CREATED="1735441604099" MODIFIED="1735441624528"/>
+<node TEXT="B.3.3 Potential Derivation for Dependency Relationships" ID="ID_1330647705" CREATED="1735441627445" MODIFIED="1735441638094"/>
+<node TEXT="B.3.4 Potential Derivation for Dynamic Relationships" ID="ID_1839235288" CREATED="1735441640429" MODIFIED="1735441651015"/>
+<node TEXT="B.3.5 Potential Derivation Rule for Grouping" ID="ID_1485235053" CREATED="1735441653252" MODIFIED="1735441663311"/>
+</node>
+<node TEXT="B.4 Restrictions on Applying Derivation Rules" ID="ID_909062133" CREATED="1735441666973" MODIFIED="1735441677221"/>
+<node TEXT="B.5 Relationship Tables" ID="ID_720127524" CREATED="1735441775676" MODIFIED="1735441781565"/>
+<node TEXT="B.6 Grouping, Plateau, and Relationships Between Relationships" ID="ID_201694278" CREATED="1735441793097" MODIFIED="1735441810367"/>
+</node>
+</node>
 <node TEXT="B.3.3 Potential Derivation for Dependency Relationships" ID="ID_1231077981" CREATED="1735441627445" MODIFIED="1735441638094"/>
 <node TEXT="B.3.4 Potential Derivation for Dynamic Relationships" ID="ID_167412314" CREATED="1735441640429" MODIFIED="1735441651015"/>
 <node TEXT="B.3.5 Potential Derivation Rule for Grouping" ID="ID_1981104670" CREATED="1735441653252" MODIFIED="1735441663311"/>
@@ -442,20 +462,20 @@
 <node TEXT="C.1.12 Service Realization Viewpoint" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1735634062915"/>
 <node TEXT="C.1.13 Implementation and Deployment Viewpoint" ID="ID_1730518273" CREATED="1735634070719" MODIFIED="1735634079754"/>
 </node>
-<node TEXT="C.2 Motivation Viewpoints" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
+<node TEXT="C.2 Motivation Viewpoints" FOLDED="true" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
 <node TEXT="C.2.1 Stakeholder Viewpoint" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316"/>
 <node TEXT="C.2.2 Goal Realization Viewpoint" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593"/>
 <node TEXT="C.2.3 Requirements Realization Viewpoint" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1735634471225"/>
 <node TEXT="C.2.4 Motivation Viewpoint" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1735634486200"/>
 </node>
-<node TEXT="C.3 Strategy Viewpoints" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
+<node TEXT="C.3 Strategy Viewpoints" FOLDED="true" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
 <node TEXT="C.3.1 Strategy Viewpoint" ID="ID_1679371072" CREATED="1735634495050" MODIFIED="1735634501912"/>
 <node TEXT="C.3.2 Capability Map Viewpoint" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879"/>
 <node TEXT="C.3.3 Value Stream Viewpoint" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240"/>
 <node TEXT="C.3.4 Outcome Realization Viewpoint" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488"/>
 <node TEXT="C.3.5 Resource Map Viewpoint" ID="ID_1211413100" CREATED="1735634555278" MODIFIED="1735634561072"/>
 </node>
-<node TEXT="C.4 Implementation and Migration Viewpoints" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
+<node TEXT="C.4 Implementation and Migration Viewpoints" FOLDED="true" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
 <node TEXT="C.4.1 Project Viewpoint" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056"/>
 <node TEXT="C.4.2 Migration Viewpoint" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1735634592745"/>
 <node TEXT="C.4.3 Implementation and Migration Viewpoint" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1735634606419"/>
@@ -474,7 +494,7 @@
 <node TEXT="E.2 Changes from Version 3.0.1 to Version 3.1" ID="ID_984261086" CREATED="1735634789637" MODIFIED="1735634802479"/>
 <node TEXT="E.3 Changes from Version 3.1 to Version 3.2" ID="ID_63641070" CREATED="1735634803116" MODIFIED="1735634814198"/>
 </node>
-<node TEXT="Some Reference Resources" FOLDED="true" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
+<node TEXT="Some Reference Resources" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
 <node TEXT="OpenGroup Online ArchiMate 3.2 Spec" ID="ID_1307974921" CREATED="1734751096515" MODIFIED="1734751111914" LINK="https://pubs.opengroup.org/architecture/archimate3-doc/"/>
 <node TEXT="OpenGroup ArchiMate 3.2 Online SinglePage" ID="ID_142465940" CREATED="1734751129973" MODIFIED="1734751147677" LINK="https://pubs.opengroup.org/architecture/archimate32-doc.singlepage/"/>
 <node TEXT="ArchiMate 3.2 Starter Pack (Orbus)" ID="ID_1985044959" CREATED="1734751019265" MODIFIED="1734751033470" LINK="https://www.orbussoftware.com/resources/research-library/detail/archimate-starter-pack"/>
@@ -485,8 +505,10 @@
 <node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
 <node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
 <node TEXT="About Zachman Framework" POSITION="bottom_or_right" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
-<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1735441486778" LINK="https://www.w3.org/submissions/SWRL/">
+<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1737852215804" LINK="https://www.w3.org/submissions/SWRL/">
+<arrowlink DESTINATION="ID_378330114"/>
 <node TEXT="Referen: SWRL in Protege" ID="ID_905252988" CREATED="1735441470796" MODIFIED="1735441481578" LINK="https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf"/>
+<node TEXT="Video 38 of &quot;Ontology Practice - Build pizza.owl in Protege" ID="ID_872946894" CREATED="1737852417016" MODIFIED="1737852439047" LINK="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW"/>
 </node>
 </node>
 </node>
