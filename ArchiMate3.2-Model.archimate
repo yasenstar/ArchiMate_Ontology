@@ -932,15 +932,17 @@
         <element xsi:type="archimate:RealizationRelationship" id="id-ea3732ff15834274b4be5575d59768c9" source="id-6184b99873064ab1815aa2df919ea6af" target="id-27e67f9475764f78a1a3aabf4ae89d31"/>
       </folder>
     </folder>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-3f550159583e4851983e7303313918df" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-e1dbfc366bef4d64a16eaf6f502425f7"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-d25d61f2f98f401485fc6dd63e1fc048" source="id-e1dbfc366bef4d64a16eaf6f502425f7" target="id-e5af6ef0bfa7452d9d016e7c3fad8f0f"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-9f15628b90234dc3a2e13fb6bab9e70e" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-462cddbd166c4e4f993a54bfeb440dcc" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-29664238bb1946a9b1da611a87ff38e6"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-b02992554435459a827f30587623e097" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-975a22c18e6d45cda32ec89356a04a6a"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-bd2bb31c76e84d6eb67d30fff2e284f9" source="id-19546126da914ee99c11223f27395415" target="id-e5af6ef0bfa7452d9d016e7c3fad8f0f"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-99f842f313e04c859cd618aab79848ee" source="id-758adde8aa2548c094175ddfa3c270d2" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-5394efe7a9e84220bf9e2cfc78910fbe" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-29664238bb1946a9b1da611a87ff38e6"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-f3f0c5ade4924eaaad8ba680755a1a81" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
+    <folder name="Example47" id="id-36cc3d15e0f1466caac5c55b99fa7ef5">
+      <element xsi:type="archimate:AssignmentRelationship" id="id-3f550159583e4851983e7303313918df" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-e1dbfc366bef4d64a16eaf6f502425f7"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-bd2bb31c76e84d6eb67d30fff2e284f9" source="id-19546126da914ee99c11223f27395415" target="id-e5af6ef0bfa7452d9d016e7c3fad8f0f"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-99f842f313e04c859cd618aab79848ee" source="id-758adde8aa2548c094175ddfa3c270d2" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-462cddbd166c4e4f993a54bfeb440dcc" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-29664238bb1946a9b1da611a87ff38e6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b02992554435459a827f30587623e097" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-975a22c18e6d45cda32ec89356a04a6a"/>
+      <element xsi:type="archimate:TriggeringRelationship" id="id-d25d61f2f98f401485fc6dd63e1fc048" source="id-e1dbfc366bef4d64a16eaf6f502425f7" target="id-e5af6ef0bfa7452d9d016e7c3fad8f0f"/>
+      <element xsi:type="archimate:TriggeringRelationship" id="id-9f15628b90234dc3a2e13fb6bab9e70e" source="id-e5af6ef0bfa7452d9d016e7c3fad8f0f" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
+      <element xsi:type="archimate:TriggeringRelationship" id="id-5394efe7a9e84220bf9e2cfc78910fbe" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-29664238bb1946a9b1da611a87ff38e6"/>
+      <element xsi:type="archimate:TriggeringRelationship" id="id-f3f0c5ade4924eaaad8ba680755a1a81" source="id-0f81ac4565b54b0c97d7b47897dfb188" target="id-d92c5aaf2bc248a28ed38b511f279844"/>
+    </folder>
   </folder>
   <folder name="Views" id="id-865e24d07d654695b6f699d62971db44" type="diagrams">
     <folder name="Ex01-Ex20" id="id-2d9dab62959541389b5569a860e9eb76">

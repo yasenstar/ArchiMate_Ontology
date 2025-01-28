@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="1.1">
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.75131476">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -386,15 +386,15 @@
 </node>
 <node TEXT="13.5 Example Viewpoints" ID="ID_1723016572" CREATED="1735568335554" MODIFIED="1735568341757"/>
 </node>
-<node TEXT="14. Language Customization Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
+<node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
 <node TEXT="14.1 Adding Attributes to ArchiMate Concepts" ID="ID_884625457" CREATED="1735568351331" MODIFIED="1735568363254"/>
-<node TEXT="14.2 Specialization of Concepts" FOLDED="true" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
+<node TEXT="14.2 Specialization of Concepts" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
 <node TEXT="14.2.1 Examples of Specializations of Business Layer Elements (Informative)" ID="ID_467958330" CREATED="1735568505072" MODIFIED="1735568524060"/>
 <node TEXT="14.2.2 Examples of Specializations of Application Layer Elements (Informative)" ID="ID_1446020400" CREATED="1735568596809" MODIFIED="1735568619493"/>
 <node TEXT="14.2.3 Examples of Specializations of Technology Layer Elements (Informative)" ID="ID_1469714788" CREATED="1735632546609" MODIFIED="1735632597711"/>
 <node TEXT="14.2.4 Examples of Specializations of Physical Elements (Informative)" ID="ID_1039607917" CREATED="1735632641012" MODIFIED="1735632666215"/>
-<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" FOLDED="true" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
-<node TEXT="«  »&#xa;&#xa;Left pointing double angle quotation mark:&#xa;Unicode: U+000AB&#xa;HTML entity: &amp;laquo; – HTML code: &amp;#171;&#xa;PC keystroke: ALT+0171&#xa;&#xa;Right pointing double angle quotation mark&#xa;Unicode: U+000BB&#xa;HTML entity: &amp;raquo; – HTML code: &amp;#187;&#xa;PC keystroke: ALT+0187" ID="ID_1475027004" CREATED="1737627308256" MODIFIED="1737627311915"/>
+<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
+<node TEXT="«  »&#xa;&#xa;Left pointing double angle quotation mark:&#xa;Unicode: U+000AB&#xa;HTML entity: &amp;laquo; – HTML code: &amp;#171;&#xa;PC keystroke: ALT+0171&#xa;&#xa;Right pointing double angle quotation mark&#xa;Unicode: U+000BB&#xa;HTML entity: &amp;raquo; – HTML code: &amp;#187;&#xa;PC keystroke: ALT+0187" ID="ID_1475027004" CREATED="1737627308256" MODIFIED="1738044146650" LINK="https://www.prepressure.com/fonts/basics/character-names#doublequotmarks"/>
 </node>
 <node TEXT="14.2.6 Examples of Specializations of Strategy Elements (Informative)" ID="ID_307101439" CREATED="1735632691021" MODIFIED="1735632711565"/>
 <node TEXT="14.2.7 Examples of Specializations of Implementation and Migration Elements (Informative)" ID="ID_919078414" CREATED="1735632711951" MODIFIED="1735632753470"/>
@@ -409,13 +409,13 @@
 </node>
 <node TEXT="Appendix B: Relationships (Normative)" POSITION="bottom_or_right" ID="ID_1962051841" CREATED="1735440420444" MODIFIED="1735440429575">
 <node TEXT="B.1 Specialization of Derivation Rules" ID="ID_378330114" CREATED="1735440429582" MODIFIED="1735440438352"/>
-<node TEXT="B.2 Derivation Rules for Valid Relationships" FOLDED="true" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
+<node TEXT="B.2 Derivation Rules for Valid Relationships" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
 <node TEXT="B.2.1 Valid Derivation for Specialization Relationships" ID="ID_1202104533" CREATED="1735440453077" MODIFIED="1735440467216"/>
 <node TEXT="B.2.2 Valid Derivations for Structural Relationships" ID="ID_790169761" CREATED="1735440469732" MODIFIED="1735440480286"/>
 <node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_1965428015" CREATED="1735440480655" MODIFIED="1735440574129"/>
 <node TEXT="B.2.4 Valid Derivations for Dynamic Relationships" ID="ID_1000140227" CREATED="1735441554318" MODIFIED="1735441564367"/>
 </node>
-<node TEXT="B.3 Derivation Rules for Potential Relationships" FOLDED="true" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
+<node TEXT="B.3 Derivation Rules for Potential Relationships" ID="ID_1309231620" CREATED="1735441569117" MODIFIED="1735441578799">
 <node TEXT="B.3.1 Potential Derivation for Specialization Relationships" ID="ID_576894338" CREATED="1735441581091" MODIFIED="1735441596279"/>
 <node TEXT="B.3.2 Potential Derivation for Structural and Dependency Relationships" FOLDED="true" ID="ID_587336832" CREATED="1735441604099" MODIFIED="1735441624528">
 <node TEXT="Appendix B: Relationships (Normative)" POSITION="bottom_or_right" ID="ID_759176494" CREATED="1735440420444" MODIFIED="1735440429575">
@@ -447,7 +447,7 @@
 <node TEXT="B.6 Grouping, Plateau, and Relationships Between Relationships" ID="ID_1070586363" CREATED="1735441793097" MODIFIED="1735441810367"/>
 </node>
 <node TEXT="Appendix C: Example Viewpoints" FOLDED="true" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
-<node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
+<node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" FOLDED="true" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
 <node TEXT="C.1.1 Organization Viewpoint" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1735633880610"/>
 <node TEXT="C.1.2 Application Structure Viewpoint" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1735633941649"/>
 <node TEXT="C.1.3 Information Structure Viewpoint" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426"/>
@@ -494,7 +494,7 @@
 <node TEXT="E.2 Changes from Version 3.0.1 to Version 3.1" ID="ID_984261086" CREATED="1735634789637" MODIFIED="1735634802479"/>
 <node TEXT="E.3 Changes from Version 3.1 to Version 3.2" ID="ID_63641070" CREATED="1735634803116" MODIFIED="1735634814198"/>
 </node>
-<node TEXT="Some Reference Resources" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
+<node TEXT="Some Reference Resources" FOLDED="true" POSITION="bottom_or_right" ID="ID_1641564944" CREATED="1734751012690" MODIFIED="1734751019261">
 <node TEXT="OpenGroup Online ArchiMate 3.2 Spec" ID="ID_1307974921" CREATED="1734751096515" MODIFIED="1734751111914" LINK="https://pubs.opengroup.org/architecture/archimate3-doc/"/>
 <node TEXT="OpenGroup ArchiMate 3.2 Online SinglePage" ID="ID_142465940" CREATED="1734751129973" MODIFIED="1734751147677" LINK="https://pubs.opengroup.org/architecture/archimate32-doc.singlepage/"/>
 <node TEXT="ArchiMate 3.2 Starter Pack (Orbus)" ID="ID_1985044959" CREATED="1734751019265" MODIFIED="1734751033470" LINK="https://www.orbussoftware.com/resources/research-library/detail/archimate-starter-pack"/>
@@ -505,7 +505,7 @@
 <node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
 <node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
 <node TEXT="About Zachman Framework" POSITION="bottom_or_right" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
-<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1737852215804" LINK="https://www.w3.org/submissions/SWRL/">
+<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1737860004711" LINK="https://www.w3.org/submissions/SWRL/">
 <arrowlink DESTINATION="ID_378330114"/>
 <node TEXT="Referen: SWRL in Protege" ID="ID_905252988" CREATED="1735441470796" MODIFIED="1735441481578" LINK="https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf"/>
 <node TEXT="Video 38 of &quot;Ontology Practice - Build pizza.owl in Protege" ID="ID_872946894" CREATED="1737852417016" MODIFIED="1737852439047" LINK="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW"/>
