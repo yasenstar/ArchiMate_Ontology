@@ -386,14 +386,14 @@
 </node>
 <node TEXT="13.5 Example Viewpoints" ID="ID_1723016572" CREATED="1735568335554" MODIFIED="1735568341757"/>
 </node>
-<node TEXT="14. Language Customization Mechanisms" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
+<node TEXT="14. Language Customization Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_964937616" CREATED="1734748994150" MODIFIED="1734749002341">
 <node TEXT="14.1 Adding Attributes to ArchiMate Concepts" ID="ID_884625457" CREATED="1735568351331" MODIFIED="1735568363254"/>
-<node TEXT="14.2 Specialization of Concepts" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
+<node TEXT="14.2 Specialization of Concepts" FOLDED="true" ID="ID_507740550" CREATED="1735568476148" MODIFIED="1735568484525">
 <node TEXT="14.2.1 Examples of Specializations of Business Layer Elements (Informative)" ID="ID_467958330" CREATED="1735568505072" MODIFIED="1735568524060"/>
 <node TEXT="14.2.2 Examples of Specializations of Application Layer Elements (Informative)" ID="ID_1446020400" CREATED="1735568596809" MODIFIED="1735568619493"/>
 <node TEXT="14.2.3 Examples of Specializations of Technology Layer Elements (Informative)" ID="ID_1469714788" CREATED="1735632546609" MODIFIED="1735632597711"/>
 <node TEXT="14.2.4 Examples of Specializations of Physical Elements (Informative)" ID="ID_1039607917" CREATED="1735632641012" MODIFIED="1735632666215"/>
-<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
+<node TEXT="14.2.5 Examples of Specializations of Motivation Elements (Informative)" FOLDED="true" ID="ID_437367260" CREATED="1735632669721" MODIFIED="1735632685717">
 <node TEXT="«  »&#xa;&#xa;Left pointing double angle quotation mark:&#xa;Unicode: U+000AB&#xa;HTML entity: &amp;laquo; – HTML code: &amp;#171;&#xa;PC keystroke: ALT+0171&#xa;&#xa;Right pointing double angle quotation mark&#xa;Unicode: U+000BB&#xa;HTML entity: &amp;raquo; – HTML code: &amp;#187;&#xa;PC keystroke: ALT+0187" ID="ID_1475027004" CREATED="1737627308256" MODIFIED="1738044146650" LINK="https://www.prepressure.com/fonts/basics/character-names#doublequotmarks"/>
 </node>
 <node TEXT="14.2.6 Examples of Specializations of Strategy Elements (Informative)" ID="ID_307101439" CREATED="1735632691021" MODIFIED="1735632711565"/>
@@ -409,7 +409,7 @@
 </node>
 <node TEXT="Appendix B: Relationships (Normative)" POSITION="bottom_or_right" ID="ID_1962051841" CREATED="1735440420444" MODIFIED="1735440429575">
 <node TEXT="B.1 Specialization of Derivation Rules" ID="ID_378330114" CREATED="1735440429582" MODIFIED="1735440438352"/>
-<node TEXT="B.2 Derivation Rules for Valid Relationships" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
+<node TEXT="B.2 Derivation Rules for Valid Relationships" FOLDED="true" ID="ID_763878936" CREATED="1735440443871" MODIFIED="1735440453072">
 <node TEXT="B.2.1 Valid Derivation for Specialization Relationships" ID="ID_1202104533" CREATED="1735440453077" MODIFIED="1735440467216"/>
 <node TEXT="B.2.2 Valid Derivations for Structural Relationships" ID="ID_790169761" CREATED="1735440469732" MODIFIED="1735440480286"/>
 <node TEXT="B.2.3 Valid Derivation for Dependency Relationships" ID="ID_1965428015" CREATED="1735440480655" MODIFIED="1735440574129"/>
