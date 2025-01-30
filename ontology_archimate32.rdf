@@ -853,7 +853,8 @@ The interpretation of a composition relationship is that the whole or part of th
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Depdendency_Relationship">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
-        <rdfs:comment>Dependency relationships, which model how elements are used to support other elements.</rdfs:comment>
+        <rdfs:comment>Dependency relationships, which model how elements are used to support other elements.
+From weakest to stongest: Association -&gt; Influence -&gt; Access -&gt; Serving</rdfs:comment>
     </owl:Class>
     
 
@@ -1341,7 +1342,8 @@ The serving relationship represents that an element provides its functionality t
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structural_Relationship">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationship"/>
-        <rdfs:comment>Structural relationships, which model the static construction or composition of concepts of the same or different types.</rdfs:comment>
+        <rdfs:comment>Structural relationships, which model the static construction or composition of concepts of the same or different types.
+From weakest to strongest: Realization -&gt; Assignment -&gt; Aggregation -&gt; Composition</rdfs:comment>
     </owl:Class>
     
 
