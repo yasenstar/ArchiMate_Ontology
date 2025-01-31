@@ -576,15 +576,35 @@ PC keystroke: ALT+0187
 
 #### C.1.1 Organization Viewpoint
 
+##### Sample (Visual-Paradigm)
+
 #### C.1.2 Application Structure Viewpoint
+
+##### Sample (SparxSystems)
 
 #### C.1.3 Information Structure Viewpoint
 
+##### Sample 1 (Visual-Paradigm)
+
+##### Sample 2 (SparxSystems)
+
 #### C.1.4 Technology Viewpoint
+
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
 
 #### C.1.5 Layered Viewpoint
 
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
+
 #### C.1.6 Physical Viewpoint
+
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
 
 ### Category: Support
 
@@ -686,5 +706,8 @@ PC keystroke: ALT+0187
 
 ### Video 38 of "Ontology Practice - Build pizza.owl in Protege
 
-## Visual-Paradigm Sample Viewpoints
+## ArchiMate Viewpoints
+
+### Visual-Paradigm Sample Viewpoints
  (see:Appendix C: Example Viewpoints)
+### Architecture Views and Viewpoints (Sparx)

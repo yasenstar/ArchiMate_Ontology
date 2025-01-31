@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.82644624">
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -449,19 +449,28 @@
 <node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
 <node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
 <node TEXT="Category: Composition" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
-<node TEXT="C.1.1 Organization Viewpoint" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738322463099">
+<node TEXT="C.1.1 Organization Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738322463099">
 <node TEXT="Sample (Visual-Paradigm)" ID="ID_1091821093" CREATED="1738322391421" MODIFIED="1738322458307" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
 </node>
-<node TEXT="C.1.2 Application Structure Viewpoint" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1738322436463">
-<node TEXT="Sample (SparxSystems)" ID="ID_1460390824" CREATED="1738322400773" MODIFIED="1738322430453" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpt-appstruct.html"/>
+<node TEXT="C.1.2 Application Structure Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1738331318399" VGAP_QUANTITY="3 pt">
+<node TEXT="Sample (SparxSystems)" ID="ID_1460390824" CREATED="1738322400773" MODIFIED="1738331318398" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpt-appstruct.html"/>
 </node>
-<node TEXT="C.1.3 Information Structure Viewpoint" POSITION="bottom_or_right" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426">
+<node TEXT="C.1.3 Information Structure Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426">
 <node TEXT="Sample 1 (Visual-Paradigm)" ID="ID_609774376" CREATED="1738316488096" MODIFIED="1738316509265" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86485_informations.html"/>
 <node TEXT="Sample 2 (SparxSystems)" ID="ID_1512634562" CREATED="1738316512513" MODIFIED="1738316525604" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/information_structure_viewpoint.html"/>
 </node>
-<node TEXT="C.1.4 Technology Viewpoint" POSITION="bottom_or_right" ID="ID_889398244" CREATED="1735633954206" MODIFIED="1735633959226"/>
-<node TEXT="C.1.5 Layered Viewpoint" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172"/>
-<node TEXT="C.1.6 Physical Viewpoint" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012"/>
+<node TEXT="C.1.4 Technology Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_889398244" CREATED="1735633954206" MODIFIED="1735633959226">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1365771934" CREATED="1738331325675" MODIFIED="1738331542012" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86483_technologyvi.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1051058960" CREATED="1738331342131" MODIFIED="1738331522239" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/technology_viewpoint.html"/>
+</node>
+<node TEXT="C.1.5 Layered Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172">
+<node TEXT="Example 1 (Visual-Paradigm)" POSITION="bottom_or_right" ID="ID_1922241432" CREATED="1738331325675" MODIFIED="1738331485770" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86488_layeredviewp.html"/>
+<node TEXT="Example 2 (SparxSystems)" POSITION="bottom_or_right" ID="ID_683822484" CREATED="1738331342131" MODIFIED="1738331506447" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/layered_viewpoint.html"/>
+</node>
+<node TEXT="C.1.6 Physical Viewpoint" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1702783266" CREATED="1738331786704" MODIFIED="1738331821682" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86487_physicalview.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1885664670" CREATED="1738331787017" MODIFIED="1738331847779" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/physical_viewpoint.html"/>
+</node>
 </node>
 <node TEXT="Category: Support" FOLDED="true" ID="ID_385361271" CREATED="1738215362788" MODIFIED="1738215366266">
 <node TEXT="C.1.7 Product Viewpoint" POSITION="bottom_or_right" ID="ID_359831642" CREATED="1735633997199" MODIFIED="1735634002987"/>
