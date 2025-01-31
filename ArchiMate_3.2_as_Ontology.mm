@@ -449,9 +449,16 @@
 <node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
 <node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
 <node TEXT="Category: Composition" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
-<node TEXT="C.1.1 Organization Viewpoint" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738302708770" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
-<node TEXT="C.1.2 Application Structure Viewpoint" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1738302877630" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpt-appstruct.html"/>
-<node TEXT="C.1.3 Information Structure Viewpoint" POSITION="bottom_or_right" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426"/>
+<node TEXT="C.1.1 Organization Viewpoint" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738322463099">
+<node TEXT="Sample (Visual-Paradigm)" ID="ID_1091821093" CREATED="1738322391421" MODIFIED="1738322458307" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
+</node>
+<node TEXT="C.1.2 Application Structure Viewpoint" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1738322436463">
+<node TEXT="Sample (SparxSystems)" ID="ID_1460390824" CREATED="1738322400773" MODIFIED="1738322430453" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpt-appstruct.html"/>
+</node>
+<node TEXT="C.1.3 Information Structure Viewpoint" POSITION="bottom_or_right" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426">
+<node TEXT="Sample 1 (Visual-Paradigm)" ID="ID_609774376" CREATED="1738316488096" MODIFIED="1738316509265" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86485_informations.html"/>
+<node TEXT="Sample 2 (SparxSystems)" ID="ID_1512634562" CREATED="1738316512513" MODIFIED="1738316525604" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/information_structure_viewpoint.html"/>
+</node>
 <node TEXT="C.1.4 Technology Viewpoint" POSITION="bottom_or_right" ID="ID_889398244" CREATED="1735633954206" MODIFIED="1735633959226"/>
 <node TEXT="C.1.5 Layered Viewpoint" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172"/>
 <node TEXT="C.1.6 Physical Viewpoint" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012"/>
