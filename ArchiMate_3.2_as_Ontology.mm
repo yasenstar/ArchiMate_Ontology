@@ -449,8 +449,8 @@
 <node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
 <node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
 <node TEXT="Category: Composition" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
-<node TEXT="C.1.1 Organization Viewpoint" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1735633880610"/>
-<node TEXT="C.1.2 Application Structure Viewpoint" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1735633941649"/>
+<node TEXT="C.1.1 Organization Viewpoint" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738302708770" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
+<node TEXT="C.1.2 Application Structure Viewpoint" POSITION="bottom_or_right" ID="ID_902039438" CREATED="1735633889567" MODIFIED="1738302877630" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpt-appstruct.html"/>
 <node TEXT="C.1.3 Information Structure Viewpoint" POSITION="bottom_or_right" ID="ID_869747104" CREATED="1735633944144" MODIFIED="1735633951426"/>
 <node TEXT="C.1.4 Technology Viewpoint" POSITION="bottom_or_right" ID="ID_889398244" CREATED="1735633954206" MODIFIED="1735633959226"/>
 <node TEXT="C.1.5 Layered Viewpoint" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172"/>
@@ -465,25 +465,25 @@
 <node TEXT="C.1.10 Business Process Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_678953011" CREATED="1735634026166" MODIFIED="1735634034402"/>
 <node TEXT="C.1.11 Application Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_1897682131" CREATED="1735634037710" MODIFIED="1735634044907"/>
 </node>
-<node TEXT="Category: Realization" ID="ID_45077257" CREATED="1738215395108" MODIFIED="1738215399758">
+<node TEXT="Category: Realization" FOLDED="true" ID="ID_45077257" CREATED="1738215395108" MODIFIED="1738215399758">
 <node TEXT="C.1.12 Service Realization Viewpoint" POSITION="bottom_or_right" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1735634062915"/>
 <node TEXT="C.1.13 Implementation and Deployment Viewpoint" POSITION="bottom_or_right" ID="ID_1730518273" CREATED="1735634070719" MODIFIED="1735634079754"/>
 </node>
 </node>
-<node TEXT="C.2 Motivation Viewpoints" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
+<node TEXT="C.2 Motivation Viewpoints" FOLDED="true" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
 <node TEXT="C.2.1 Stakeholder Viewpoint" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316"/>
 <node TEXT="C.2.2 Goal Realization Viewpoint" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593"/>
 <node TEXT="C.2.3 Requirements Realization Viewpoint" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1735634471225"/>
 <node TEXT="C.2.4 Motivation Viewpoint" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1735634486200"/>
 </node>
-<node TEXT="C.3 Strategy Viewpoints" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
+<node TEXT="C.3 Strategy Viewpoints" FOLDED="true" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
 <node TEXT="C.3.1 Strategy Viewpoint" ID="ID_1679371072" CREATED="1735634495050" MODIFIED="1735634501912"/>
 <node TEXT="C.3.2 Capability Map Viewpoint" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879"/>
 <node TEXT="C.3.3 Value Stream Viewpoint" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240"/>
 <node TEXT="C.3.4 Outcome Realization Viewpoint" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488"/>
 <node TEXT="C.3.5 Resource Map Viewpoint" ID="ID_1211413100" CREATED="1735634555278" MODIFIED="1735634561072"/>
 </node>
-<node TEXT="C.4 Implementation and Migration Viewpoints" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
+<node TEXT="C.4 Implementation and Migration Viewpoints" FOLDED="true" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
 <node TEXT="C.4.1 Project Viewpoint" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056"/>
 <node TEXT="C.4.2 Migration Viewpoint" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1735634592745"/>
 <node TEXT="C.4.3 Implementation and Migration Viewpoint" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1735634606419"/>
@@ -518,8 +518,11 @@
 <node TEXT="Referen: SWRL in Protege" ID="ID_905252988" CREATED="1735441470796" MODIFIED="1735441481578" LINK="https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf"/>
 <node TEXT="Video 38 of &quot;Ontology Practice - Build pizza.owl in Protege" ID="ID_872946894" CREATED="1737852417016" MODIFIED="1737852439047" LINK="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW"/>
 </node>
+<node TEXT="ArchiMate Viewpoints" POSITION="bottom_or_right" ID="ID_708863506" CREATED="1738302770365" MODIFIED="1738302776544">
 <node TEXT="Visual-Paradigm Sample Viewpoints" POSITION="bottom_or_right" ID="ID_100669121" CREATED="1738217997862" MODIFIED="1738218018766" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/">
 <arrowlink DESTINATION="ID_1617608152"/>
+</node>
+<node TEXT="Architecture Views and Viewpoints (Sparx)" POSITION="bottom_or_right" ID="ID_1124595191" CREATED="1738302781742" MODIFIED="1738302801966" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpoints.html"/>
 </node>
 </node>
 </node>
