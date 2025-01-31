@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.75131476">
+<node TEXT="ArchiMate 3.2 as Ontology" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1734748664615"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.82644624">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -513,7 +513,7 @@
 <node TEXT="What&apos;s New in ArchiMate 3.2 (Visual Paradigm)" ID="ID_512642701" CREATED="1734751579361" MODIFIED="1734751597881" LINK="https://guides.visual-paradigm.com/whats-new-in-archimate-3-enhancing-enterprise-architecture/"/>
 <node TEXT="Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)" ID="ID_1234211382" CREATED="1734751410893" MODIFIED="1734751431837"/>
 <node TEXT="About Zachman Framework" POSITION="bottom_or_right" ID="ID_1630873651" CREATED="1735094620208" MODIFIED="1735094632947" LINK="https://zachman-feac.com/zachman/about-the-zachman-framework"/>
-<node TEXT="SWRL: A Semantic Web Rule Language" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1737860004711" LINK="https://www.w3.org/submissions/SWRL/">
+<node TEXT="SWRL: A Semantic Web Rule Language" FOLDED="true" POSITION="bottom_or_right" ID="ID_363584611" CREATED="1735441453661" MODIFIED="1737860004711" LINK="https://www.w3.org/submissions/SWRL/">
 <arrowlink DESTINATION="ID_378330114"/>
 <node TEXT="Referen: SWRL in Protege" ID="ID_905252988" CREATED="1735441470796" MODIFIED="1735441481578" LINK="https://protege.stanford.edu/conference/2009/slides/SWRL2009ProtegeConference.pdf"/>
 <node TEXT="Video 38 of &quot;Ontology Practice - Build pizza.owl in Protege" ID="ID_872946894" CREATED="1737852417016" MODIFIED="1737852439047" LINK="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW"/>
