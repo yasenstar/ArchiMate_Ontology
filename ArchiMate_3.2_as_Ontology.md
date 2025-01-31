@@ -248,15 +248,15 @@
 
 ## 7.2 Structure Elements
 
-### 7.2.1 Resource
+### 7.2.1 Resource (Who)
 
 ## 7.3 Behavior Elements
 
-### 7.3.1 Capability
+### 7.3.1 Capability (What)
 
-### 7.3.2 Value Stream
+### 7.3.2 Value Stream (Why)
 
-### 7.3.3 Course of Action
+### 7.3.3 Course of Action (How)
 
 ## 7.4 Example
 
@@ -282,7 +282,7 @@
 
 ### 8.2.4 Business Interface
 
-### 8.2.5 Example
+### 8.2.5 Example (23)
 
 ## 8.3 Behavior Elements
 
@@ -334,7 +334,7 @@
 
 ### 9.3.3 Application Process
 
-### 9.3.1 Application Functions
+### 9.3.1 Application Function
 
 ### 9.3.2 Application Interaction
 
@@ -356,7 +356,7 @@
 
 ## 10.1 Technology Layer Metamodel
 
-## 10.2 Active Structure Elements
+## 10.2 Technology Active Structure Elements
 
 ### 10.2.1 Node
 
@@ -374,7 +374,7 @@
 
 ### 10.2.8 Example
 
-## 10.3 Behavior Elements
+## 10.3 Technology Behavior Elements
 
 ### 10.3.1 Technology Function
 
@@ -388,7 +388,7 @@
 
 ### 10.3.6 Example
 
-## 10.4 Passive Structure Elements
+## 10.4 Technology Passive Structure Elements
 
 ### 10.4.1 Artifact
 
@@ -404,7 +404,7 @@
 
 ### 10.6.3 Distribution Network
 
-## 10.7 Passive Structure Elements
+## 10.7 Physical Passive Structure Elements
 
 ### 10.7.1 Material
 
@@ -476,6 +476,18 @@
 
 ### 14.2.5 Examples of Specializations of Motivation Elements (Informative)
 
+#### «  »
+
+Left pointing double angle quotation mark:
+Unicode: U+000AB
+HTML entity: &laquo; – HTML code: &#171;
+PC keystroke: ALT+0171
+
+Right pointing double angle quotation mark
+Unicode: U+000BB
+HTML entity: &raquo; – HTML code: &#187;
+PC keystroke: ALT+0187
+
 ### 14.2.6 Examples of Specializations of Strategy Elements (Informative)
 
 ### 14.2.7 Examples of Specializations of Implementation and Migration Elements (Informative)
@@ -512,6 +524,38 @@
 
 ### B.3.2 Potential Derivation for Structural and Dependency Relationships
 
+#### Appendix B: Relationships (Normative)
+
+##### B.1 Specialization of Derivation Rules
+
+##### B.2 Derivation Rules for Valid Relationships
+
+###### B.2.1 Valid Derivation for Specialization Relationships
+
+###### B.2.2 Valid Derivations for Structural Relationships
+
+###### B.2.3 Valid Derivation for Dependency Relationships
+
+###### B.2.4 Valid Derivations for Dynamic Relationships
+
+##### B.3 Derivation Rules for Potential Relationships
+
+###### B.3.1 Potential Derivation for Specialization Relationships
+
+###### B.3.2 Potential Derivation for Structural and Dependency Relationships
+
+###### B.3.3 Potential Derivation for Dependency Relationships
+
+###### B.3.4 Potential Derivation for Dynamic Relationships
+
+###### B.3.5 Potential Derivation Rule for Grouping
+
+##### B.4 Restrictions on Applying Derivation Rules
+
+##### B.5 Relationship Tables
+
+##### B.6 Grouping, Plateau, and Relationships Between Relationships
+
 ### B.3.3 Potential Derivation for Dependency Relationships
 
 ### B.3.4 Potential Derivation for Dynamic Relationships
@@ -528,31 +572,39 @@
 
 ## C.1 Basic Viewpoints in the ArchiMate Language
 
-### C.1.1 Organization Viewpoint
+### Category: Composition
 
-### C.1.2 Application Structure Viewpoint
+#### C.1.1 Organization Viewpoint
 
-### C.1.3 Information Structure Viewpoint
+#### C.1.2 Application Structure Viewpoint
 
-### C.1.4 Technology Viewpoint
+#### C.1.3 Information Structure Viewpoint
 
-### C.1.5 Layered Viewpoint
+#### C.1.4 Technology Viewpoint
 
-### C.1.6 Physical Viewpoint
+#### C.1.5 Layered Viewpoint
 
-### C.1.7 Product Viewpoint
+#### C.1.6 Physical Viewpoint
 
-### C.1.8 Application Usage Viewpoint
+### Category: Support
 
-### C.1.9 Technology Usage Viewpoint
+#### C.1.7 Product Viewpoint
 
-### C.1.10 Business Process Cooperation Viewpoint
+#### C.1.8 Application Usage Viewpoint
 
-### C.1.11 Application Cooperation Viewpoint
+#### C.1.9 Technology Usage Viewpoint
 
-### C.1.12 Service Realization Viewpoint
+### Category: Cooperation
 
-### C.1.13 Implementation and Deployment Viewpoint
+#### C.1.10 Business Process Cooperation Viewpoint
+
+#### C.1.11 Application Cooperation Viewpoint
+
+### Category: Realization
+
+#### C.1.12 Service Realization Viewpoint
+
+#### C.1.13 Implementation and Deployment Viewpoint
 
 ## C.2 Motivation Viewpoints
 
@@ -629,5 +681,10 @@
 ## About Zachman Framework
 
 ## SWRL: A Semantic Web Rule Language
-
+ (see:B.1 Specialization of Derivation Rules)
 ### Referen: SWRL in Protege
+
+### Video 38 of "Ontology Practice - Build pizza.owl in Protege
+
+## Visual-Paradigm Sample Viewpoints
+ (see:Appendix C: Example Viewpoints)
