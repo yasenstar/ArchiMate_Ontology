@@ -448,7 +448,7 @@
 </node>
 <node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
 <node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
-<node TEXT="Category: Composition" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
+<node TEXT="Category: Composition" FOLDED="true" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
 <node TEXT="C.1.1 Organization Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738322463099">
 <node TEXT="Sample (Visual-Paradigm)" ID="ID_1091821093" CREATED="1738322391421" MODIFIED="1738322458307" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
 </node>
@@ -467,42 +467,99 @@
 <node TEXT="Example 1 (Visual-Paradigm)" POSITION="bottom_or_right" ID="ID_1922241432" CREATED="1738331325675" MODIFIED="1738331485770" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86488_layeredviewp.html"/>
 <node TEXT="Example 2 (SparxSystems)" POSITION="bottom_or_right" ID="ID_683822484" CREATED="1738331342131" MODIFIED="1738331506447" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/layered_viewpoint.html"/>
 </node>
-<node TEXT="C.1.6 Physical Viewpoint" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012">
+<node TEXT="C.1.6 Physical Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1702783266" CREATED="1738331786704" MODIFIED="1738331821682" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86487_physicalview.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1885664670" CREATED="1738331787017" MODIFIED="1738331847779" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/physical_viewpoint.html"/>
 </node>
 </node>
-<node TEXT="Category: Support" ID="ID_385361271" CREATED="1738215362788" MODIFIED="1738215366266">
-<node TEXT="C.1.7 Product Viewpoint" POSITION="bottom_or_right" ID="ID_359831642" CREATED="1735633997199" MODIFIED="1735634002987"/>
-<node TEXT="C.1.8 Application Usage Viewpoint" POSITION="bottom_or_right" ID="ID_1412551633" CREATED="1735634006398" MODIFIED="1735634013912"/>
-<node TEXT="C.1.9 Technology Usage Viewpoint" POSITION="bottom_or_right" ID="ID_857643857" CREATED="1735634016982" MODIFIED="1735634023872"/>
+<node TEXT="Category: Support" FOLDED="true" ID="ID_385361271" CREATED="1738215362788" MODIFIED="1738215366266">
+<node TEXT="C.1.7 Product Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_359831642" CREATED="1735633997199" MODIFIED="1735634002987">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1908635535" CREATED="1738416487039" MODIFIED="1738416497248" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86500_productviewp.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1642864247" CREATED="1738416520736" MODIFIED="1738416528927" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/product_viewpoint.html"/>
+</node>
+<node TEXT="C.1.8 Application Usage Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_1412551633" CREATED="1735634006398" MODIFIED="1735634013912">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_613285986" CREATED="1738416863612" MODIFIED="1738416875068" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86481_applicationu.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_689585879" CREATED="1738416877162" MODIFIED="1738416907726" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/application_usage_viewpoint.html"/>
+</node>
+<node TEXT="C.1.9 Technology Usage Viewpoint" POSITION="bottom_or_right" ID="ID_857643857" CREATED="1735634016982" MODIFIED="1735634023872">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_85479845" CREATED="1738417398093" MODIFIED="1738417425629" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86484_technologyus.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1619788866" CREATED="1738417406239" MODIFIED="1738417443260" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/technology_usage_viewpoint.html"/>
+</node>
 </node>
 <node TEXT="Category: Cooperation" FOLDED="true" ID="ID_1974942031" CREATED="1738215377308" MODIFIED="1738215386486">
-<node TEXT="C.1.10 Business Process Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_678953011" CREATED="1735634026166" MODIFIED="1735634034402"/>
-<node TEXT="C.1.11 Application Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_1897682131" CREATED="1735634037710" MODIFIED="1735634044907"/>
+<node TEXT="C.1.10 Business Process Cooperation Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_678953011" CREATED="1735634026166" MODIFIED="1735634034402">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_661177084" CREATED="1738417872595" MODIFIED="1738417885733" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86479_businessproc.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1388395788" CREATED="1738417888011" MODIFIED="1738417909828" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/business_process_cooperation_viewpoint.html"/>
 </node>
-<node TEXT="Category: Realization" FOLDED="true" ID="ID_45077257" CREATED="1738215395108" MODIFIED="1738215399758">
-<node TEXT="C.1.12 Service Realization Viewpoint" POSITION="bottom_or_right" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1735634062915"/>
-<node TEXT="C.1.13 Implementation and Deployment Viewpoint" POSITION="bottom_or_right" ID="ID_1730518273" CREATED="1735634070719" MODIFIED="1735634079754"/>
+<node TEXT="C.1.11 Application Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_1897682131" CREATED="1735634037710" MODIFIED="1735634044907">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_350822978" CREATED="1738418417835" MODIFIED="1738418751992" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86480_applicationc.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_781268945" CREATED="1738418425294" MODIFIED="1738418859733" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/application_cooperation_viewpoint.html"/>
 </node>
 </node>
-<node TEXT="C.2 Motivation Viewpoints" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
-<node TEXT="C.2.1 Stakeholder Viewpoint" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316"/>
-<node TEXT="C.2.2 Goal Realization Viewpoint" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593"/>
-<node TEXT="C.2.3 Requirements Realization Viewpoint" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1735634471225"/>
-<node TEXT="C.2.4 Motivation Viewpoint" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1735634486200"/>
+<node TEXT="Category: Realization" ID="ID_45077257" CREATED="1738215395108" MODIFIED="1738215399758">
+<node TEXT="C.1.12 Service Realization Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1735634062915">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_557345849" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1207601206" CREATED="1738418425294" MODIFIED="1738418431322"/>
 </node>
-<node TEXT="C.3 Strategy Viewpoints" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
-<node TEXT="C.3.1 Strategy Viewpoint" ID="ID_1679371072" CREATED="1735634495050" MODIFIED="1735634501912"/>
-<node TEXT="C.3.2 Capability Map Viewpoint" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879"/>
-<node TEXT="C.3.3 Value Stream Viewpoint" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240"/>
-<node TEXT="C.3.4 Outcome Realization Viewpoint" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488"/>
-<node TEXT="C.3.5 Resource Map Viewpoint" ID="ID_1211413100" CREATED="1735634555278" MODIFIED="1735634561072"/>
+<node TEXT="C.1.13 Implementation and Deployment Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_1730518273" CREATED="1735634070719" MODIFIED="1735634079754">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_363643052" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1020800333" CREATED="1738418425294" MODIFIED="1738418431322"/>
 </node>
-<node TEXT="C.4 Implementation and Migration Viewpoints" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
-<node TEXT="C.4.1 Project Viewpoint" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056"/>
-<node TEXT="C.4.2 Migration Viewpoint" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1735634592745"/>
-<node TEXT="C.4.3 Implementation and Migration Viewpoint" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1735634606419"/>
+</node>
+</node>
+<node TEXT="C.2 Motivation Viewpoints" FOLDED="true" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
+<node TEXT="C.2.1 Stakeholder Viewpoint" FOLDED="true" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_635417753" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1345073520" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.2.2 Goal Realization Viewpoint" FOLDED="true" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1729601446" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1185403275" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.2.3 Requirements Realization Viewpoint" FOLDED="true" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1735634471225">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_93654476" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1063939297" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.2.4 Motivation Viewpoint" FOLDED="true" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1735634486200">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1523385018" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_759019149" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+</node>
+<node TEXT="C.3 Strategy Viewpoints" FOLDED="true" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
+<node TEXT="C.3.1 Strategy Viewpoint" FOLDED="true" ID="ID_1679371072" CREATED="1735634495050" MODIFIED="1735634501912">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_359851782" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_620316194" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.3.2 Capability Map Viewpoint" FOLDED="true" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1634938647" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_421453096" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.3.3 Value Stream Viewpoint" FOLDED="true" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_272649067" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1054620840" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.3.4 Outcome Realization Viewpoint" FOLDED="true" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_297998024" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_866192108" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.3.5 Resource Map Viewpoint" FOLDED="true" ID="ID_1211413100" CREATED="1735634555278" MODIFIED="1735634561072">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1586338916" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1688641361" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+</node>
+<node TEXT="C.4 Implementation and Migration Viewpoints" FOLDED="true" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
+<node TEXT="C.4.1 Project Viewpoint" FOLDED="true" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_769892105" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_508163652" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.4.2 Migration Viewpoint" FOLDED="true" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1735634592745">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1848346900" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1052263517" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
+<node TEXT="C.4.3 Implementation and Migration Viewpoint" FOLDED="true" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1735634606419">
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_175675771" CREATED="1738418417835" MODIFIED="1738418425153"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_1975083051" CREATED="1738418425294" MODIFIED="1738418431322"/>
+</node>
 </node>
 </node>
 <node TEXT="Appendix D: Relationship to Other Standards, Specifications, and Guidance Documents" FOLDED="true" POSITION="bottom_or_right" ID="ID_560338693" CREATED="1735634623278" MODIFIED="1735634642926">
