@@ -463,11 +463,11 @@
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1365771934" CREATED="1738331325675" MODIFIED="1738331542012" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86483_technologyvi.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1051058960" CREATED="1738331342131" MODIFIED="1738331522239" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/technology_viewpoint.html"/>
 </node>
-<node TEXT="C.1.5 Layered Viewpoint" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172">
+<node TEXT="C.1.5 Layered Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_45700009" CREATED="1735633963494" MODIFIED="1735633969172">
 <node TEXT="Example 1 (Visual-Paradigm)" POSITION="bottom_or_right" ID="ID_1922241432" CREATED="1738331325675" MODIFIED="1738331485770" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86488_layeredviewp.html"/>
 <node TEXT="Example 2 (SparxSystems)" POSITION="bottom_or_right" ID="ID_683822484" CREATED="1738331342131" MODIFIED="1738331506447" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/layered_viewpoint.html"/>
 </node>
-<node TEXT="C.1.6 Physical Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012">
+<node TEXT="C.1.6 Physical Viewpoint" POSITION="bottom_or_right" ID="ID_1491041393" CREATED="1735633988288" MODIFIED="1735633994012">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1702783266" CREATED="1738331786704" MODIFIED="1738331821682" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86487_physicalview.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1885664670" CREATED="1738331787017" MODIFIED="1738331847779" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/physical_viewpoint.html"/>
 </node>
