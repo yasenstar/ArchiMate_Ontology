@@ -491,7 +491,7 @@
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_661177084" CREATED="1738417872595" MODIFIED="1738417885733" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86479_businessproc.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1388395788" CREATED="1738417888011" MODIFIED="1738417909828" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/business_process_cooperation_viewpoint.html"/>
 </node>
-<node TEXT="C.1.11 Application Cooperation Viewpoint" POSITION="bottom_or_right" ID="ID_1897682131" CREATED="1735634037710" MODIFIED="1735634044907">
+<node TEXT="C.1.11 Application Cooperation Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_1897682131" CREATED="1735634037710" MODIFIED="1735634044907">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_350822978" CREATED="1738418417835" MODIFIED="1738418751992" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86480_applicationc.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_781268945" CREATED="1738418425294" MODIFIED="1738418859733" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/application_cooperation_viewpoint.html"/>
 </node>
