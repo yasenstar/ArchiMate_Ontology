@@ -1,0 +1,1599 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>ArchiMate 3.2 as Ontology//mm2html.xsl FreeplaneVersion:freeplane 1.12.1</title><style>
+          body{
+          font-size:10pt;
+          font-family:sans-serif;
+          }
+          p.info{
+          font-size:8pt;
+          text-align:right;
+          }
+        </style></head><body style="background-color: #f5f5dcff;">
+
+<ul><li><a name="ID_1090958577"></a><pre style="color:#ffffff;font-family:sansserif;font-size:18;font-weight:bold;">ArchiMate 3.2 as Ontology</pre>
+
+
+
+    
+    
+
+
+
+
+<ul><li><a name="ID_1275382455"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">01. Introduction</pre>
+
+
+<ul><li><a name="ID_308029136"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">My Post in LinkedIn - Basic Ontology</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1329572122"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate Objective</pre>
+
+
+<ul><li><a name="ID_1176570587"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">This standard is the specification of the ArchiMate Enterprise Architecture modeling language, a visual language with a set of default iconography for describing, analyzing, and communicating many concerns of Enterprise Architectures as they change over time</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_963571229"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The standard provides a set of entities and relationships with their corresponding iconography for the representation of Architecture Descriptions.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_131882652"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The ArchiMate ecosystem also supports an exchange format in XML which allows model and diagram exchange between tools</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_612462936"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate Overview</pre>
+
+
+<ul><li><a name="ID_808836119"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">An Enterprise Architecture is typically developed because key people have concerns that need to be addressed by the business and IT systems within an organization</pre>
+
+
+<ul><li><a name="ID_113006431"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Such people are commonly referred to as the &ldquo;stakeholders&rdquo; of the Enterprise Architecture.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1074160554"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">The role of the architect is to address these concerns by identifying and refining the motivation and strategy expressed by stakeholders, developing an architecture, and creating views of the architecture that show how it addresses and balances stakeholder concerns</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1393595176"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Without an Enterprise Architecture, it is unlikely that all concerns and requirements are considered and addressed</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_594577866"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The ArchiMate Enterprise Architecture modeling language provides a uniform representation for diagrams that describe Enterprise Architectures</pre>
+
+
+<ul><li><a name="ID_1770528702"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">It includes concepts for specifying inter-related architectures, specific viewpoints for selected stakeholders, and language customization mechanisms.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1038038366"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">It offers an integrated architectural approach that describes and visualizes different architecture domains and their underlying relations and dependencies.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_860437201"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Its language framework provides a structuring mechanism for architecture domains, layers, and aspects.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1565411640"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">It distinguishes between the model elements and their notation, to allow for varied, stakeholder-oriented depictions of architecture information</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1925603444"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The language uses service-orientation to distinguish and relate the Business, Application, and Technology Layers of Enterprise Architectures, and uses realization relationships to relate concrete elements to more abstract elements across these layers.</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_475083140"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">02. Definitions</pre>
+
+
+<ul><li><a name="ID_1538996210"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate Community - Discussion Board</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1378604406"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">03. Language Structure</pre>
+
+
+<ul><li><a name="ID_1201451300"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.1 Design Consideration</pre>
+
+
+<ul><li><a name="ID_1222532684"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">A key challenge in the development of a general metamodel for Enterprise Architecture is to strike a balance between the specificity of languages for individual architecture domains and a very general set of architecture concepts, which reflects a view of systems as a mere set of inter-related entities.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_682499091"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The design of the ArchiMate language started from a set of relatively generic concepts</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_175482230"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The most important design restriction on the language is that it has been explicitly designed to be as small as possible, but still usable for most Enterprise Architecture modeling tasks.</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_615718169"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Sample discussion: Information/Data Modeling Extensions</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1435870195"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.2 Top-Level Language Structure</pre>
+
+
+<ul><li><a name="ID_323694860"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Building Class Structure in Protege</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_901716122"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.3 Layering of the ArchiMate</pre>
+
+
+<ul><li><a name="ID_458611880"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Core Layer: Business, Application, Technology</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1803132768"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Main Relations: Serving, Realizing</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1139260815"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.4/3.5 ArchiMate Core vs. Full Framework</pre>
+
+
+<ul><li><a name="ID_328750979"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Link with TOGAF</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_913254472"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.6 (1) ArchiMate Abstraction</pre>
+
+
+<ul><li><a name="ID_392429462"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The distinction between an external (black-box, abstracting from the contents of the box) and internal (white-box) view is common in system design.</pre>
+
+
+<ul><li><a name="ID_1103466255"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">The external view depicts what the system has to do for its environment</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_686027969"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">The internal view depicts how it does this.</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_934894769"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The distinction between behavior and active structure is commonly used to separate what the system must do and how the system does it from the system constituents (people, applications, and infrastructure) that do it.</pre>
+
+
+<ul><li><a name="ID_1266415853"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">In modeling new systems, it is often useful to start with the behaviors that the system must perform</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1290963655"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">In modeling existing systems, it is often useful to start with the people, applications, and infrastructure that comprise the system, and then analyze in detail the behaviors performed by these active structures</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1620650095"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">The distinction between conceptual, logical, and physical abstraction levels</pre>
+
+
+<ul><li><a name="ID_85537367"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Conceptual elements represent the information the business finds relevant</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_915335586"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Logical elements provide logical structure to this information for manipulation by information systems</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1471668875"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Physical elements describe the storage of this information</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1694061453"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Reference: TOGAF Enterprise Metamodel</pre>
+
+
+<ul><li><a name="ID_158629539"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">c220: The TOGAF Standard - 10th Edition</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1063739057"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Reference: Essential EAS Meta Model</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1757526229"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.6 (2) ArchiMate Abstraction Modeling</pre>
+
+
+<ul><li><a name="ID_1565294205"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">g21e: How to Use the ArchiMate&reg; Modeling Language to Support the TOGAF&reg; Standard</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_941928428"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Three ways of modeling in ArchiMate</pre>
+
+
+<ul><li><a name="ID_548497420"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Behavior elements can be used to model logical components, the corresponding physical components can then be modeled using active structure elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_826632563"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Supports the concept of realization</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_178259458"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Logical and physical application components can be defined as metamodel-level specializations of the application component element</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1086372641"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">ArchiMate Language intentionally does not support a difference between types and instances.</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_953677211"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">3.7/3.8/3.9 More on ArchiMate Language</pre>
+
+
+<ul><li><a name="ID_1408928686"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">ArchiMate Concepts and Notation</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_477978663"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Use of Nesting, Colors, and Notations Cues</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1113946233"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">04. Generic Metamodel</pre>
+
+
+<ul><li><a name="ID_511650534"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">4.1 Behavior and Structure Elements</pre>
+
+
+<ul><li><a name="ID_1534564738"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Figure 4: Hierarchy of Behavior and Structure Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_343459086"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Figure 5: Behavior and Structure Elements Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1110609075"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">4.1.1 Active Structure Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_168947158"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">4.1.2 Behavior Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_653276079"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">4.1.3 Passive Structure Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_511404260"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">4.2 Specializations of Structure and Behavior Elements</pre>
+
+
+<ul><li><a name="ID_607061486"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Figure 12: Specialization of Core Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_79083726"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">4.3 Summary of Structure and Behavior Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_974167687"></a><a style="color:#2c2b29;font-family:sansserif;font-size:14;" href="#ID_1630873651">4.4 Motivation Elements</a>
+
+
+
+<ul><li><a name="ID_320913242"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">? why not cover "Constraint" which in Archi tool</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_225526679"></a><a style="color:#2c2b29;font-family:sansserif;font-size:14;" href="#ID_1435870195">4.5 Composite Elements</a>
+
+
+
+<ul><li><a name="ID_1222540474"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">4.5.1 Grouping</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_663114834"></a><a style="color:#2c2b29;font-family:sansserif;font-size:12;" href="#ID_1630873651">4.5.2 Location</a>
+
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_333370775"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">05. Relationships and Relationship Connectors</pre>
+
+
+<ul><li><a name="ID_987560614"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">Figure 21: Overview of Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1603146974"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.1 Structural Relationships</pre>
+
+
+<ul><li><a name="ID_1610135255"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.1.1 Composition Relationship</pre>
+
+
+<ul><li><a name="ID_895043412"></a><a style="color:#2c2b29;font-family:sansserif;font-size:11;" href="#ID_275911214">UML2 Specification</a>
+
+
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_275911214"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.1.2 Aggregation Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1401488356"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.1.3 Assignment Relationship</pre>
+
+
+<ul><li><a name="ID_1109124531"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">ArchiMate 2.1 Specification</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1194282947"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.1.4 Realization Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_717494010"></a><a style="color:#2c2b29;font-family:sansserif;font-size:12;" href="#ID_1797158892">5.1.5 Semantics of Structural Relationships</a>
+
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1669785649"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.2 Dependency Relationships</pre>
+
+
+<ul><li><a name="ID_1878717369"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.2.1 Serving Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1744395452"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.2.2 Access Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_806507647"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.2.3 Influence Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_824372876"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.2.4 Association Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_365236833"></a><a style="color:#2c2b29;font-family:sansserif;font-size:12;" href="#ID_1240455811">5.2.5 Semantics of Dependency Relationships</a>
+
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_155076627"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.3 Dynamic Relationships</pre>
+
+
+<ul><li><a name="ID_1797158892"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.3.1 Triggering Relationship</pre>
+
+
+<ul><li><a name="ID_787359768"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Triggers in PMBOK</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1240455811"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.3.2 Flow Relationship</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_230678223"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.3.3 Semantics of Dynamic Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_970706901"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.4 Other Relationships</pre>
+
+
+<ul><li><a name="ID_1470417037"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.4.1 Specialization Relationship</pre>
+
+
+<ul><li><a name="ID_928736049"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Added in Archi 4.9</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1687211930"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.4.2 Semantics of Other Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1380335526"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.5 Relationship Connectors</pre>
+
+
+<ul><li><a name="ID_392723255"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">5.5.1 Junction</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1154941073"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">5.6 Summary of Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1640701459"></a><a style="color:#2c2b29;font-family:sansserif;font-size:14;" href="#ID_763878936">5.7 Derivation (&#25512;&#23548;) of Relationships</a>
+
+
+
+<ul><li><a name="ID_338180397"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Example 17: Deviation from a Chain of Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_880458687"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">06. Motivation Elements</pre>
+
+
+<ul><li><a name="ID_270171812"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.1 Motivation Element Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1692544773"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.2 Stakeholder, Driver, and Assessment</pre>
+
+
+<ul><li><a name="ID_1676005471"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.2.1 Stakeholder</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1232377444"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.2.2 Driver</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_952621078"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.2.3 Assessment</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_770952479"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.2.4 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1364979925"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.3 Goal, Outcome, Principle, Requirement, and Constraint</pre>
+
+
+<ul><li><a name="ID_502607241"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.1 Goal</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1122867701"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.2 Outcome</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1250585018"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.3 Principle</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1117521338"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.4 Requirement</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_854956557"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.5 Constraint</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_665541811"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.3.6 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_840802794"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.4 Meaning and Value</pre>
+
+
+<ul><li><a name="ID_1004051330"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.4.1 Meaning</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1470076763"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.4.2 Value</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_458800235"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">6.4.3 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_448304603"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.5 Summary of Motivation Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_236998401"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">6.6 Relationships with Core Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1790879437"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">07. Strategy Layer</pre>
+
+
+<ul><li><a name="ID_1680949310"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.1 Strategy Elements Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1048937329"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.2 Structure Elements</pre>
+
+
+<ul><li><a name="ID_125834713"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">7.2.1 Resource (Who)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_970895844"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.3 Behavior Elements</pre>
+
+
+<ul><li><a name="ID_310909590"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">7.3.1 Capability (What)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1076748989"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">7.3.2 Value Stream (Why)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_528026222"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">7.3.3 Course of Action (How)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_22912925"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.4 Example</pre>
+
+
+<ul><li><a name="ID_850627257"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Example 21: Capability, Resource, and Course of Action</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_330399030"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Example 22: Value Stream with Capability</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1143483877"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.5 Summary of Strategy Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1416796977"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">7.6 Relationships with Motivation and Core Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_170178869"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">08. Business Layer</pre>
+
+
+<ul><li><a name="ID_494033027"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.1 Business Layer Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_753495414"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.2 Active Structure Elements</pre>
+
+
+<ul><li><a name="ID_710035857"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.2.1 Business Actor</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1351377276"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.2.2 Business Role</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_369162245"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.2.3 Business Collaboration</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_958147459"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.2.4 Business Interface</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_284535402"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.2.5 Example (23)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_817456886"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.3 Behavior Elements</pre>
+
+
+<ul><li><a name="ID_582273322"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.1 Business Process</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_600729333"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.2 Business Function</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1756008506"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.3 Business Interaction</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_68747073"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.4 Business Event</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_282084942"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.5 Business Service</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_978177311"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.3.6 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1629867083"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.4 Passive Structure Elements</pre>
+
+
+<ul><li><a name="ID_1916270718"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.4.1 Business Object</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1616768229"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.4.2 Contract</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_608761400"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.4.3 Representation</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_164439721"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.4.4 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1431548512"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.5 Composite Elements</pre>
+
+
+<ul><li><a name="ID_1406467676"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.5.1 Product</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_248898729"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">8.5.2 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_161903663"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">8.6 Summary of Business Layer Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1459340680"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">09. Application Layer</pre>
+
+
+<ul><li><a name="ID_495854577"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">9.1 Application Layer Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1799988441"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">9.2 Active Structure Elements</pre>
+
+
+<ul><li><a name="ID_206917367"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.2.1 Application Component</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_965975784"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.2.2 Application Collaboration</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_751318575"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.2.3 Application Interface</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_904976420"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.2.4 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_513518425"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">9.3 Behavior Elements</pre>
+
+
+<ul><li><a name="ID_58244331"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.3 Application Process</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1376468097"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.1 Application Function</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_267895301"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.2 Application Interaction</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1307210658"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.4 Application Event</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1361700171"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.5 Application Service</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1961592194"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.3.6 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_536831429"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">9.4 Passive Structure Elements</pre>
+
+
+<ul><li><a name="ID_838333523"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.4.1 Data Object</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_460963376"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">9.4.2 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1580921300"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">9.5 Summary of Application Layer Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1915317792"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">10. Technology Layer</pre>
+
+
+<ul><li><a name="ID_1688503058"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.1 Technology Layer Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1653345437"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.2 Technology Active Structure Elements</pre>
+
+
+<ul><li><a name="ID_277725962"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.1 Node</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_856864818"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.2 Device</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1213360690"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.3 System Software</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_194832826"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.4 Technology Collaboration</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1395328026"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.5 Technology Interface</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1468168329"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.6 Path</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1977402074"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.7 Communication Network</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_772371667"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.2.8 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1794255283"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.3 Technology Behavior Elements</pre>
+
+
+<ul><li><a name="ID_248431298"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.1 Technology Function</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_707364820"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.2 Technology Process</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_147490330"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.3 Technology Interaction</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_562474312"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.4 Technology Event</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1393747925"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.5 Technology Service</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1653459700"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.3.6 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_761581829"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.4 Technology Passive Structure Elements</pre>
+
+
+<ul><li><a name="ID_561964520"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.4.1 Artifact</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1669306147"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.4.2 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_938679955"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.5 Physical Elements Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1944986199"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.6 Physical Active Structure Elements</pre>
+
+
+<ul><li><a name="ID_1405673618"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.6.1 Equipment</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_754952455"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.6.2 Facility</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_80390573"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.6.3 Distribution Network</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_683150026"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.7 Physical Passive Structure Elements</pre>
+
+
+<ul><li><a name="ID_746642086"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">10.7.1 Material</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_878561360"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.8 Example</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_763731879"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">10.9 Summary of Technology Layer Elements</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1962058781"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">11. Relationships Between Core Layers</pre>
+
+
+<ul><li><a name="ID_928392254"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">11.1 Alignment of the Business Layer and Lower Layers</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_244743661"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">11.2 Alignment of the Application and Technology Layers</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1444752290"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">11.3 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1159049554"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">12. Implementation and Migration Layer</pre>
+
+
+<ul><li><a name="ID_1086187237"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">12.1 Implementation and Migration Elements Metamodel</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_556527477"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">12.2 Implementation and Migration Elements</pre>
+
+
+<ul><li><a name="ID_1396566116"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.1 Work Package</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_426438938"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.2 Deliverable</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_922906011"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.3 Implementation Event</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_537234854"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.4 Plateau</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1991467692"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.5 Gap</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1377170496"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">12.2.6 Example</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1394761627"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">12.3 Summary of Implementation and Migration Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1818424327"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">12.4 Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_597023412"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">12.5 Relationships with Other Aspects and Layers</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1097093754"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">13. Stakeholders, Architecture Views, and Viewpoints</pre>
+
+
+<ul><li><a name="ID_475929523"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">13.1 Introduction</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_875597901"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">13.2 Stakeholders and Concerns</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1633417411"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">13.3 Architecture Views and Viewpoints</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1394388987"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">13.4 Viewpoint Mechanism</pre>
+
+
+<ul><li><a name="ID_654663387"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">13.4.1 Defining and Classifying Viewpoints</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1759236008"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">13.4.2 Creating the View</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1723016572"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">13.5 Example Viewpoints</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_964937616"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">14. Language Customization Mechanisms</pre>
+
+
+<ul><li><a name="ID_884625457"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">14.1 Adding Attributes to ArchiMate Concepts</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_507740550"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">14.2 Specialization of Concepts</pre>
+
+
+<ul><li><a name="ID_467958330"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.1 Examples of Specializations of Business Layer Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1446020400"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.2 Examples of Specializations of Application Layer Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1469714788"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.3 Examples of Specializations of Technology Layer Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1039607917"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.4 Examples of Specializations of Physical Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_437367260"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.5 Examples of Specializations of Motivation Elements (Informative)</pre>
+
+
+<ul><li><a name="ID_1475027004"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">&laquo;  &raquo;
+
+Left pointing double angle quotation mark:
+Unicode: U+000AB
+HTML entity: &amp;laquo; &ndash; HTML code: &amp;#171;
+PC keystroke: ALT+0171
+
+Right pointing double angle quotation mark
+Unicode: U+000BB
+HTML entity: &amp;raquo; &ndash; HTML code: &amp;#187;
+PC keystroke: ALT+0187</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_307101439"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.6 Examples of Specializations of Strategy Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_919078414"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.7 Examples of Specializations of Implementation and Migration Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_75282338"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.8 Examples of Specializations of Composite Elements (Informative)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_365805422"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">14.2.9 Examples of Specializations of Relationships and Relationship Connectors (Informative)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_594263513"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Appendix A: Summary of Language Notation</pre>
+
+
+<ul><li><a name="ID_8744365"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">A.1 Core Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_412331629"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">A.2 Motivation, Strategy, Implementation and Migration Elements</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1095682338"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">A.3 Relationships and Relationship Connectors</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1962051841"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Appendix B: Relationships (Normative)</pre>
+
+
+<ul><li><a name="ID_378330114"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.1 Specialization of Derivation Rules</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_763878936"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.2 Derivation Rules for Valid Relationships</pre>
+
+
+<ul><li><a name="ID_1202104533"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.2.1 Valid Derivation for Specialization Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_790169761"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.2.2 Valid Derivations for Structural Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1965428015"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.2.3 Valid Derivation for Dependency Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1000140227"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.2.4 Valid Derivations for Dynamic Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1309231620"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.3 Derivation Rules for Potential Relationships</pre>
+
+
+<ul><li><a name="ID_576894338"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.3.1 Potential Derivation for Specialization Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_587336832"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.3.2 Potential Derivation for Structural and Dependency Relationships</pre>
+
+
+<ul><li><a name="ID_759176494"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Appendix B: Relationships (Normative)</pre>
+
+
+<ul><li><a name="ID_627649334"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.1 Specialization of Derivation Rules</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_870990951"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.2 Derivation Rules for Valid Relationships</pre>
+
+
+<ul><li><a name="ID_886828820"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.2.1 Valid Derivation for Specialization Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1816161323"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.2.2 Valid Derivations for Structural Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_530463179"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.2.3 Valid Derivation for Dependency Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_360967895"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.2.4 Valid Derivations for Dynamic Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1737285122"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.3 Derivation Rules for Potential Relationships</pre>
+
+
+<ul><li><a name="ID_480184661"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.3.1 Potential Derivation for Specialization Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1039321627"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.3.2 Potential Derivation for Structural and Dependency Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1330647705"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.3.3 Potential Derivation for Dependency Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1839235288"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.3.4 Potential Derivation for Dynamic Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1485235053"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:10;">B.3.5 Potential Derivation Rule for Grouping</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_909062133"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.4 Restrictions on Applying Derivation Rules</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_720127524"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.5 Relationship Tables</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_201694278"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">B.6 Grouping, Plateau, and Relationships Between Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1231077981"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.3.3 Potential Derivation for Dependency Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_167412314"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.3.4 Potential Derivation for Dynamic Relationships</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1981104670"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">B.3.5 Potential Derivation Rule for Grouping</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_773330912"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.4 Restrictions on Applying Derivation Rules</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1710148812"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.5 Relationship Tables</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1070586363"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">B.6 Grouping, Plateau, and Relationships Between Relationships</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1617608152"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Appendix C: Example Viewpoints</pre>
+
+
+<ul><li><a name="ID_95807106"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">C.1 Basic Viewpoints in the ArchiMate Language</pre>
+
+
+<ul><li><a name="ID_247243884"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Category: Composition</pre>
+
+
+<ul><li><a name="ID_548772611"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.1 Organization Viewpoint</pre>
+
+
+<ul><li><a name="ID_1091821093"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Sample (Visual-Paradigm)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_902039438"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.2 Application Structure Viewpoint</pre>
+
+
+<ul><li><a name="ID_1460390824"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Sample (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_869747104"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.3 Information Structure Viewpoint</pre>
+
+
+<ul><li><a name="ID_609774376"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Sample 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1512634562"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Sample 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_889398244"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.4 Technology Viewpoint</pre>
+
+
+<ul><li><a name="ID_1365771934"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1051058960"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_45700009"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.5 Layered Viewpoint</pre>
+
+
+<ul><li><a name="ID_1922241432"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_683822484"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1491041393"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.6 Physical Viewpoint</pre>
+
+
+<ul><li><a name="ID_1702783266"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1885664670"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_385361271"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Category: Support</pre>
+
+
+<ul><li><a name="ID_359831642"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.7 Product Viewpoint</pre>
+
+
+<ul><li><a name="ID_1908635535"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1642864247"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1412551633"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.8 Application Usage Viewpoint</pre>
+
+
+<ul><li><a name="ID_613285986"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_689585879"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_857643857"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.9 Technology Usage Viewpoint</pre>
+
+
+<ul><li><a name="ID_85479845"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1619788866"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1974942031"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Category: Cooperation</pre>
+
+
+<ul><li><a name="ID_678953011"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.10 Business Process Cooperation Viewpoint</pre>
+
+
+<ul><li><a name="ID_661177084"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1388395788"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1897682131"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.11 Application Cooperation Viewpoint</pre>
+
+
+<ul><li><a name="ID_350822978"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_781268945"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_45077257"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Category: Realization</pre>
+
+
+<ul><li><a name="ID_293304024"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.12 Service Realization Viewpoint</pre>
+
+
+<ul><li><a name="ID_557345849"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1207601206"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1730518273"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">C.1.13 Implementation and Deployment Viewpoint</pre>
+
+
+<ul><li><a name="ID_363643052"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1020800333"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1127377006"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">C.2 Motivation Viewpoints</pre>
+
+
+<ul><li><a name="ID_1068103010"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.2.1 Stakeholder Viewpoint</pre>
+
+
+<ul><li><a name="ID_635417753"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1345073520"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1247115156"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.2.2 Goal Realization Viewpoint</pre>
+
+
+<ul><li><a name="ID_1729601446"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1185403275"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1802223730"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.2.3 Requirements Realization Viewpoint</pre>
+
+
+<ul><li><a name="ID_93654476"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1063939297"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_703665929"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.2.4 Motivation Viewpoint</pre>
+
+
+<ul><li><a name="ID_1523385018"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_759019149"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1106902466"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">C.3 Strategy Viewpoints</pre>
+
+
+<ul><li><a name="ID_1679371072"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.3.1 Strategy Viewpoint</pre>
+
+
+<ul><li><a name="ID_359851782"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_620316194"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_375757905"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.3.2 Capability Map Viewpoint</pre>
+
+
+<ul><li><a name="ID_1634938647"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_421453096"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_754305205"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.3.3 Value Stream Viewpoint</pre>
+
+
+<ul><li><a name="ID_272649067"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1054620840"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1685700865"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.3.4 Outcome Realization Viewpoint</pre>
+
+
+<ul><li><a name="ID_297998024"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_866192108"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1211413100"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.3.5 Resource Map Viewpoint</pre>
+
+
+<ul><li><a name="ID_1586338916"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1688641361"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_356855751"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">C.4 Implementation and Migration Viewpoints</pre>
+
+
+<ul><li><a name="ID_571224084"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.4.1 Project Viewpoint</pre>
+
+
+<ul><li><a name="ID_769892105"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_508163652"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_461923190"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.4.2 Migration Viewpoint</pre>
+
+
+<ul><li><a name="ID_1848346900"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1052263517"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1986312377"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">C.4.3 Implementation and Migration Viewpoint</pre>
+
+
+<ul><li><a name="ID_175675771"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 1 (Visual-Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1975083051"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:11;">Example 2 (SparxSystems)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_560338693"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Appendix D: Relationship to Other Standards, Specifications, and Guidance Documents</pre>
+
+
+<ul><li><a name="ID_1676123799"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.1 The TOGAF Framework</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_249401153"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.2 The BIZBOK Guide</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1028364416"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.3 The ArchiMate Language and Other Modeling Languages</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1521205707"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.4 BPMN</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_304687857"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.5 UML</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_98972328"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">D.6 BMM</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_730503558"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Appendix E: Changes from Version 2.1 to Version 3.2</pre>
+
+
+<ul><li><a name="ID_12935867"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">E.1 Changes from Version 2.1 to Version 3.0.1</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_984261086"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">E.2 Changes from Version 3.0.1 to Version 3.1</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_63641070"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">E.3 Changes from Version 3.1 to Version 3.2</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_1641564944"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:16;">Some Reference Resources</pre>
+
+
+<ul><li><a name="ID_1307974921"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">OpenGroup Online ArchiMate 3.2 Spec</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_142465940"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">OpenGroup ArchiMate 3.2 Online SinglePage</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1985044959"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate 3.2 Starter Pack (Orbus)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_731337852"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate 3.2 Overviews PDFs (R&amp;A)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_576320349"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">Changes Analysis on ArchiMate 3.2 (GEL)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1224619164"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate 3.2 Reference (goodea.eu)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1378238891"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate 3.2 Introduction Poster (BOC)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_512642701"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">What's New in ArchiMate 3.2 (Visual Paradigm)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1234211382"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">Nice book: Mastering ArchiMate 3.2 Edition (Gerben Wierda)</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_1630873651"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">About Zachman Framework</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_363584611"></a><a style="color:#2c2b29;font-family:sansserif;font-size:14;" href="#ID_378330114">SWRL: A Semantic Web Rule Language</a>
+
+
+
+<ul><li><a name="ID_905252988"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Referen: SWRL in Protege</pre>
+
+
+</li></ul>
+<ul><li><a name="ID_872946894"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Video 38 of "Ontology Practice - Build pizza.owl in Protege</pre>
+
+
+</li></ul>
+</li></ul>
+<ul><li><a name="ID_708863506"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:14;">ArchiMate Viewpoints</pre>
+
+
+<ul><li><a name="ID_100669121"></a><a style="color:#2c2b29;font-family:sansserif;font-size:12;" href="#ID_1617608152">Visual-Paradigm Sample Viewpoints</a>
+
+
+
+</li></ul>
+<ul><li><a name="ID_1124595191"></a><pre style="color:#2c2b29;font-family:sansserif;font-size:12;">Architecture Views and Viewpoints (Sparx)</pre>
+
+
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<p class="info">ArchiMate 3.2 as Ontology//mm2html.xsl FreeplaneVersion:freeplane 1.12.1</p></body></html>

@@ -610,51 +610,127 @@ PC keystroke: ALT+0187
 
 #### C.1.7 Product Viewpoint
 
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
+
 #### C.1.8 Application Usage Viewpoint
 
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
+
 #### C.1.9 Technology Usage Viewpoint
+
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
 
 ### Category: Cooperation
 
 #### C.1.10 Business Process Cooperation Viewpoint
 
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
+
 #### C.1.11 Application Cooperation Viewpoint
+
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
 
 ### Category: Realization
 
 #### C.1.12 Service Realization Viewpoint
 
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
+
 #### C.1.13 Implementation and Deployment Viewpoint
+
+##### Example 1 (Visual-Paradigm)
+
+##### Example 2 (SparxSystems)
 
 ## C.2 Motivation Viewpoints
 
 ### C.2.1 Stakeholder Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.2.2 Goal Realization Viewpoint
+
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
 
 ### C.2.3 Requirements Realization Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.2.4 Motivation Viewpoint
+
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
 
 ## C.3 Strategy Viewpoints
 
 ### C.3.1 Strategy Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.3.2 Capability Map Viewpoint
+
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
 
 ### C.3.3 Value Stream Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.3.4 Outcome Realization Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.3.5 Resource Map Viewpoint
+
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
 
 ## C.4 Implementation and Migration Viewpoints
 
 ### C.4.1 Project Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.4.2 Migration Viewpoint
 
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
+
 ### C.4.3 Implementation and Migration Viewpoint
+
+#### Example 1 (Visual-Paradigm)
+
+#### Example 2 (SparxSystems)
 
 # Appendix D: Relationship to Other Standards, Specifications, and Guidance Documents
 

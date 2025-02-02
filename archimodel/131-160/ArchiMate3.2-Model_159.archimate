@@ -1643,14 +1643,16 @@
         <element xsi:type="archimate:FlowRelationship" id="id-c8214810037c4648b954f72546b92b29" source="id-d0a1cc5ea7404a94a49b49bd18238916" target="id-e00f05fd672c4235958973527cd09da1"/>
         <element xsi:type="archimate:FlowRelationship" id="id-b1f77978265944ad9edfb4c696b43284" source="id-ea8966ab21044793bcba56bfd9f84a25" target="id-e00f05fd672c4235958973527cd09da1"/>
       </folder>
+      <folder name="VP12-1" id="id-58e0a2b2d1e647bdb4fa5d4793284201">
+        <element xsi:type="archimate:RealizationRelationship" id="id-17802f2f4555417ca9f16689456f7ae4" source="id-42e3568aeebc482186607d18e39f76a2" target="id-23d3d6b18fb242ed93e75ab621eaff31"/>
+        <element xsi:type="archimate:RealizationRelationship" id="id-10fd991ccff048238f33e4feee64dba1" source="id-42e3568aeebc482186607d18e39f76a2" target="id-10e3a4453c504a14ae7e6854f340e1ec"/>
+        <element xsi:type="archimate:RealizationRelationship" id="id-fb6a71dd0b6a46babf6f2bd17b0ecf95" source="id-7936d9bb19314c1e9e5640529a8520f0" target="id-472a863eb6ed42e38b3d2e736398b36e"/>
+        <element xsi:type="archimate:RealizationRelationship" id="id-a745f3a603484655bced9b83f31d51bd" source="id-6762009efdee4e0abbe6756d1b7063ef" target="id-b7914c51879742d29731613b56aaaa67"/>
+        <element xsi:type="archimate:ServingRelationship" id="id-6efdcd9d7bf449e0b8787b5bb8cbe46c" source="id-472a863eb6ed42e38b3d2e736398b36e" target="id-efaa98b652bd4de2918d2436acef0a9f"/>
+        <element xsi:type="archimate:TriggeringRelationship" id="id-59f6d25b385d4a4f8b8bc1ed6a66f63d" source="id-42e3568aeebc482186607d18e39f76a2" target="id-6762009efdee4e0abbe6756d1b7063ef"/>
+        <element xsi:type="archimate:TriggeringRelationship" id="id-bc9058db65e84457b22251869218f170" source="id-6762009efdee4e0abbe6756d1b7063ef" target="id-7936d9bb19314c1e9e5640529a8520f0"/>
+      </folder>
     </folder>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-59f6d25b385d4a4f8b8bc1ed6a66f63d" source="id-42e3568aeebc482186607d18e39f76a2" target="id-6762009efdee4e0abbe6756d1b7063ef"/>
-    <element xsi:type="archimate:TriggeringRelationship" id="id-bc9058db65e84457b22251869218f170" source="id-6762009efdee4e0abbe6756d1b7063ef" target="id-7936d9bb19314c1e9e5640529a8520f0"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-17802f2f4555417ca9f16689456f7ae4" source="id-42e3568aeebc482186607d18e39f76a2" target="id-23d3d6b18fb242ed93e75ab621eaff31"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-10fd991ccff048238f33e4feee64dba1" source="id-42e3568aeebc482186607d18e39f76a2" target="id-10e3a4453c504a14ae7e6854f340e1ec"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-6efdcd9d7bf449e0b8787b5bb8cbe46c" source="id-472a863eb6ed42e38b3d2e736398b36e" target="id-efaa98b652bd4de2918d2436acef0a9f"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-fb6a71dd0b6a46babf6f2bd17b0ecf95" source="id-7936d9bb19314c1e9e5640529a8520f0" target="id-472a863eb6ed42e38b3d2e736398b36e"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-a745f3a603484655bced9b83f31d51bd" source="id-6762009efdee4e0abbe6756d1b7063ef" target="id-b7914c51879742d29731613b56aaaa67"/>
   </folder>
   <folder name="Views" id="id-865e24d07d654695b6f699d62971db44" type="diagrams">
     <folder name="Ex01-Ex20" id="id-2d9dab62959541389b5569a860e9eb76">
