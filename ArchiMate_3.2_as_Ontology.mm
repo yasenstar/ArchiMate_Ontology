@@ -508,15 +508,15 @@
 </node>
 </node>
 <node TEXT="C.2 Motivation Viewpoints" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
-<node TEXT="C.2.1 Stakeholder Viewpoint" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316">
+<node TEXT="C.2.1 Stakeholder Viewpoint" FOLDED="true" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_635417753" CREATED="1738418417835" MODIFIED="1738551698956" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86489_stakeholderv.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1345073520" CREATED="1738418425294" MODIFIED="1738551710826" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/stakeholder_viewpoint.html"/>
 </node>
-<node TEXT="C.2.2 Goal Realization Viewpoint" FOLDED="true" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593">
+<node TEXT="C.2.2 Goal Realization Viewpoint" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1729601446" CREATED="1738418417835" MODIFIED="1738551726128" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86490_goalrealizat.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1185403275" CREATED="1738418425294" MODIFIED="1738551737742" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/goal_realization_viewpoint.html"/>
 </node>
-<node TEXT="C.2.3 Goal Contribution Viewpoint" ID="ID_1248314507" CREATED="1738551254142" MODIFIED="1738551345384">
+<node TEXT="C.2.3 Goal Contribution Viewpoint" FOLDED="true" ID="ID_1248314507" CREATED="1738551254142" MODIFIED="1738551345384">
 <node TEXT="Example 1 (Qualiware)" ID="ID_1627747395" CREATED="1738551354411" MODIFIED="1738551458998" LINK="https://coe.qualiware.com/templates/goalcontributionviewpoint-archimate/"/>
 <node TEXT="Example 2 (ResearchGate)" ID="ID_884263840" CREATED="1738551459778" MODIFIED="1738551474067" LINK="https://www.researchgate.net/figure/Goal-contribution-viewpoint_fig1_261873237"/>
 </node>
@@ -600,7 +600,7 @@
 <node TEXT="Video 38 of &quot;Ontology Practice - Build pizza.owl in Protege" ID="ID_872946894" CREATED="1737852417016" MODIFIED="1737852439047" LINK="https://www.youtube.com/playlist?list=PL6DEHvciXKeUx4P32B3hKMK1t6mC8RhsW"/>
 </node>
 <node TEXT="ArchiMate Viewpoints" POSITION="bottom_or_right" ID="ID_708863506" CREATED="1738302770365" MODIFIED="1738302776544">
-<node TEXT="Visual-Paradigm Sample Viewpoints" POSITION="bottom_or_right" ID="ID_100669121" CREATED="1738217997862" MODIFIED="1738218018766" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/">
+<node TEXT="Visual-Paradigm Sample Viewpoints" POSITION="bottom_or_right" ID="ID_100669121" CREATED="1738217997862" MODIFIED="1738562412721" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/">
 <arrowlink DESTINATION="ID_1617608152"/>
 </node>
 <node TEXT="Architecture Views and Viewpoints (Sparx)" POSITION="bottom_or_right" ID="ID_1124595191" CREATED="1738302781742" MODIFIED="1738302801966" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/archimate-viewpoints.html"/>
