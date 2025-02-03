@@ -1714,7 +1714,7 @@
         <element xsi:type="archimate:CompositionRelationship" id="id-70adef848883442f9a4e22fb8186b9ce" source="id-a2b805663b8d45c4a046617bb9dcae82" target="id-4613cd0baa14438fb2522db317f9abec"/>
       </folder>
     </folder>
-    <folder name="Viewpoints14-25" id="id-fa5be3d65fdc4202a7461ef00bcebad9"/>
+    <folder name="Viewpoints14-27" id="id-fa5be3d65fdc4202a7461ef00bcebad9"/>
   </folder>
   <folder name="Views" id="id-865e24d07d654695b6f699d62971db44" type="diagrams">
     <folder name="Ex01-Ex20" id="id-2d9dab62959541389b5569a860e9eb76">
@@ -5770,6 +5770,6 @@
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
     </folder>
-    <folder name="Viewpoint-Sample14-25" id="id-fd961494e6d341f396ec2f600be37cac"/>
+    <folder name="Viewpoint-Sample14-27" id="id-fd961494e6d341f396ec2f600be37cac"/>
   </folder>
 </archimate:model>
