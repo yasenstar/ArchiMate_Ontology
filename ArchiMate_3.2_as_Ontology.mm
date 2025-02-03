@@ -497,7 +497,7 @@
 </node>
 </node>
 <node TEXT="Category: Realization" ID="ID_45077257" CREATED="1738215395108" MODIFIED="1738215399758">
-<node TEXT="C.1.12 Service Realization Viewpoint" POSITION="bottom_or_right" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1738496740736">
+<node TEXT="C.1.12 Service Realization Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_293304024" CREATED="1735634056158" MODIFIED="1738496740736">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_557345849" CREATED="1738418417835" MODIFIED="1738496734801" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86486_servicereali.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1207601206" CREATED="1738418425294" MODIFIED="1738496889677" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/service_realization_viewpoint.html"/>
 </node>
@@ -547,7 +547,7 @@
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1688641361" CREATED="1738418425294" MODIFIED="1738418431322"/>
 </node>
 </node>
-<node TEXT="C.4 Implementation and Migration Viewpoints" FOLDED="true" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
+<node TEXT="C.4 Implementation and Migration Viewpoints" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
 <node TEXT="C.4.1 Project Viewpoint" FOLDED="true" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_769892105" CREATED="1738418417835" MODIFIED="1738418425153"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_508163652" CREATED="1738418425294" MODIFIED="1738418431322"/>
