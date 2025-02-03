@@ -6,9 +6,13 @@ Build ontology view step-by-step on ArchiMate 3.2 Specification
 
 ![archimate 3.2](img/ArchiMate_3.2_as_Ontology.png)
 
+Here to view mindmap in [Markdown format](./ArchiMate_3.2_as_Ontology.md).
+
+Here to view mindmap in [HTML format](./ArchiMate_3.2_as_Ontology.html)
+
 ## Tools used during the demo
 
-Protege, FreePlane, Archi, VS Code, MS PointPoint
+Protege, Archi, FreePlane, VS Code, MS PointPoint
 
 ## Visualize your RDF Ontology
 
