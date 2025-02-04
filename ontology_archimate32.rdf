@@ -527,7 +527,7 @@ Neal Ford &amp; Mark Richards, in their book 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻�
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description"/>
     </owl:Class>
     
 
@@ -535,7 +535,7 @@ Neal Ford &amp; Mark Richards, in their book 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻�
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Description -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Description">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description"/>
     </owl:Class>
     
 
@@ -853,9 +853,9 @@ The interpretation of a composition relationship is that the whole or part of th
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description"/>
     
 
 
@@ -863,7 +863,7 @@ The interpretation of a composition relationship is that the whole or part of th
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concern">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#ArchiMate_Viewpoint"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description"/>
     </owl:Class>
     
 
@@ -1513,7 +1513,7 @@ From weakest to strongest: Realization -&gt; Assignment -&gt; Aggregation -&gt; 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System-of-Interest -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#System-of-Interest">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecutre_Description"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Conceptual_Model_of_Architecture_Description"/>
     </owl:Class>
     
 
@@ -2977,6 +2977,7 @@ The interpretation of a triggering relationship is that some part of the source 
         <archimate32:hasConcern rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_business_goals"/>
         <archimate32:hasPurpose rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Deciding"/>
         <archimate32:hasPurpose rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Designing"/>
+        <archimate32:hasStakeholder rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Enterprise_Architect"/>
         <archimate32:Perspective>The goal contribution viewpoint focuses on modeling and analyzing the influence relationships between goals (and requirements)</archimate32:Perspective>
         <rdfs:comment>The goal contribution viewpoints includes several concepts of modeling different aspects of goal contribution, including: Goal Dependencies, Goal Decomposition, Goal Measures.</rdfs:comment>
     </owl:NamedIndividual>
@@ -3619,6 +3620,22 @@ The interpretation of a triggering relationship is that some part of the source 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principles_Viewpoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principles_Viewpoint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Motivation_Viewpoint"/>
+        <archimate32:covered_Element rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Goal"/>
+        <archimate32:covered_Element rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Principle"/>
+        <archimate32:hasConcern rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Mission"/>
+        <archimate32:hasConcern rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Architecture_Strategy"/>
+        <archimate32:hasConcern rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_principles_and_other_elements"/>
+        <archimate32:hasStakeholder rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Enterprise_Architect"/>
+        <archimate32:Perspective>The principles viewpoint focuses on modeling the relevant principles and the goals that motivate these principles.</archimate32:Perspective>
+        <rdfs:comment>A principles viewpoint models the relationship between Goals and Principles.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Process_Architect -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Process_Architect">
@@ -3789,6 +3806,14 @@ The interpretation of a triggering relationship is that some part of the source 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_business_goals -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_business_goals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concern"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_principles_and_other_elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Relationships_and_dependencies_between_principles_and_other_elements">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Concern"/>
     </owl:NamedIndividual>
     

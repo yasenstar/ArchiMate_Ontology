@@ -507,12 +507,12 @@
 </node>
 </node>
 </node>
-<node TEXT="C.2 Motivation Viewpoints" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
+<node TEXT="C.2 Motivation Viewpoints" FOLDED="true" ID="ID_1127377006" CREATED="1735634083312" MODIFIED="1735634091219">
 <node TEXT="C.2.1 Stakeholder Viewpoint" FOLDED="true" ID="ID_1068103010" CREATED="1735634094598" MODIFIED="1735634101316">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_635417753" CREATED="1738418417835" MODIFIED="1738551698956" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86489_stakeholderv.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1345073520" CREATED="1738418425294" MODIFIED="1738551710826" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/stakeholder_viewpoint.html"/>
 </node>
-<node TEXT="C.2.2 Goal Realization Viewpoint" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593">
+<node TEXT="C.2.2 Goal Realization Viewpoint" FOLDED="true" ID="ID_1247115156" CREATED="1735634442143" MODIFIED="1735634450593">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1729601446" CREATED="1738418417835" MODIFIED="1738551726128" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86490_goalrealizat.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1185403275" CREATED="1738418425294" MODIFIED="1738551737742" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/goal_realization_viewpoint.html"/>
 </node>
@@ -533,10 +533,10 @@
 <node TEXT="Example 2 (SparxSystems)" ID="ID_759019149" CREATED="1738418425294" MODIFIED="1738551757968" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/motivation_viewpoint.html"/>
 </node>
 </node>
-<node TEXT="C.3 Strategy Viewpoints" FOLDED="true" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
+<node TEXT="C.3 Strategy Viewpoints" ID="ID_1106902466" CREATED="1735634489774" MODIFIED="1735634495045">
 <node TEXT="C.3.1 Strategy Viewpoint" FOLDED="true" ID="ID_1679371072" CREATED="1735634495050" MODIFIED="1735634501912">
-<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_359851782" CREATED="1738418417835" MODIFIED="1738418425153"/>
-<node TEXT="Example 2 (SparxSystems)" ID="ID_620316194" CREATED="1738418425294" MODIFIED="1738418431322"/>
+<node TEXT="Example 1 (Visual-Paradigm)" ID="ID_359851782" CREATED="1738418417835" MODIFIED="1738645229113" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86493_strategyview.html"/>
+<node TEXT="Example 2 (SparxSystems)" ID="ID_620316194" CREATED="1738418425294" MODIFIED="1738645259076" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/strategy_viewpoint.html"/>
 </node>
 <node TEXT="C.3.2 Capability Map Viewpoint" FOLDED="true" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1634938647" CREATED="1738418417835" MODIFIED="1738418425153"/>

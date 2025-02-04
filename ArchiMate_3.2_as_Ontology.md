@@ -668,13 +668,25 @@ PC keystroke: ALT+0187
 
 #### Example 2 (SparxSystems)
 
-### C.2.3 Requirements Realization Viewpoint
+### C.2.3 Goal Contribution Viewpoint
+
+#### Example 1 (Qualiware)
+
+#### Example 2 (ResearchGate)
+
+### C.2.4 Principles Viewpoint
+
+#### Example 1 (Qualiware)
+
+#### Example 2 (SparxSystems)
+
+### C.2.5 Requirements Realization Viewpoint
 
 #### Example 1 (Visual-Paradigm)
 
 #### Example 2 (SparxSystems)
 
-### C.2.4 Motivation Viewpoint
+### C.2.6 Motivation Viewpoint
 
 #### Example 1 (Visual-Paradigm)
 
@@ -787,3 +799,5 @@ PC keystroke: ALT+0187
 ### Visual-Paradigm Sample Viewpoints
  (see:Appendix C: Example Viewpoints)
 ### Architecture Views and Viewpoints (Sparx)
+
+### QualiWare (need login)
