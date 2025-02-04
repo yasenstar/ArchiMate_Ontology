@@ -447,7 +447,7 @@
 <node TEXT="B.6 Grouping, Plateau, and Relationships Between Relationships" ID="ID_1070586363" CREATED="1735441793097" MODIFIED="1735441810367"/>
 </node>
 <node TEXT="Appendix C: Example Viewpoints" POSITION="bottom_or_right" ID="ID_1617608152" CREATED="1735441814543" MODIFIED="1735441827482">
-<node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" FOLDED="true" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
+<node TEXT="C.1 Basic Viewpoints in the ArchiMate Language" ID="ID_95807106" CREATED="1735633854262" MODIFIED="1735633863155">
 <node TEXT="Category: Composition" ID="ID_247243884" CREATED="1738215333364" MODIFIED="1738215343503">
 <node TEXT="C.1.1 Organization Viewpoint" FOLDED="true" POSITION="bottom_or_right" ID="ID_548772611" CREATED="1735633874679" MODIFIED="1738322463099">
 <node TEXT="Sample (Visual-Paradigm)" ID="ID_1091821093" CREATED="1738322391421" MODIFIED="1738322458307" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86478_organization.html"/>
@@ -528,7 +528,7 @@
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_93654476" CREATED="1738418417835" MODIFIED="1738551780774" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86491_requirements.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1063939297" CREATED="1738418425294" MODIFIED="1738551748953" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/requirements_realization_viewpoint.html"/>
 </node>
-<node TEXT="C.2.6 Motivation Viewpoint" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1738552141020">
+<node TEXT="C.2.6 Motivation Viewpoint" FOLDED="true" ID="ID_703665929" CREATED="1735634471805" MODIFIED="1738552141020">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1523385018" CREATED="1738418417835" MODIFIED="1738551769031" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86492_motivationvi.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_759019149" CREATED="1738418425294" MODIFIED="1738551757968" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/motivation_viewpoint.html"/>
 </node>
@@ -555,7 +555,7 @@
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1688641361" CREATED="1738418425294" MODIFIED="1738418431322"/>
 </node>
 </node>
-<node TEXT="C.4 Implementation and Migration Viewpoints" FOLDED="true" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
+<node TEXT="C.4 Implementation and Migration Viewpoints" ID="ID_356855751" CREATED="1735634563429" MODIFIED="1735634571243">
 <node TEXT="C.4.1 Project Viewpoint" FOLDED="true" ID="ID_571224084" CREATED="1735634571246" MODIFIED="1735634579056">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_769892105" CREATED="1738418417835" MODIFIED="1738418425153"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_508163652" CREATED="1738418425294" MODIFIED="1738418431322"/>
