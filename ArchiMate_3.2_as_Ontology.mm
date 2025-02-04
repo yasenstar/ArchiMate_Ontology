@@ -524,7 +524,7 @@
 <node TEXT="Example 1 (Qualiware)" ID="ID_1952655350" CREATED="1738551354411" MODIFIED="1738551515398" LINK="https://coe.qualiware.com/templates/principlesviewpoint-archimate/"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1459154095" CREATED="1738551621172" MODIFIED="1738551634980" LINK="https://sparxsystems.com/resources/gallery/diagrams/architecture/arc-principles-viewpoint.html"/>
 </node>
-<node TEXT="C.2.5 Requirements Realization Viewpoint" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1738552137278">
+<node TEXT="C.2.5 Requirements Realization Viewpoint" FOLDED="true" ID="ID_1802223730" CREATED="1735634451165" MODIFIED="1738552137278">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_93654476" CREATED="1738418417835" MODIFIED="1738551780774" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86491_requirements.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1063939297" CREATED="1738418425294" MODIFIED="1738551748953" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/requirements_realization_viewpoint.html"/>
 </node>
