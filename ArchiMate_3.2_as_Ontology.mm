@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6.375 pt;" ENDINCLINATION="81.75 pt;19.875 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-6 pt;" ENDINCLINATION="81.75 pt;19.875 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -546,7 +546,7 @@
 <node TEXT="Example 1 (Qualiware)" ID="ID_272649067" CREATED="1738418417835" MODIFIED="1738990072254" LINK="https://coe.qualiware.com/templates/valuestreamviewpoint-archimate/"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1054620840" CREATED="1738418425294" MODIFIED="1738990041757" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/value_stream_viewpoint.html"/>
 </node>
-<node TEXT="C.3.4 Outcome Realization Viewpoint" FOLDED="true" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488">
+<node TEXT="C.3.4 Outcome Realization Viewpoint" ID="ID_1685700865" CREATED="1735634522893" MODIFIED="1735634538488">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_297998024" CREATED="1738418417835" MODIFIED="1738989859621" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86495_outcomereali.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_866192108" CREATED="1738418425294" MODIFIED="1738990393213" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/outcome_realization_viewpoint.html"/>
 </node>
