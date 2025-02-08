@@ -538,11 +538,11 @@
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_359851782" CREATED="1738418417835" MODIFIED="1738645229113" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86493_strategyview.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_620316194" CREATED="1738418425294" MODIFIED="1738645259076" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/strategy_viewpoint.html"/>
 </node>
-<node TEXT="C.3.2 Capability Map Viewpoint" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879">
+<node TEXT="C.3.2 Capability Map Viewpoint" FOLDED="true" ID="ID_375757905" CREATED="1735634502309" MODIFIED="1735634511879">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1634938647" CREATED="1738418417835" MODIFIED="1738989822284" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86494_capabilityma.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_421453096" CREATED="1738418425294" MODIFIED="1738989828036" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/capability_map_viewpoint.html"/>
 </node>
-<node TEXT="C.3.3 Value Stream Viewpoint" FOLDED="true" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240">
+<node TEXT="C.3.3 Value Stream Viewpoint" ID="ID_754305205" CREATED="1735634514343" MODIFIED="1735634520240">
 <node TEXT="Example 1 (Qualiware)" ID="ID_272649067" CREATED="1738418417835" MODIFIED="1738990072254" LINK="https://coe.qualiware.com/templates/valuestreamviewpoint-archimate/"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1054620840" CREATED="1738418425294" MODIFIED="1738990041757" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/value_stream_viewpoint.html"/>
 </node>
