@@ -560,11 +560,11 @@
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_769892105" CREATED="1738418417835" MODIFIED="1738990966872" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86497_projectviewp.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_508163652" CREATED="1738418425294" MODIFIED="1738991140041" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/project_viewpoint.html"/>
 </node>
-<node TEXT="C.4.2 (VP26) Migration Viewpoint" FOLDED="true" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1739077534433">
+<node TEXT="C.4.2 (VP26) Migration Viewpoint" ID="ID_461923190" CREATED="1735634579527" MODIFIED="1739077534433">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_1848346900" CREATED="1738418417835" MODIFIED="1738994989588" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86498_migrationvie.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1052263517" CREATED="1738418425294" MODIFIED="1738995113111" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/migration_viewpoint.html"/>
 </node>
-<node TEXT="C.4.3 (VP27) Implementation and Migration Viewpoint" FOLDED="true" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1739077539146">
+<node TEXT="C.4.3 (VP27) Implementation and Migration Viewpoint" ID="ID_1986312377" CREATED="1735634595749" MODIFIED="1739077539146">
 <node TEXT="Example 1 (Visual-Paradigm)" ID="ID_175675771" CREATED="1738418417835" MODIFIED="1738995188110" LINK="https://www.visual-paradigm.com/support/documents/vpuserguide/4455/4456/86499_implementati.html"/>
 <node TEXT="Example 2 (SparxSystems)" ID="ID_1975083051" CREATED="1738418425294" MODIFIED="1738995178348" LINK="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_languages/implementation_and_migration_viewpoint.html"/>
 </node>
