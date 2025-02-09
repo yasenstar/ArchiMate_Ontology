@@ -4711,6 +4711,7 @@ An attack is a specific type of threat event that is the result of an intertiona
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Location"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Outcome"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Product"/>
+        <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Resource"/>
         <archimate32:realizes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Structure_Element"/>
         <archimate32:specialized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Program"/>
         <archimate32:specialized_by rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/archimate32#Project"/>
