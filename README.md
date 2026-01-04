@@ -8,7 +8,7 @@ Build ontology view step-by-step on ArchiMate 3.2 Specification
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ArchiMate_Ontology)
 ![GitHub forks](https://img.shields.io/github/forks/yasenstar/ArchiMate_Ontology)
-[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+![GitHub License](https://img.shields.io/github/license/yasenstar/ArchiMate_Ontology)
 ![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ArchiMate_Ontology)
 [![pages-build-deployment](https://github.com/yasenstar/ArchiMate_Ontology/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/ArchiMate_Ontology/actions/workflows/pages/pages-build-deployment)
 
