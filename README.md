@@ -1,65 +1,67 @@
-# Build ArchiMate 3.2 Ontology
+# ArchiMate 3.2 Ontology: A Combined Knowledge Investigation
 
-Build ontology view step-by-step on ArchiMate 3.2 Specification
+Welcome to the **ArchiMate 3.2 Ontology** repository. This project is a specialized investigation into the intersection of **ArchiMate** (the Open Group's leading modeling language for Enterprise Architecture) and **Ontology** (the foundation of semantic knowledge representation).
 
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
-[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+---
 
-![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ArchiMate_Ontology)
-![GitHub forks](https://img.shields.io/github/forks/yasenstar/ArchiMate_Ontology)
-![GitHub License](https://img.shields.io/github/license/yasenstar/ArchiMate_Ontology)
-![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ArchiMate_Ontology)
-[![pages-build-deployment](https://github.com/yasenstar/ArchiMate_Ontology/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/ArchiMate_Ontology/actions/workflows/pages/pages-build-deployment)
+## 🏆 Featured & Recognized Learning Content
 
-<!-- <image src="img/ArchiMate_3.2_as_Ontology.png" alt="archimate 3.2" width=500> -->
+### **Udemy Bestseller & Udemy Business Selection**
+This project serves as the foundation for a **Bestselling course on Udemy**. It has been officially selected for the **Udemy Business** collection, making it a trusted resource for enterprise architects and organizations worldwide.
 
-![archimate 3.2](img/ArchiMate_3.2_as_Ontology.png)
+### 🚀 Get the Full Course
+For the most comprehensive, well-packaged learning experience—including structured lessons, hands-on demos, and deep-dive explanations—enroll in the full course:
 
-Here to view mindmap in [Markdown format](./ArchiMate_3.2_as_Ontology.md).
+👉 **[Build Ontology View with ArchiMate 3.2 Specification](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B)**
 
-Here to view mindmap in [HTML format](./ArchiMate_3.2_as_Ontology.html)
+### 🎥 Free Community Resources
+I am also committed to sharing this knowledge with the community. You can access the video playlist for this investigation for free on my YouTube channel:
 
-## Tools used during the demo
+📺 **[ArchiMate Ontology Video Series - YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI)**
 
-Protege, Archi, FreePlane, VS Code, MS PointPoint
+---
 
-## Visualize your RDF Ontology
+## 🔍 Why This Knowledge Base?
 
-### Tool 1: [RDF-Grapher](https://www.ldf.fi/service/rdf-grapher)
+For anyone looking to **deep dive into the ArchiMate 3.2 Specification**, this repository and the accompanying course are a **must-taken knowledge base**.
 
-- From formate: RDF/XML
-- To format: PNG
-- Send from as HTTP POST (needed for large RDF data): checked
+By treating the ArchiMate specification through the lens of Ontology, we move beyond simple diagramming to achieve:
+- **Semantic Precision:** Structured understanding of ArchiMate relationships and elements.
+- **Advanced Modeling:** Building knowledge graphs that represent architecture as data.
+- **Tool Mastery:** Leveraging tools like **Protege**, **Archi**, **FreePlane**, and **RDF-Grapher** to visualize and validate architecture.
 
-Paste the RDF content into the field and click `Visualize` button, you may get below visual (using 026 as example):
+---
 
-<!-- <image src="img/rdf-grapher/ontology-026.png" alt="Sample Export from Ontology 026" width=800> -->
+## 🖼️ Key Content & Visualizations
 
-![Sample Export from Ontology 026](img/rdf-grapher/ontology-026.png)
+*(Please keep your existing key content images here to showcase the technical depth of the project)*
 
-### Tool 2: WebVOWL
+![ArchiMate Ontology Mindmap](img/your_mindmap_image.png)
+![RDF Graph Visualization](img/your_rdf_graph_image.png)
+![Archi Model Report](img/your_report_image.png)
 
-You can deploy that in your local web server.
+---
 
-<!-- <image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800> -->
+## 🛠️ Tools & Methodology
+This investigation utilizes a professional-grade toolset to bridge the gap between EA modeling and Semantic Web technologies:
+- **Protege:** For OWL ontology modeling.
+- **Archi:** For ArchiMate modeling practices.
+- **SPARQL:** For querying the architectural knowledge base.
+- **RDF/XML:** For data serialization and interoperability.
 
-![Sample Export from Ontology 026](img/webvowl/webvowl-026.png)
+---
 
+## 🌐 Connect & Collaborate
 
-## Archi Model's HTML Report
+I invite you to visit my homesite at **[xiaoqi.com](https://xiaoqi.com)** to explore more insights and join the conversation on:
+- **Enterprise Architecture (EA)**
+- **Architectural Modeling Patterns**
+- **Semantic Knowledge Management**
 
-Click [here](archi_report/index.html) to view the export HTML report. (note: you need to be in the GitHub Page, or clone repository to your local).
+Feel free to share your comments and feedback. Let's build better architectures together!
 
-Below is the sample screen base on video 027 snapshot:
+> **"Learning is the journey, not destination!"**
 
-<!-- <image src="img/archi/archi-html-report-027.png" alt="archi-html-report-027" width=800> -->
+---
 
-![archi-html-report-027](img/archi/archi-html-report-027.png)
-
-# About the Course and Videos
-
-The course is publishing in Udemy first, which can be accessed [here - Build Ontology View with ArchiMate 3.2 Specification](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B), and later also shared in [YouTube 
-channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI), keep updating.
-
-Any questions, welcome to raise in Discussion Board. (2024~2026)
+*© 2024-2026 Yasen (Xiaoqi Zhao). All rights reserved.*
