@@ -34,11 +34,29 @@ By treating the ArchiMate specification through the lens of Ontology, we move be
 
 ## 🖼️ Key Content & Visualizations
 
-*(Please keep your existing key content images here to showcase the technical depth of the project)*
+### ArchiMate Ontology Mindmap
 
-![ArchiMate Ontology Mindmap](img/your_mindmap_image.png)
-![RDF Graph Visualization](img/your_rdf_graph_image.png)
-![Archi Model Report](img/your_report_image.png)
+![archimate 3.2](img/ArchiMate_3.2_as_Ontology.png)
+
+### RDF Graph Visualization by [RDF-Grapher](https://www.ldf.fi/service/rdf-grapher)
+
+- From formate: RDF/XML
+- To format: PNG
+- Send from as HTTP POST (needed for large RDF data): checked
+
+Paste the RDF content into the field and click `Visualize` button, you may get below visual (using 026 as example):
+
+<!-- <image src="img/rdf-grapher/ontology-026.png" alt="Sample Export from Ontology 026" width=800> -->
+
+![Sample Export from Ontology 026](img/rdf-grapher/ontology-026.png)
+
+### Visualization from WebVOWL
+
+You can deploy that in your local web server.
+
+<!-- <image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800> -->
+
+![Sample Export from Ontology 026](img/webvowl/webvowl-026.png)
 
 ---
 
