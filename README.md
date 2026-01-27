@@ -52,7 +52,7 @@ Paste the RDF content into the field and click `Visualize` button, you may get b
 
 ### Visualization from WebVOWL
 
-You can deploy that in your local web server.
+You can deploy that in your local web server, below is Sample Export from Ontology 026.
 
 <!-- <image src="img/webvowl/webvowl-026.png" alt="Sample Export from Ontology 026" width=800> -->
 
