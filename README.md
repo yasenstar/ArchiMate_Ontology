@@ -19,6 +19,10 @@ I am also committed to sharing this knowledge with the community. You can access
 
 📺 **[ArchiMate Ontology Video Series - YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI)**
 
+### 📗 The e-Book
+
+[<img src="img/ebook-cover-mastering-archimate-ontolgoy.png" alt="ebook cover" width="500">](ebook/README.md)
+
 ---
 
 ## 🔍 Why This Knowledge Base?
