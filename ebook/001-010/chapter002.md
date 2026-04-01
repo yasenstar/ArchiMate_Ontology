@@ -71,7 +71,7 @@ As we transition to building our ontology in Protégé, we must address a critic
 
 In this book, we are primarily modeling the **ArchiMate Meta-Model**. This means we are creating an ontology of the classes defined by the specification, ensuring the logic of the language itself is sound before applying it to specific enterprise data.
 
-For those following the hands-on demo, you can find the `test.xml` Open Exchange file example in the [ArchiMate_Ontology GitHub Repository](https://github.com/yasenstar/ArchiMate_Ontology) to inspect the underlying XML structure yourself.
+For those following the hands-on demo, you can find the sample [`ArchiMate3.2-Model.xml`](../../archimodel_open-exchange-format/ArchiMate3.2-Model.xml) Open Exchange file example in the [ArchiMate_Ontology GitHub Repository](https://github.com/yasenstar/ArchiMate_Ontology) to inspect the underlying XML structure yourself.
 
 ---
 
