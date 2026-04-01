@@ -1,6 +1,6 @@
-# Chapter 1: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model
+# Chapter 001: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model
 
-- [Chapter 1: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model](#chapter-1-introduction--the-vision-for-an-ontology-based-archimate-meta-model)
+- [Chapter 001: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model](#chapter-001-introduction--the-vision-for-an-ontology-based-archimate-meta-model)
   - [1.1 Why ArchiMate 3.2?](#11-why-archimate-32)
   - [1.2 The Innovation: Ontology as a Meta-Model](#12-the-innovation-ontology-as-a-meta-model)
   - [1.3 How to Use This Book](#13-how-to-use-this-book)
