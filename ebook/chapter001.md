@@ -5,6 +5,7 @@
   - [1.2 The Innovation: Ontology as a Meta-Model](#12-the-innovation-ontology-as-a-meta-model)
   - [1.3 How to Use This Book](#13-how-to-use-this-book)
   - [1.4 Setting the Stage](#14-setting-the-stage)
+  - [1.5 Resources](#15-resources)
 
 Welcome to the foundational chapter of our journey into the ArchiMate® 3.2 specification. Enterprise Architecture (EA) is often perceived as a technical niche, but at its core, it is the language of the enterprise itself. Whether you are a seasoned architect, a business stakeholder, or an IT professional, understanding how to describe, analyze, and visualize the complex relationships within your organization is a superpower.
 
@@ -53,6 +54,13 @@ Enterprise Architecture is not just about technology; it’s about finding a com
 In the next chapter, we will move directly into Chapter 1: Introduction of the specification, where we will begin defining our first classes in Protégé. Prepare your tools, clear your mind, and let’s begin building the future of Enterprise Architecture modeling.
 
 Refer to the [GitHub repository](https://github.com/yasenstar/ArchiMate_Ontology)'s ontology/ folder to find the initial setup files discussed in this opening video.
+
+## 1.5 Resources
+
+- [Packaged Course in Udemy](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B)
+- [Free Shared Video List in YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI)
+
+Thanks for supporting me!
 
 ---
 
