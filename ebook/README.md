@@ -14,6 +14,10 @@ Chapter 02: Definitaion
 
 - [Demo 004: Foundations—Definitions and the ArchiMate Community](./001-010/004.md)
 
+Chapter 03: Language Structure
+
+- [Demo 005: Design Consideration](./001-010/005.md)
+
 ---
 
-© Copyright, Xiaoqi Zhao, 2026
+Prepared by Xiaoqi Zhao, 2025-2026
