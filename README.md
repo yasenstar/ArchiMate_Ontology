@@ -2,6 +2,11 @@
 
 Welcome to the **ArchiMate 3.2 Ontology** repository. This project is a specialized investigation into the intersection of **ArchiMate** (the Open Group's leading modeling language for Enterprise Architecture) and **Ontology** (the foundation of semantic knowledge representation).
 
+<img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
+<img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
+<img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
+<img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+
 ---
 
 ## 🏆 Featured & Recognized Learning Content
