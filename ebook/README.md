@@ -6,17 +6,21 @@ Table of Contents
 
 Chapter 01: Introduction
 
-- [Demo 001: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model](./001-010/001.md)
-- [Demo 002: Introduction – Objectives and Scope of ArchiMate 3.2](./001-010/002.md)
-- [Demo 003: Introduction – Enterprise Architecture Overview and Stakeholders](./001-010/003.md)
+- [Lecture 001: Introduction – The Vision for an Ontology-Based ArchiMate Meta-Model](./001-010/001.md)
+- [Lecture 002: Introduction – Objectives and Scope of ArchiMate 3.2](./001-010/002.md)
+- [Lecture 003: Introduction – Enterprise Architecture Overview and Stakeholders](./001-010/003.md)
 
 Chapter 02: Definitaion
 
-- [Demo 004: Foundations—Definitions and the ArchiMate Community](./001-010/004.md)
+- [Lecture 004: Foundations—Definitions and the ArchiMate Community](./001-010/004.md)
 
 Chapter 03: Language Structure
 
-- [Demo 005: Design Consideration](./001-010/005.md)
+- [Lecture 005: Design Consideration](./001-010/005.md)
+
+Chapter 05: Relationships and Relationship Connectors
+
+- [Lecture 029: Dependency Relationships – The Serving Relationship](./021-030/029.md)
 
 ---
 
