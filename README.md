@@ -5,7 +5,6 @@ Welcome to the **ArchiMate 3.2 Ontology** repository. This project is a speciali
 <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
 <img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
 <img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
-<img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
 
 ---
 
@@ -91,4 +90,4 @@ Feel free to share your comments and feedback. Let's build better architectures 
 
 ---
 
-*© 2024-2026 Yasen (Xiaoqi Zhao). All rights reserved.*
+*© 2024-2026 Yasen (Xiaoqi Zhao). All rights reserved.* Last updated at: 2026-11-07
